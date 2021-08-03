@@ -56,13 +56,7 @@ Here are some ideas to get you started:
     - 自分がやりたかったサービスなので楽しかった
     - Swift/Android
  - CBcloud
-     - Nimana/SmaRyuTruck (2019/5-2020/09??)
-         - 最初は一般貨物の人だった。何回かお客さん先にも行ってる
-     - PickGo(買い物)
-         - Flutterやった。大変だった記憶がある
-     - PickGo (2020/10??-)
-         - 正式にはこの辺からだと思う
-         - そんなに歴長くない
+
          
 ## 技術略歴
 - インフラエンジニア
