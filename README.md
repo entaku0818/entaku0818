@@ -23,8 +23,6 @@ Here are some ideas to get you started:
     - 小学校の担任に呼ばれたのがきっかけ
 
 ## 得意なこと
-- ビジネス要件とエンジニア要件の整合性とる
-- ネットワーク構築
 - iOS/Android開発
 - リリース
     - 得意っていうか好き
@@ -87,8 +85,6 @@ Here are some ideas to get you started:
     - iOS
 - Go
     - Go
-- Rails
-    - 使っているのでちゃんと勉強したい
 
 ## Link
 | サービス | URL | 
@@ -105,5 +101,9 @@ Here are some ideas to get you started:
 - 【増枠】Vue.jsアーキテクチャリング勉強会
     - https://cw-engineers.connpass.com/event/146975/
     - https://speakerdeck.com/entaku/vue-vuex-falseakitekutiyawan-quan-nili-jie-sita
+- iOSDC Japan 2021
+    - https://iosdc.jp/2021/
+    - https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa
+     
 
 
