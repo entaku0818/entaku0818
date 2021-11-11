@@ -34,8 +34,6 @@ Here are some ideas to get you started:
     - 前のめりなので、ブレーキをかけて欲しい(他力本願)
 - 朗らかな対応をすること
     - 怒ってるように思われちゃいがち
-- サーバーサイド
-    - 雰囲気で書いちゃうことがある
 
 ## 略歴
 - 謎の派遣 
@@ -46,52 +44,73 @@ Here are some ideas to get you started:
 - NW系SIer(開発部異動)
     - 中小さまざまなとこの開発してた
     - パチンコ屋とか塾のシステムとか
+    - 利用技術
+        - Java(Spring) / PHP(Laravel) / MySQL
 - 車屋さんでのライドシェアアプリ
     - もうサービスおわったっぽい
 - スポーツマッチングサービス
     - https://lifesports.jp/
     - 自分がやりたかったサービスなので楽しかった
-    - Swift/Android
+    - (Swift)/Android
  - CBcloud
+   - 荷物を運びたい人と運ぶ人を繋ぐマッチングプラットフォーム 
+   - https://cb-cloud.com/
+    - 利用技術
+     - Nuxt /　 Rails / Kotlin / Swift / Flutter
 
          
 ## 技術略歴
+### 概略
+- SIer時代からインフラ〜バックエンド〜フロントと広く浅くやっていた
+- 直近の経歴ではモバイル開発を注力したいし力を入れている
+- 必要があればサーバーもやる気持ち
+
 - インフラエンジニア
     - 一応ネットワークスペシャリストの資格を持っている(覚えているとはいってない)
 - Java
+    - 最近はそんなに書いてない。Android開発で読むことがあるくらい
     - Spring
     - Seasar2
       - アノテーション覚えられない
 - PHP
+    - 最近はそんなに書いてない
     - Laravel
         - そんなに深く責務分けてみたいなことしてないが書いてた
 - jQuery
     - そこそこ書いてた
-    - なんかとりあえず動くので結構好き
+    - なんかとりあえず動くので結構好きだった
+---
 - Vue.js(Nuxt)
-    - SmaRyuTruckの前身とか一般貨物画面とか作った
-       
-- Swift/Kotlin
-    - 多分めっちゃ書いた
+    - 事業者向けのWeb画面とか作った
+    - TypeScriptはそんなに書いてない
+- Swift
+    - めっちゃ書いた
     - モバイルをやってる頃から責務分けを大きく意識した
+- Kotlin
+    - めちゃくちゃアーキテクチャ
+- Ruby(Rails)
+    - REST APIのCRUD処理とRspecは書けるかな
+ 
 
 ## 好きな言語
 - Swift
     - 配列処理が綺麗だから
+    - Switchの分岐が神
 
 ## 興味のある言語/分野
+
 - Flutter
     - Flutterやってるから
-    - iOS
-- Go
-    - Go
+- iOS / Androidのアーキテクチャ
+
 
 ## Link
 | サービス | URL | 
 | -------- | -------- | 
 | GitHub     | https://github.com/entaku0818     | 
 | speakerdeck     | https://speakerdeck.com/entaku     | 
-| Qiita     | https://speakerdeck.com/entaku     | 
+| Qiita     | https://qiita.com/entaku0818    | 
+| Zenn     | https://zenn.dev/entaku    | 
 | Note | https://note.com/entaku0818 |
 
 ## 登壇経験
@@ -104,6 +123,19 @@ Here are some ideas to get you started:
 - iOSDC Japan 2021
     - https://iosdc.jp/2021/
     - https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa
+
+## 趣味
+- サッカー観戦
+　　- Daznでいつも見てます
+　　- プレミア / ブンデス / ラリーガは生観戦したことあります
+- ゲーム
+　　- Apexやってます
+
+
+## その他
+- 社会人学生してました
+    - https://note.com/entaku0818/n/n17cf64dcbea1
+
      
 
 
