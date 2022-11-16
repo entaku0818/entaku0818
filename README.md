@@ -28,16 +28,12 @@ Here are some ideas to get you started:
     - 得意っていうか好き
 
 ## 苦手なこと(サポートしてもらいたいこと)
-- テスト
-    - これから伸ばしていきたいという強い気持ち
 - リリースに前のめり
     - 前のめりなので、ブレーキをかけて欲しい(他力本願)
 - 朗らかな対応をすること
     - 怒ってるように思われちゃいがち
 
 ## 略歴
-- 謎の派遣 
-    - 3年くらいサーバー運用や監視とかしてた
 - NW系SIer
     - インフラエンジニア
     - 国内大手ネットワーク認証システムの運用とかしてた
@@ -50,11 +46,14 @@ Here are some ideas to get you started:
     - もうサービスおわったっぽい
 - スポーツマッチングサービス
     - https://lifesports.jp/
-    - 自分がやりたかったサービスなので楽しかった
-    - (Swift)/Android
- - CBcloud
-   - 荷物を運びたい人と運ぶ人を繋ぐマッチングプラットフォーム 
-   - https://cb-cloud.com/
+    - Swift/Android　
+    - サーバーサイドはLaravelで書いていた
+- CBcloud
+    - 荷物を運びたい人と運ぶ人を繋ぐマッチングプラットフォーム 
+    - https://cb-cloud.com/
+    - 作成物
+     - PickGo
+     - https://apps.apple.com/jp/app/pickgo%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC-%E3%83%94%E3%83%83%E3%82%AF%E3%82%B4%E3%83%BC/id1053791248
     - 利用技術
      - Nuxt /　 Rails / Kotlin / Swift / Flutter
 
@@ -62,16 +61,15 @@ Here are some ideas to get you started:
 ## 技術略歴
 ### 概略
 - SIer時代からインフラ〜バックエンド〜フロントと広く浅くやっていた
-- 直近の経歴ではモバイル開発を注力したいし力を入れている
+- モバイル開発が最も得意でiOS/Android開発どちらも実施可能
 - 必要があればサーバーもやる気持ち
 
 - インフラエンジニア
-    - 一応ネットワークスペシャリストの資格を持っている(覚えているとはいってない)
+    - ネットワークスペシャリストの資格を持っている
 - Java
     - 最近はそんなに書いてない。Android開発で読むことがあるくらい
     - Spring
     - Seasar2
-      - アノテーション覚えられない
 - PHP
     - 最近はそんなに書いてない
     - Laravel
@@ -79,15 +77,13 @@ Here are some ideas to get you started:
 - jQuery
     - そこそこ書いてた
     - なんかとりあえず動くので結構好きだった
----
 - Vue.js(Nuxt)
     - 事業者向けのWeb画面とか作った
-    - TypeScriptはそんなに書いてない
+    - アトミックデザインを参考にデザインシステムや設計を実施した
 - Swift
-    - めっちゃ書いた
     - モバイルをやってる頃から責務分けを大きく意識した
 - Kotlin
-    - めちゃくちゃアーキテクチャ
+    - 一般的な構成ではかける
 - Ruby(Rails)
     - REST APIのCRUD処理とRspecは書けるかな
  
@@ -95,7 +91,6 @@ Here are some ideas to get you started:
 ## 好きな言語
 - Swift
     - 配列処理が綺麗だから
-    - Switchの分岐が神
 
 ## 興味のある言語/分野
 
@@ -123,6 +118,9 @@ Here are some ideas to get you started:
 - iOSDC Japan 2021
     - https://iosdc.jp/2021/
     - https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa
+- iOSDC Japan 202２
+    - https://iosdc.jp/2022/
+    - https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0
 
 ## 趣味
 - サッカー観戦
