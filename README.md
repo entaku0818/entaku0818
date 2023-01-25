@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 |Wantedly|[遠藤 拓弥](https://www.wantedly.com/id/entaku0818)|
 |Zenn|[entaku](https://zenn.dev/entaku)|
 
-# PersonalHistory
+<!-- # PersonalHistory
 <details> 
   <summary>
     <a href="https://cb-cloud.com/"> 株式会社CBCloud</a> (2019/05 - 2021/11)
@@ -57,7 +57,7 @@ Here are some ideas to get you started:
 
 
   </div>
-  </details>
+  </details> -->
 
 ## 得意なこと
 - iOS/Android開発
