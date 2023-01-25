@@ -14,13 +14,50 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# 自己紹介
-## 名前
-- 遠藤拓弥
 
-## あだ名
-- entaku
-    - 小学校の担任に呼ばれたのがきっかけ
+|key|value|
+|---|-----|
+|Name| 遠藤 拓弥|
+|GitHub|[entaku0818](https://github.com/entaku0818)|
+|SpeakerDeck|[entaku](https://speakerdeck.com/entaku/)|
+|Twitter|[@\ entaku0818\_](https://twitter.com/entaku0818)| 
+|Wantedly|[遠藤 拓弥](https://www.wantedly.com/id/entaku0818)|
+|Zenn|[entaku](https://zenn.dev/entaku)|
+
+# PersonalHistory
+<details> 
+  <summary>
+    <a href="https://cb-cloud.com/"> 株式会社CBCloud</a> (2019/05 - 2021/11)
+  </summary>
+  <div>
+  <details>
+  <summary>
+    一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発 (2019/05 - 2020/09)
+  </summary>
+  <div>
+    - 一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発
+        - 一般貨物向け配送依頼画面のリリース 2019/11
+    - 買い物アプリリリース - 2020/4 〜 2020/5
+    - PickGo Business/Partner開発 - 2020/10-11〜
+    - JAL航空便連携 2021/3
+    - Flutterリプレイス 2021/4
+
+## 概要
+ - 一般貨物運送事業者向けのSaas(https://smaryu.town/) と一般貨物向け配送依頼画面の開発
+ - フロントエンドエンジニアとして一般貨物運送事業 / 一般貨物向け配送依頼画面
+  - 途中から
+
+
+## 開発環境    
+- Nuxt.js
+- JavaScript
+
+## 工夫していた点
+
+
+
+  </div>
+  </details>
 
 ## 得意なこと
 - iOS/Android開発
@@ -34,6 +71,16 @@ Here are some ideas to get you started:
     - 怒ってるように思われちゃいがち
 
 ## 略歴
+CBCloud
+https://cb-cloud.com/
+フリーランスドライバーと荷主を即時につなぐ配送マッチングプラットフォームを提供する。 最初はモバイルエンジニアとして参画し、Webフロントやサーバーサイドなども経験しながらPMとして、開発施策の策定や施策によっては機能開発まで実施する
+
+- 一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発
+- 一般貨物向け配送依頼画面のリリース 2019/11
+- 買い物アプリリリース - 2020/4 〜 2020/5
+- PickGo Business/Partner開発 - 2020/10-11〜
+- JAL航空便連携 2021/3
+- Flutterリプレイス 2021/4
 - NW系SIer
     - インフラエンジニア
     - 国内大手ネットワーク認証システムの運用とかしてた
