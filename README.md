@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 |Name| 遠藤 拓弥|
 |GitHub|[entaku0818](https://github.com/entaku0818)|
 |SpeakerDeck|[entaku](https://speakerdeck.com/entaku/)|
-|Twitter|[@\ entaku0818\_](https://twitter.com/entaku0818)| 
+|Twitter|[@entaku0818_](https://twitter.com/entaku0818)| 
 |Wantedly|[遠藤 拓弥](https://www.wantedly.com/id/entaku0818)|
 |Zenn|[entaku](https://zenn.dev/entaku)|
 
