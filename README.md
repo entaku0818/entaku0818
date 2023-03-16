@@ -146,14 +146,6 @@ https://cb-cloud.com/
 - iOS / Androidのアーキテクチャ
 
 
-## Link
-| サービス | URL | 
-| -------- | -------- | 
-| GitHub     | https://github.com/entaku0818     | 
-| speakerdeck     | https://speakerdeck.com/entaku     | 
-| Qiita     | https://qiita.com/entaku0818    | 
-| Zenn     | https://zenn.dev/entaku    | 
-| Note | https://note.com/entaku0818 |
 
 ## 登壇経験
 - iOSDC Japan 2020 
@@ -165,7 +157,7 @@ https://cb-cloud.com/
 - iOSDC Japan 2021
     - https://iosdc.jp/2021/
     - https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa
-- iOSDC Japan 202２
+- iOSDC Japan 2022
     - https://iosdc.jp/2022/
     - https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0
 
