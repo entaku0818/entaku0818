@@ -32,9 +32,6 @@
 
 - Clean Agile: Back to Basics
   - <https://www.informit.com/store/clean-agile-back-to-basics-9780135781869>
-- The Pragmatic Programmer
-- Domain-Driven Design
-- The Phoenix Project
 
 # 🎮 趣味
 
