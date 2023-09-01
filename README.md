@@ -24,45 +24,18 @@ Here are some ideas to get you started:
 |Wantedly|[遠藤 拓弥](https://www.wantedly.com/id/entaku0818)|
 |Zenn|[entaku](https://zenn.dev/entaku)|
 
-<!-- # PersonalHistory
-<details> 
-  <summary>
-    <a href="https://cb-cloud.com/"> 株式会社CBCloud</a> (2019/05 - 2021/11)
-  </summary>
-  <div>
-  <details>
-  <summary>
-    一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発 (2019/05 - 2020/09)
-  </summary>
-  <div>
-    - 一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発
-        - 一般貨物向け配送依頼画面のリリース 2019/11
-    - 買い物アプリリリース - 2020/4 〜 2020/5
-    - PickGo Business/Partner開発 - 2020/10-11〜
-    - JAL航空便連携 2021/3
-    - Flutterリプレイス 2021/4
 
 ## 概要
- - 一般貨物運送事業者向けのSaas(https://smaryu.town/) と一般貨物向け配送依頼画面の開発
- - フロントエンドエンジニアとして一般貨物運送事業 / 一般貨物向け配送依頼画面
-  - 途中から
+6年程SIerでさまざまなお客様のシステムを開発したのち、
+2018年にCBcloudに入社し貨物運送事業者向けの運行管理システムや貨物依頼システムを開発、運用。
+途中から開発リーダーとして要件定義から参画し、PickGo買い物アプリやPickGo Business/Partner開発の軽貨物配送の機能開発を実施した。
+2021年からVoicyへ入社し、iOSエンジニアとして主にパーソナリティの収録アプリの開発を担当。
+また途中から開発リーダー兼スクラムマスターとして役割を変え、パーソナリティの収録アプリや収録管理画面の設計開発を実施している。
 
 
-## 開発環境    
-- Nuxt.js
-- JavaScript
-
-## 工夫していた点
-
-
-
-  </div>
-  </details> -->
 
 ## 得意なこと
-- iOS/Android開発
-- リリース
-    - 得意っていうか好き
+- 
 
 ## 苦手なこと(サポートしてもらいたいこと)
 - リリースに前のめり
@@ -76,10 +49,15 @@ https://cb-cloud.com/
 フリーランスドライバーと荷主を即時につなぐ配送マッチングプラットフォームを提供する。 最初はモバイルエンジニアとして参画し、Webフロントやサーバーサイドなども経験しながらPMとして、開発施策の策定や施策によっては機能開発まで実施する
 
 - 一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発
-- 一般貨物向け配送依頼画面のリリース 2019/11
-- 買い物アプリリリース - 2020/4 〜 2020/5
-- PickGo Business/Partner開発 - 2020/10-11〜
-- JAL航空便連携 2021/3
+ - https://smaryu.town/truck/
+- 一般貨物向け配送依頼画面のリリース 
+ - https://pickgo.town/ 
+- 買い物アプリリリース
+ - https://pickgo.town/consumer/shopping
+- PickGo Business/Partner開発
+ - https://pickgo.town/
+- JAL航空便連携
+ - https://press.jal.co.jp/ja/release/202103/005969.html
 - Flutterリプレイス 2021/4
 - NW系SIer
     - インフラエンジニア
@@ -135,14 +113,16 @@ https://cb-cloud.com/
     - REST APIのCRUD処理とRspecは書けるかな
  
 
+# 個人開発
+- 
+ 
+
 ## 好きな言語
 - Swift
     - 配列処理が綺麗だから
 
 ## 興味のある言語/分野
 
-- Flutter
-    - Flutterやってるから
 - iOS / Androidのアーキテクチャ
 
 
