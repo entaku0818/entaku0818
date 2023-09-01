@@ -35,7 +35,8 @@ Here are some ideas to get you started:
 
 
 ## 得意なこと
-- 
+- モバイルアプリの開発
+  
 
 ## 苦手なこと(サポートしてもらいたいこと)
 - リリースに前のめり
@@ -44,7 +45,10 @@ Here are some ideas to get you started:
     - 怒ってるように思われちゃいがち
 
 ## 略歴
-CBCloud
+### Voicy
+https://voicy.jp/
+
+### CBCloud
 https://cb-cloud.com/
 フリーランスドライバーと荷主を即時につなぐ配送マッチングプラットフォームを提供する。 最初はモバイルエンジニアとして参画し、Webフロントやサーバーサイドなども経験しながらPMとして、開発施策の策定や施策によっては機能開発まで実施する
 
