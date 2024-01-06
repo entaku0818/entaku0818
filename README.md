@@ -18,7 +18,7 @@
 ### CBCloud
 [CBCloud Website](https://cb-cloud.com/)
 フリーランスドライバーと荷主を即時につなぐ配送マッチングプラットフォームを提供。最初はモバイルエンジニアとして参画し、Webフロントやサーバーサイドも経験。
-PMとして、特に影響力のあった開発施策には[追記する具体例]などがあります。
+PMとして、特に影響力のあった開発施策には**JAL航空便連携**などがあります。
 
 - 一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発
  - https://smaryu.town/truck/
@@ -31,6 +31,15 @@ PMとして、特に影響力のあった開発施策には[追記する具体�
 - JAL航空便連携
  - https://press.jal.co.jp/ja/release/202103/005969.html
 - Flutterリプレイス 2021/4
+
+### Lifesports
+- スポーツマッチングサービス
+    - https://lifesports.jp/
+    - Swift/Android　
+    - サーバーサイドはLaravelで書いていた
+ 
+### 株式会社エーピーコミュニケーションズ
+[CBCloud Website](https://www.ap-com.co.jp/)
 - NW系SIer
     - インフラエンジニア
     - 国内大手ネットワーク認証システムの運用とかしてた
@@ -39,20 +48,7 @@ PMとして、特に影響力のあった開発施策には[追記する具体�
     - パチンコ屋とか塾のシステムとか
     - 利用技術
         - Java(Spring) / PHP(Laravel) / MySQL
-- 車屋さんでのライドシェアアプリ
-    - もうサービスおわったっぽい
-- スポーツマッチングサービス
-    - https://lifesports.jp/
-    - Swift/Android　
-    - サーバーサイドはLaravelで書いていた
-- CBcloud
-    - 荷物を運びたい人と運ぶ人を繋ぐマッチングプラットフォーム 
-    - https://cb-cloud.com/
-    - 作成物
-     - PickGo
-     - https://apps.apple.com/jp/app/pickgo%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC-%E3%83%94%E3%83%83%E3%82%AF%E3%82%B4%E3%83%BC/id1053791248
-    - 利用技術
-     - Nuxt /　 Rails / Kotlin / Swift / Flutter
+
 
 ### 技術略歴
 - SIer時代からインフラ〜バックエンド〜フロントエンドまで幅広く経験。
