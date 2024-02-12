@@ -41,11 +41,11 @@ PMとして、特に影響力のあった開発施策には**JAL航空便連携*
     - サーバーサイドはLaravelで書いていた
  
 ### 株式会社エーピーコミュニケーションズ
-[CBCloud Website](https://www.ap-com.co.jp/)
+[エーピーコミュニケーションズ Website](https://www.ap-com.co.jp/)
 - NW系SIer
     - インフラエンジニア
     - 国内大手ネットワーク認証システムの運用とシステムリプレイスをした
-- NW系SIer(開発部異動)
+- 開発部異動
     - 中小さまざまなとこの開発してた
     - 利用技術
         - Java(Spring) / PHP(Laravel) / MySQL
