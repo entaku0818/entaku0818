@@ -19,8 +19,8 @@
 [Voicy Website](https://voicy.jp/)
 主に音声配信ユーザー向けのパーソナリティの収録アプリの開発を担当。Agoraを利用した生放送機能の開発などパーソナリティが収録/音声発信しやすい体験を開発しています。
 - 利用技術
- - SwiftUI / Agora / AVFoundation / RxSwift
- - Jetpack Compose / ExoPlayer
+  - SwiftUI / Agora / AVFoundation / RxSwift
+  - Jetpack Compose / ExoPlayer
 
 ### CBCloud (2019/04-2021/11)
 [CBCloud Website](https://cb-cloud.com/)
@@ -28,18 +28,18 @@
 PMとして、特に影響力のあった開発施策には**JAL航空便連携**などがあります。
 
 - 利用技術
- - Swift / Kotlin / Nuxt.js
+  - Swift / Kotlin / Nuxt.js
 
 - 一般貨物運送事業者向けのSaasであるSmaRyuTruckの新規開発
- - https://smaryu.town/truck/
+  - https://smaryu.town/truck/
 - 一般貨物向け配送依頼画面のリリース 
- - https://pickgo.town/ 
+  - https://pickgo.town/ 
 - 買い物アプリリリース
- - https://pickgo.town/consumer/shopping
+  - https://pickgo.town/consumer/shopping
 - PickGo Business/Partner開発
- - https://pickgo.town/
+  - https://pickgo.town/
 - JAL航空便連携
- - https://press.jal.co.jp/ja/release/202103/005969.html
+  - https://press.jal.co.jp/ja/release/202103/005969.html
 - Flutterリプレイス 2021/4
 
 ### Lifesports(2018/02-2019/03)
@@ -63,18 +63,18 @@ PMとして、特に影響力のあった開発施策には**JAL航空便連携*
 https://linq.co.jp/
 - 位置情報共有アプリwhooのSwiftUI化や利用ユーザー増加のためのMapやフレンドメッセージ機能を開発しました
 - 利用技術
-　-　　SwiftUI / MapKit / CoreLocation 
+　 -　　SwiftUI / MapKit / CoreLocation 
 
 
 - ヘルスケアアプリ モバイルエンジニア(2022/11~2023/03)
 https://soxai.co.jp/
- - quasarというマルチプラットフォーム開発技術で開発した。主に新アプリの画面リプレイスでヘルス画面などを担当した。 https://quasar.dev/
+  - quasarというマルチプラットフォーム開発技術で開発した。主に新アプリの画面リプレイスでヘルス画面などを担当した。 https://quasar.dev/
 
 ## 個人開発
 - シンプル録音
-  - [シンプル録音App Storeリンク](https://apps.apple.com/jp/app/id6443528409)
-  - 利用技術
-    -　TCA / Firebase / CoreData / AVFoundation
+   - [シンプル録音App Storeリンク](https://apps.apple.com/jp/app/id6443528409)
+   - 利用技術
+      -　TCA / Firebase / CoreData / AVFoundation
 
 ## 趣味
 - サッカー観戦
