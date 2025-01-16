@@ -18,25 +18,15 @@
 
 ### 2. シンプル文字起こし
 AI技術を活用した音声文字起こしアプリケーション
+[AppStore](https://apps.apple.com/jp/app/id6504149514)
 
 
 ### 3. シンプル録音（Android版）
-iOS版の人気機能をAndroidプラットフォームに展開
+iOS版の録音アプリををAndroidに展開
 
-**プロジェクトの背景**
-- クロスプラットフォーム展開の第一歩として企画
-- Android開発スキルの習得を兼ねた挑戦的プロジェクト
-- iOS版の成功体験を活かしたアプリケーション設計
+[Store](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
 
-**技術的特徴**
-- Androidネイティブアプリケーション開発
-- 音声録音機能の最適化
-- プラットフォーム特有の機能実装
 
-**今後の課題**
-- ASO（App Store Optimization）の改善
-- マーケティング戦略の見直し
-- 定期的なアップデートサイクルの確立
 
 ### 4. 韻を踏んだらいいんじゃない
 
