@@ -26,13 +26,6 @@
   - https://www.informit.com/store/clean-agile-back-to-basics-9780135781869
  
 
-# 個人開発
-- シンプル録音
-   - [シンプル録音](https://apps.apple.com/jp/app/id6443528409)
-   - 利用技術
-        - TCA / Firebase / CoreData / AVFoundation
-
-
 
 # 趣味
 - サッカー観戦
