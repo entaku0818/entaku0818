@@ -28,6 +28,7 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 
 ## 略歴
 
+
 ### Voicy (2021/12 - 2024/12)
 [Voicy Website](https://voicy.jp/)
 
