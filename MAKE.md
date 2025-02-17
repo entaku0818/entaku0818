@@ -1,32 +1,60 @@
+# 個人開発プロジェクト実績
 
+## 1. Voice Narrator Text-to-speech 
+### 音声合成技術を活用したiOSアプリケーション
 
-### 1. Voice Narrator Text-to-speech
-音声合成技術を活用したiOSアプリケーション
+**概要**
+- iOS 17の「パーソナルボイス」機能をインスピレーションとした革新的な音声合成アプリ
+- ユーザー独自の声を活用した、パーソナライズされた音声体験を提供
+- 最新の音声技術を実用的に実装した実証実験的プロジェクト
 
-[AppStore](https://apps.apple.com/jp/app/%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92%E3%83%8A%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC-%E5%A3%B0%E3%81%A7%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92/id6478449537)
-
-
-**プロジェクトの背景**
-- iOS 17で実装された「パーソナルボイス」機能に着想を得て開発
-- ユーザーの声を活用した新しい音声体験の提供を目指す
-- 音声技術の実践的な活用事例として企画
-
+**技術スタック**
+- Swift/SwiftUI
+- AVFoundation
+- iOS Speech Frameworks
 
 **成果**
-- リリース後1年未満で1,000件以上のインストール達成
+- リリース後1年未満で1,000件以上のダウンロードを達成
+- App Storeでの高評価を獲得
+- ユーザーフィードバックを基に継続的な機能改善を実施
 
+[App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
 
-### 2. シンプル文字起こし
-AI技術を活用した音声文字起こしアプリケーション
-[AppStore](https://apps.apple.com/jp/app/id6504149514)
+## 2. シンプル文字起こし
+### AI搭載音声文字起こしアプリケーション
 
+**概要**
+- 最新のAI技術を活用した高精度な音声認識
+- 直感的なユーザーインターフェースによる簡単操作
+- ビジネスシーンでの実用性を重視した設計
 
-### 3. シンプル録音（Android版）
-iOS版の録音アプリををAndroidに展開
+**技術スタック**
+- Swift/SwiftUI
+- Core ML
+- Speech Recognition Framework
 
-[Store](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
+[App Store](https://apps.apple.com/jp/app/id6504149514)
 
+## 3. シンプル録音（Android版）
+### クロスプラットフォーム展開プロジェクト
 
+**概要**
+- 好評を博したiOS版録音アプリのAndroid展開
+- プラットフォーム固有の特性を活かした最適化
+- マルチプラットフォーム開発の知見獲得
 
-### 4. 韻を踏んだらいいんじゃない
+**技術スタック**
+- Kotlin
+- Android Jetpack
+- MediaRecorder API
+
+[Google Play Store](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
+
+## 4. 韻を踏んだらいいんじゃない
+### 韻踏み支援アプリケーション
+
+**概要**
+- 日本語の韻を分析・提案するクリエイティブツール
+- 自然言語処理技術を活用した韻の検出
+- クリエイターの創作活動をサポート
 
