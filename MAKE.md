@@ -1,6 +1,6 @@
 # 個人開発プロジェクト実績
 
-## 1. Voice Narrator Text-to-speech 
+## Voice Narrator Text-to-speech 
 ### 音声合成技術を活用したiOSアプリケーション
 
 **概要**
@@ -20,7 +20,7 @@
 
 [App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
 
-## 2. シンプル文字起こし
+## シンプル文字起こし
 ### AI搭載音声文字起こしアプリケーション
 
 **概要**
@@ -35,11 +35,11 @@
 
 [App Store](https://apps.apple.com/jp/app/id6504149514)
 
-## 3. シンプル録音（Android版）
+## シンプル録音（Android版）
 ### クロスプラットフォーム展開プロジェクト
 
 **概要**
-- 好評を博したiOS版録音アプリのAndroid展開
+- iOS版録音アプリのAndroid展開
 - プラットフォーム固有の特性を活かした最適化
 - マルチプラットフォーム開発の知見獲得
 
@@ -50,7 +50,7 @@
 
 [Google Play Store](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
 
-## 4. 韻を踏んだらいいんじゃない
+## 韻を踏んだらいいんじゃない
 ### 韻踏み支援アプリケーション
 
 **概要**
