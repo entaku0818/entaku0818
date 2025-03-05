@@ -23,6 +23,9 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 
 - iOSDC JAPAN 2024で「Core Audio」登壇
 [iOSDC JAPAN2024](https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39)
+- iOSDC JAPAN 2022で「音声配信アプリにおけるiOSを使った音声配信の全てと裏側」登壇
+[iOSDC JAPAN2022](https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0)
+
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=entaku0818&theme=light)](https://github.com/entaku0818)
 
@@ -113,7 +116,6 @@ https://linq.co.jp/
 
 - 利用技術
   - SwiftUI / MapKit / CoreLocation 
-
 
 ### ヘルスケアアプリ モバイルエンジニア(2022/11~2023/03)
 - https://soxai.co.jp/
