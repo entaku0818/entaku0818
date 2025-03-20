@@ -109,7 +109,7 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 - Java (Spring) / PHP (Laravel) / MySQL
       
 ## SideProject
-### linq社 iOSエンジニア(2022/11~2023/03)　
+### linq社 iOSエンジニア(2022/11~2023/03)
 https://linq.co.jp/
 
 位置情報共有アプリwhooのSwiftUI化や利用ユーザー増加のためのMap上でスタンプを送る機能ややフレンドメッセージ機能を開発しました
