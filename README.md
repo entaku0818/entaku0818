@@ -97,7 +97,7 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 - [スポーツマッチングサービス](https://lifesports.jp/)
 
 #### 利用技術
-- Swift / Android
+- Swift / Kotlin
 - Laravel
 
 ### 株式会社エーピーコミュニケーションズ
