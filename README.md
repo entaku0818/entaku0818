@@ -113,7 +113,7 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 https://linq.co.jp/
 
 位置情報共有アプリwhooのSwiftUI化や利用ユーザー増加のためのMap上でスタンプを送る機能ややフレンドメッセージ機能を開発しました
-またマップ上のユーザーインタラクティブなアニメーションなどを対応しました
+また、マップ上のユーザーインタラクティブなアニメーションなどを対応しました
 
 - 利用技術
   - SwiftUI / MapKit / CoreLocation / Core Animation
