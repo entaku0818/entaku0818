@@ -125,7 +125,7 @@ quasarというマルチプラットフォーム開発技術で開発した。�
 - https://quasar.dev/
 
 ### nossa360 Androidエンジニア(2020/04~2021/03)
-nossa360という建築会社向けのカメラアプリを開発保守。主にAndroidのCameraAPI開発した
+nossa360という建築会社向けのカメラアプリを開発保守。主にAndroidのCameraAPI開発した。
 - https://lp.nossa360biz.com/
 
 # その他
