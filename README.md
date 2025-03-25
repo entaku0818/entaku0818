@@ -116,7 +116,7 @@ https://linq.co.jp/
 また、マップ上のユーザーインタラクティブなアニメーションなどを対応しました
 
 - 利用技術
-  - SwiftUI / MapKit / CoreLocation / Core Animation
+  - SwiftUI / UIKit / MapKit / CoreLocation / Core Animation
 
 ### ヘルスケアアプリ モバイルエンジニア(2022/11~2023/03)
 - https://soxai.co.jp/
