@@ -124,6 +124,9 @@ https://linq.co.jp/
 quasarというマルチプラットフォーム開発技術で開発した。主に新アプリの画面リプレイスでヘルス画面というグラフを書く画面などを担当した。 
 - https://quasar.dev/
 
+### linq社 iOSエンジニア(2020/04~2021/03)
+nossa360という建築会社向けのカメラアプリを開発保守。主にAndroidのCameraAPI開発した
+- https://lp.nossa360biz.com/
 
 # その他
 - 私自身に関することはこちら
