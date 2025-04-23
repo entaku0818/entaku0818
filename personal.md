@@ -32,17 +32,18 @@
 
 - Clean Agile: Back to Basics
   - <https://www.informit.com/store/clean-agile-back-to-basics-9780135781869>
+- The Art of Agile Development
+  - <https://www.jamesshore.com/v2/books/aoad1>
 
 # 🎮 趣味
 
 - サッカー観戦
   - プレミア、ブンデス、ラリーガの生観戦経験があります
-  - 好きなチーム：[お気に入りのチーム]
+  - 好きなチーム：リバプール
 - ライブ・音楽鑑賞
   - 年3-4回ライブに行っています！
-  - 好きなアーティスト：[お気に入りのアーティスト]
+  - 好きなアーティスト：peaple1 / keytalk
 - 技術書籍を読むこと
-  - 最近読んだ本：[最近読んだ技術書]
 
 # 🌟 スキル
 
@@ -56,4 +57,4 @@
 - 社会人学生として学びを深めていました
   - <https://note.com/entaku0818/n/n17cf64dcbea1>
 - 技術コミュニティへの参加や登壇経験
-- 今後挑戦したいこと：[将来の目標や挑戦したいこと]
+
