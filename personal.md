@@ -31,6 +31,8 @@
 
 - Clean Agile: Back to Basics
   - <https://www.informit.com/store/clean-agile-back-to-basics-9780135781869>
+- Clean Architecture: A Craftsman's Guide to Software Structure and Design
+  - <https://www.informit.com/store/clean-architecture-a-craftsmans-guide-to-software-structure-9780134494166>
 - The Art of Agile Development
   - <https://www.jamesshore.com/v2/books/aoad1>
 
