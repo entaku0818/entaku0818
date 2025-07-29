@@ -51,10 +51,10 @@
 - フレームワーク：React Native, Flutter, UIKit, Jetpack Compose
 - ツール：Git, Figma
 - その他：CI/CD, テスト自動化, アジャイル開発手法
+- AI: Claude Code, Gemini
 
 # 🔍 その他
 
 - 社会人学生として学びを深めていました
   - <https://note.com/entaku0818/n/n17cf64dcbea1>
-- 技術コミュニティへの参加や登壇経験
 
