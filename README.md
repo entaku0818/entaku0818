@@ -157,7 +157,7 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 
 ## SideProject
 
-### linq社 iOSエンジニア(2022/11~2023/03)
+### linq社 iOSエンジニア(2023/04~2024/04)
 
 <https://linq.co.jp/>
 
