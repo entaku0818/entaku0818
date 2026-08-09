@@ -92,4 +92,7 @@ export const profiles: Record<Lang, Profile> = {
   en: profileEn,
 }
 
+/** Next.js の i18n ルーティングから渡ってくる locale を Lang に落とす */
+export const toLang = (locale?: string): Lang => (locale === 'en' ? 'en' : 'ja')
+
 export default profileJa

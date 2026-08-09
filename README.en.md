@@ -276,5 +276,5 @@ Android development for nossa360, a 360-degree camera app for the construction a
 
 # More
 
-- More about me (in Japanese)  
-  [personal.md](personal.md)
+- More about me  
+  [personal.en.md](personal.en.md)

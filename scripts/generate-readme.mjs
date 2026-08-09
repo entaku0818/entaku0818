@@ -37,6 +37,7 @@ const TARGETS = [
       sideTech: '**利用技術:**',
       more: '# その他',
       personalLine: '- 私自身に関することはこちら  ',
+      personalFile: 'personal.md',
     },
     talkLine: (talk) => `- ${talk.event}で「${talk.title}」登壇`,
   },
@@ -61,7 +62,8 @@ const TARGETS = [
       sideHighlights: '**Highlights**',
       sideTech: '**Tech stack:**',
       more: '# More',
-      personalLine: '- More about me (in Japanese)  ',
+      personalLine: '- More about me  ',
+      personalFile: 'personal.en.md',
     },
     talkLine: (talk) => `- “${talk.title}” at ${talk.event}`,
   },
@@ -167,7 +169,11 @@ const buildReadme = ({ source, otherLangLine, headings, talkLine }) => {
   }
 
   section(headings.more)
-  push(headings.personalLine, '  [personal.md](personal.md)', '')
+  push(
+    headings.personalLine,
+    `  [${headings.personalFile}](${headings.personalFile})`,
+    ''
+  )
 
   return `${lines
     .join('\n')

@@ -14,8 +14,14 @@ export type Labels = {
   deliverables: string
   tech: string
   website: string
-  /** 言語切り替えリンクの表示名とリンク先 */
-  switchLang: { label: string; href: string }
+  personalEyebrow: string
+  personalTitle: string
+  articlesTitle: string
+  articlesCount: (count: number) => string
+  /** 記事本文が日本語であることの注記。日本語ページでは表示しない */
+  articlesNote?: string
+  /** 言語切り替えリンクの表示名。リンク先は Header が現在のパスから組み立てる */
+  switchLangLabel: string
 }
 
 export const labels: Record<Lang, Labels> = {
@@ -32,7 +38,11 @@ export const labels: Record<Lang, Labels> = {
     deliverables: '主な成果物',
     tech: '利用技術',
     website: 'Website',
-    switchLang: { label: 'English', href: '/en' },
+    personalEyebrow: 'About Me',
+    personalTitle: 'Personal',
+    articlesTitle: 'Articles',
+    articlesCount: (count) => `${count}件`,
+    switchLangLabel: 'English',
   },
   en: {
     overview: 'Overview',
@@ -47,7 +57,12 @@ export const labels: Record<Lang, Labels> = {
     deliverables: 'Deliverables',
     tech: 'Tech stack',
     website: 'Website',
-    switchLang: { label: '日本語', href: '/' },
+    personalEyebrow: 'About Me',
+    personalTitle: 'Personal',
+    articlesTitle: 'Articles',
+    articlesCount: (count) => `${count} articles`,
+    articlesNote: 'The posts themselves are written in Japanese.',
+    switchLangLabel: '日本語',
   },
 }
 
