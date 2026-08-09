@@ -53,3 +53,6 @@ jobs:
 
       - name: Build
         run: yarn build
+        env:
+          # /articles はビルド時にスプレッドシートから記事一覧を取得する
+          GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
