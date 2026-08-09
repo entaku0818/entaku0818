@@ -1,0 +1,1379 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="min-h-screen bg-gray-50"
+  >
+    <header
+      class="fixed top-0 w-full z-50 bg-white border-b border-gray-100"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex items-center"
+      >
+        <a
+          class="text-lg font-black tracking-widest text-gray-900 hover:text-indigo-600 transition-colors"
+          href="/"
+        >
+          ENTAKU
+        </a>
+        <nav
+          class="ml-auto flex gap-8"
+        >
+          <a
+            class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
+            href="/personal"
+          >
+            Personal
+          </a>
+          <a
+            class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
+            href="/articles"
+          >
+            Articles
+          </a>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900"
+    >
+      <div
+        class="container mx-auto px-6 pt-40 pb-24"
+      >
+        <p
+          class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4"
+        >
+          Mobile App Developer
+        </p>
+        <h1
+          class="text-8xl font-black text-white mb-8 leading-none"
+        >
+          entaku
+        </h1>
+        <div
+          class="flex gap-5"
+        >
+          <a
+            class="text-gray-400 hover:text-white transition-colors"
+            href="https://twitter.com/entaku_0818"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-twitter fa-lg"
+              data-icon="twitter"
+              data-prefix="fab"
+              role="img"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103l0-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+          <a
+            class="text-gray-400 hover:text-white transition-colors"
+            href="https://github.com/entaku0818"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-github fa-lg"
+              data-icon="github"
+              data-prefix="fab"
+              role="img"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M216.5 362.5c-66-8-112.5-55.5-112.5-117 0-25 9-52 24-70-6.5-16.5-5.5-51.5 2-66 20-2.5 47 8 63 22.5 19-6 39-9 63.5-9s44.5 3 62.5 8.5c15.5-14 43-24.5 63-22 7 13.5 8 48.5 1.5 65.5 16 19 24.5 44.5 24.5 70.5 0 61.5-46.5 108-113.5 116.5 17 11 28.5 35 28.5 62.5l0 52C323 491.5 335.5 500 350.5 494 441 459.5 512 369 512 257 512 115.5 397 0 255.5 0S0 115.5 0 257c0 111 70.5 203 165.5 237.5 13.5 5 26.5-4 26.5-17.5l0-40c-7 3-16 5-24 5-33 0-52.5-18-66.5-51.5-5.5-13.5-11.5-21.5-23-23-6-.5-8-3-8-6 0-6 10-10.5 20-10.5 14.5 0 27 9 40 27.5 10 14.5 20.5 21 33 21s20.5-4.5 32-16c8.5-8.5 15-16 21-21z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <main
+      class="container mx-auto px-6 py-20"
+    >
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          概要
+        </h2>
+        <div
+          class="text-gray-600 leading-relaxed space-y-4"
+        >
+          <p>
+            IT専門学校を卒業後、10年以上にわたりソフトウェア開発の幅広い経験を積んできました。SIerではインフラからフロントエンドまでのシステム開発に携わり、その後モバイルアプリ開発に特化。iOS/Android両プラットフォームで複数のアプリをリリースし、特に音声配信やリアルタイム通信を活用したアプリ開発で実績を重ねてきました。
+          </p>
+          <p>
+            直近では株式会社VoicyでiOSエンジニア兼チームリーダーとして、外注主体だったアプリ開発を内製化。マルチモジュール化を進め、新規モジュールではテストカバレッジ80%以上を達成。また、アジャイル開発を導入してパーソナリティ向け施策の開発を主導し、コラボ収録機能などの新機能開発からアーキテクチャ刷新まで行い、新たに100名のパーソナリティへコラボ収録をしていただくことができました。
+          </p>
+          <p>
+            2025年1月より株式会社TVerでiOSのリードエンジニアとして働いています。
+          </p>
+          <p>
+            iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュニティへの貢献にも力を入れています。
+          </p>
+        </div>
+      </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          技術略歴
+        </h2>
+        <ul
+          class="space-y-3 max-w-3xl"
+        >
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              SIer時代に培ったインフラ、バックエンド、フロントエンドの幅広い開発経験
+            </span>
+          </li>
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              iOS/Androidのモバイルアプリ開発に精通し、両プラットフォームに対応可能
+            </span>
+          </li>
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              アジャイル開発の導入と運用により、開発プロジェクトの推進とチームの成長に貢献
+            </span>
+          </li>
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              プロジェクトマネジメントの経験を活かし、ステークホルダーとの調整や優先順位付けを円滑に行う能力
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          得意なこと
+        </h2>
+        <ul
+          class="space-y-3 max-w-3xl"
+        >
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              モバイルアプリの開発、アーキテクチャ設計
+            </span>
+          </li>
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              音声配信 / ライブ配信の仕組み作り
+            </span>
+          </li>
+          <li
+            class="flex gap-3 items-start"
+          >
+            <span
+              class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+            />
+            <span
+              class="text-gray-600 text-sm"
+            >
+              事業マインドを持ったプロダクト開発 — 技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          登壇歴
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
+              iOSDC JAPAN 2020
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「DroidKaigiの公式アプリで始めるiOSアプリのOSSコミッターへの道」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://fortee.jp/iosdc-japan-2020/proposal/c3c70224-08cf-48d7-b5e5-a3d4589737fa"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+              <a
+                class="text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
+                href="https://speakerdeck.com/entaku/droidkaigifalsegong-shi-ahuriteshi-meru-iosahuriosskomitutahefalsedao"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Speaker Deck →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
+              Vue.js アーキテクチャリング勉強会
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「Vue / Vuex のアーキテクチャを完全に理解した」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://cw-engineers.connpass.com/event/146975/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+              <a
+                class="text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
+                href="https://speakerdeck.com/entaku/vue-vuex-falseakitekutiyawan-quan-nili-jie-sita"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Speaker Deck →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
+              iOSDC JAPAN 2021
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「既存のネイティブアプリをFlutterへリプレイスする方法」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://iosdc.jp/2021/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+              <a
+                class="text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
+                href="https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Speaker Deck →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
+              iOSDC JAPAN 2022
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「音声配信アプリにおけるiOSを使った音声配信の全てと裏側」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          コミュニティ活動
+        </h2>
+        <div
+          class="space-y-6 max-w-2xl"
+        >
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start"
+            >
+              <h3
+                class="text-lg font-bold text-gray-900"
+              >
+                Swift愛好会
+              </h3>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://love-swift.connpass.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                connpass →
+              </a>
+            </div>
+            <p
+              class="text-gray-600 mt-3 text-sm"
+            >
+              Swiftエンジニア2,200名以上が参加するコミュニティの運営メンバー。月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）。
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start"
+            >
+              <h3
+                class="text-lg font-bold text-gray-900"
+              >
+                DroidKaigi
+              </h3>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://droidkaigi.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <p
+              class="text-gray-600 mt-3 text-sm"
+            >
+              Android開発者向けカンファレンス「DroidKaigi」のスタッフとして運営に参加。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          職歴
+        </h2>
+        <div
+          class="space-y-6"
+        >
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-6"
+            >
+              <div>
+                <h3
+                  class="text-xl font-bold text-gray-900"
+                >
+                  TVer
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2025/01 - 現在
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://tver.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <div
+              class="space-y-5"
+            >
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  プロジェクト概要
+                </h4>
+                <p
+                  class="text-gray-600 text-sm"
+                >
+                  日本最大級の民放公式テレビポータル「TVer」にて、iOSリードエンジニアとして参画。動画配信プラットフォームの開発・改善を担当。
+                </p>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      Xcode Cloudを導入し、PR単位での自動テスト実行とビルド検証を実現
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      ウォークスルー画面を全面刷新し、直感的なオンボーディングUIに改善
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      2026年ミラノ冬季オリンピック向けの特集トップ画面・特集UIを新規実装
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      動画再生関連コードをTCA（The Composable Architecture）でリプレイスし保守性向上
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Swift
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    SwiftUI
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    UIKit
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Combine
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    TCA
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    AVFoundation
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    AVPlayer
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Xcode Cloud
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-6"
+            >
+              <div>
+                <h3
+                  class="text-xl font-bold text-gray-900"
+                >
+                  Voicy
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2021/12 - 2024/12
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://voicy.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <div
+              class="space-y-5"
+            >
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  プロジェクト概要
+                </h4>
+                <p
+                  class="text-gray-600 text-sm"
+                >
+                  音声配信プラットフォーム「Voicy」にて、iOSエンジニア兼チームリーダーとして3年間従事。パーソナリティ向け収録アプリの開発責任者として、外注主体だった開発体制の内製化からアーキテクチャ刷新、新機能開発までをリードした。
+                </p>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      マルチモジュールアーキテクチャを導入し、新規モジュールでテストカバレッジ80%以上を達成。リリース後の不具合報告が約40%減少
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      コラボ収録機能を設計・開発。リリース後100名以上のパーソナリティが利用
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      Agoraを活用したリアルタイム音声配信（生放送）機能をiOS/Android両プラットフォームで実装
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Swift
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Kotlin
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Go
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    SwiftUI
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    UIKit
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    RxSwift
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Jetpack Compose
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    AVFoundation
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Agora SDK
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    ExoPlayer
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    XCTest
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    GitHub Actions
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-6"
+            >
+              <div>
+                <h3
+                  class="text-xl font-bold text-gray-900"
+                >
+                  CBCloud
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2019/04 - 2021/11
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://cb-cloud.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <div
+              class="space-y-5"
+            >
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  プロジェクト
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      <span>
+                        <a
+                          class="text-indigo-600 hover:text-indigo-800"
+                          href="https://smaryu.town/truck/"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          SmaRyuTruck
+                        </a>
+                         の新規開発
+                      </span>
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      <span>
+                        <a
+                          class="text-indigo-600 hover:text-indigo-800"
+                          href="https://pickgo.town/"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          PickGo
+                        </a>
+                         の開発・運用
+                      </span>
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      <a
+                        class="text-indigo-600 hover:text-indigo-800"
+                        href="https://press.jal.co.jp/ja/release/202103/005969.html"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        JAL航空便連携
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Swift
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Kotlin
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Nuxt.js
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-6"
+            >
+              <div>
+                <h3
+                  class="text-xl font-bold text-gray-900"
+                >
+                  Lifesports
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2018/02 - 2019/03
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://lifesports.jp"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <div
+              class="space-y-4"
+            >
+              <p
+                class="text-gray-600 text-sm"
+              >
+                スポーツ事業に関わる企業で、エンジニアとしてユーザー数を増やすための既存機能の修正やコミュニティ機能の設計・実装を行い、ユーザーの利用体験を向上させた。
+              </p>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Swift
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Kotlin
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Laravel
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-6"
+            >
+              <div>
+                <h3
+                  class="text-xl font-bold text-gray-900"
+                >
+                  エーピーコミュニケーションズ
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2013/09 - 2018/02
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://www.ap-com.co.jp"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <div
+              class="space-y-4"
+            >
+              <p
+                class="text-gray-600 text-sm"
+              >
+                ネットワーク系SIerで、ネットワークエンジニアとして国内大手ネットワーク認証システムの運用やシステムリプレイスを担当。開発部門に異動後は、教育事業会社や娯楽事業のサービス保守システムリプレイスなど、様々なプロジェクトに携わった。
+              </p>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Java (Spring)
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    PHP (Laravel)
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    MySQL
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          Side Projects
+        </h2>
+        <div
+          class="space-y-6"
+        >
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-4"
+            >
+              <div>
+                <h3
+                  class="text-lg font-bold text-gray-900"
+                >
+                  ishin モバイルエンジニア
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2025/07 - 2026/03
+                </p>
+              </div>
+            </div>
+            <p
+              class="text-gray-600 text-sm mb-4"
+            >
+              AIアバターが参加できる音声トークルームサービス「ishin」の開発に参加。モバイルアプリ・バックエンドAPI・Web の3領域にまたがって機能開発を担当した。
+            </p>
+            <div
+              class="space-y-4"
+            >
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      React Native（Expo SDK 52）でトークルーム参加UI・波紋アニメーション・AIアバター選択機能などを実装
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      AIアバターのバッジ表示・自動応答トリガー・メッセージ表示キューシステムを設計・開発
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      キニナル（フォロー）機能・ブロック機能をモバイルとAPIの両側で実装
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      Firebase Analytics / BigQuery連携によるトークルーム参加・作成イベントのトラッキング基盤を構築
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      App Tracking Transparency（ATT）対応・GIF圧縮・EASビルドサイズ最適化などApp Store申請対応を担当
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      ishin-web（Next.js）でOGP画像生成を最適化。フォントキャッシュとメモリキャッシュの導入により初回11秒から1.75秒へ6.6倍高速化を達成
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      GoバックエンドAPIでハートビートAPI・BigQuery同期・AIアバター管理などのエンドポイントを開発
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    React Native
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Expo
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    TypeScript
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Go
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Next.js
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Firebase
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    BigQuery
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Auth0
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    EAS
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-4"
+            >
+              <div>
+                <h3
+                  class="text-lg font-bold text-gray-900"
+                >
+                  linq社 iOSエンジニア
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2023/04 - 2024/04
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://linq.co.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <p
+              class="text-gray-600 text-sm mb-4"
+            >
+              位置情報共有アプリwhooのSwiftUI化や利用ユーザー増加のためのMap上でスタンプを送る機能ややフレンドメッセージ機能を開発しました。また、マップ上のユーザーインタラクティブなアニメーションなどを対応しました。
+            </p>
+            <div
+              class="flex flex-wrap mt-2"
+            >
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                SwiftUI
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                UIKit
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                MapKit
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                CoreLocation
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Core Animation
+              </span>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-4"
+            >
+              <div>
+                <h3
+                  class="text-lg font-bold text-gray-900"
+                >
+                  ヘルスケアアプリ モバイルエンジニア
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2022/11 - 2023/03
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://soxai.co.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <p
+              class="text-gray-600 text-sm"
+            >
+              quasarというマルチプラットフォーム開発技術で開発した。主に新アプリの画面リプレイスでヘルス画面というグラフを書く画面などを担当した。
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-4"
+            >
+              <div>
+                <h3
+                  class="text-lg font-bold text-gray-900"
+                >
+                  nossa360 Androidエンジニア
+                </h3>
+                <p
+                  class="text-sm text-gray-400 mt-1"
+                >
+                  2020/04 - 2021/03
+                </p>
+              </div>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://lp.nossa360biz.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website →
+              </a>
+            </div>
+            <p
+              class="text-gray-600 text-sm"
+            >
+              nossa360という建築会社向けのカメラアプリを開発保守。主にAndroidのCameraAPI開発した。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-gray-900 text-white py-12"
+    >
+      <div
+        class="container mx-auto px-6 text-center"
+      >
+        <p
+          class="text-lg font-black tracking-widest mb-2"
+        >
+          ENTAKU
+        </p>
+        <p
+          class="text-gray-400 text-sm"
+        >
+          Mobile App Developer
+        </p>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
