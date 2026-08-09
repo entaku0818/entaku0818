@@ -6,42 +6,47 @@ import type { JSX } from 'react'
 const navLinkClass =
   'text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors'
 
-/**
- * personal / articles は日本語コンテンツのみ。
- * 英語ページからは日本語である旨を添えてリンクする。
- */
-const subPages = (lang: Lang) => [
-  { href: '/personal', label: lang === 'ja' ? 'Personal' : 'Personal (JA)' },
-  { href: '/articles', label: lang === 'ja' ? 'Articles' : 'Articles (JA)' },
-]
+/** 英語ロケールは /en 配下に出るため、リンクは自分で接頭辞を付ける */
+const localePath = (lang: Lang, path: string) =>
+  lang === 'en' ? `/en${path}` : path || '/'
 
-export const Header = ({ lang = 'ja' }: { lang?: Lang }): JSX.Element => {
-  const home = lang === 'ja' ? '/' : '/en'
-  const { switchLang } = labels[lang]
+export type HeaderProps = {
+  lang?: Lang
+  /** 表示中のページのパス。言語切り替えで同じページに留まるために使う */
+  path?: string
+}
+
+export const Header = ({
+  lang = 'ja',
+  path = '',
+}: HeaderProps): JSX.Element => {
+  const { switchLangLabel } = labels[lang]
+  const otherLang: Lang = lang === 'ja' ? 'en' : 'ja'
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white border-b border-gray-100">
       <div className="container mx-auto px-6 py-4 flex items-center">
         <a
-          href={home}
+          href={localePath(lang, '')}
           className="text-lg font-black tracking-widest text-gray-900 hover:text-indigo-600 transition-colors"
         >
           ENTAKU
         </a>
         <nav className="ml-auto flex gap-8 items-center">
-          <a href={home} className={navLinkClass}>
+          <a href={localePath(lang, '')} className={navLinkClass}>
             Home
           </a>
-          {subPages(lang).map((page) => (
-            <a key={page.href} href={page.href} className={navLinkClass}>
-              {page.label}
-            </a>
-          ))}
+          <a href={localePath(lang, '/personal')} className={navLinkClass}>
+            Personal
+          </a>
+          <a href={localePath(lang, '/articles')} className={navLinkClass}>
+            Articles
+          </a>
           <a
-            href={switchLang.href}
+            href={localePath(otherLang, path)}
             className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors"
           >
-            {switchLang.label}
+            {switchLangLabel}
           </a>
         </nav>
       </div>

@@ -1,31 +1,39 @@
 import Head from 'next/head'
-import type { GetStaticProps } from 'next'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import Header from '../components/header'
+import Header from './header'
 import type { JSX } from 'react'
 import ReactMarkdown from 'react-markdown'
-import profile from '../content/profile'
+import { profiles } from '../content/profile'
+import labels from '../content/labels'
+import type { Lang } from '../content/profile'
 
-export type PersonalProps = {
+export type PersonalPageProps = {
+  lang: Lang
   content: string
 }
 
-export const Personal = ({ content }: PersonalProps): JSX.Element => {
+export const PersonalPage = ({
+  lang,
+  content,
+}: PersonalPageProps): JSX.Element => {
+  const profile = profiles[lang]
+  const l = labels[lang]
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>{`Personal - ${profile.name}`}</title>
+        <title>{`${l.personalTitle} - ${profile.name}`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header lang={lang} path="/personal" />
 
       <div className="bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900">
         <div className="container mx-auto px-6 pt-40 pb-24">
           <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
-            About Me
+            {l.personalEyebrow}
           </p>
           <h1 className="text-6xl font-black text-white leading-none">
-            Personal
+            {l.personalTitle}
           </h1>
         </div>
       </div>
@@ -107,13 +115,4 @@ export const Personal = ({ content }: PersonalProps): JSX.Element => {
   )
 }
 
-/** personal.md はこのリポジトリで管理しているため、ビルド時に読み込む */
-export const getStaticProps: GetStaticProps<PersonalProps> = async () => {
-  const { readFile } = await import('node:fs/promises')
-  const { join } = await import('node:path')
-  const content = await readFile(join(process.cwd(), 'personal.md'), 'utf8')
-
-  return { props: { content } }
-}
-
-export default Personal
+export default PersonalPage

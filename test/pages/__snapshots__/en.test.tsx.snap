@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`English home page matches snapshot 1`] = `
+exports[`Home page in English matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="min-h-screen bg-gray-50"
@@ -28,15 +28,15 @@ exports[`English home page matches snapshot 1`] = `
           </a>
           <a
             class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
-            href="/personal"
+            href="/en/personal"
           >
-            Personal (JA)
+            Personal
           </a>
           <a
             class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
-            href="/articles"
+            href="/en/articles"
           >
-            Articles (JA)
+            Articles
           </a>
           <a
             class="text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors"
