@@ -8,7 +8,9 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test",
+    "readme": "node scripts/generate-readme.mjs",
+    "readme:check": "node scripts/generate-readme.mjs --check",
+    "test-all": "yarn lint && yarn type-check && yarn readme:check && yarn test",
     "prepare": "husky"
   },
   "lint-staged": {

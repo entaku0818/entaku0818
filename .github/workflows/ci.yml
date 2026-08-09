@@ -28,6 +28,9 @@ jobs:
       - name: Type check
         run: yarn type-check
 
+      - name: Check README is generated from content/profile.json
+        run: yarn readme:check
+
       - name: Run tests
         run: yarn test --watchAll=false
 

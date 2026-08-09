@@ -19,21 +19,31 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 
 - モバイルアプリの開発、アーキテクチャ設計
 - 音声配信 / ライブ配信の仕組み作り
+- 事業マインドを持ったプロダクト開発 — 技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している
 
 # 主なアウトプット
 
 ## 登壇
 
 - iOSDC JAPAN 2024で「Core Audio」登壇
-  [iOSDC JAPAN2024](https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39)
+  [詳細](https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39)
 - iOSDC JAPAN 2022で「音声配信アプリにおけるiOSを使った音声配信の全てと裏側」登壇
-  [iOSDC JAPAN2022](https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0)
+  [詳細](https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0)
+- iOSDC JAPAN 2021で「既存のネイティブアプリをFlutterへリプレイスする方法」登壇
+  [詳細](https://iosdc.jp/2021/) / [Speaker Deck](https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa)
+- iOSDC JAPAN 2020で「DroidKaigiの公式アプリで始めるiOSアプリのOSSコミッターへの道」登壇
+  [詳細](https://fortee.jp/iosdc-japan-2020/proposal/c3c70224-08cf-48d7-b5e5-a3d4589737fa) / [Speaker Deck](https://speakerdeck.com/entaku/droidkaigifalsegong-shi-ahuriteshi-meru-iosahuriosskomitutahefalsedao)
+- Vue.js アーキテクチャリング勉強会で「Vue / Vuex のアーキテクチャを完全に理解した」登壇
+  [詳細](https://cw-engineers.connpass.com/event/146975/) / [Speaker Deck](https://speakerdeck.com/entaku/vue-vuex-falseakitekutiyawan-quan-nili-jie-sita)
 
 ## コミュニティ活動
 
 - **Swift愛好会** 運営メンバー
-  Swiftエンジニア2,200名以上が参加するコミュニティの運営に携わり、月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）
+  Swiftエンジニア2,200名以上が参加するコミュニティの運営に携わり、月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）。
   [Swift愛好会](https://love-swift.connpass.com/)
+- **DroidKaigi** スタッフ
+  Android開発者向けカンファレンス「DroidKaigi」のスタッフとして運営に参加。
+  [DroidKaigi](https://droidkaigi.jp/)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=entaku0818&theme=light)](https://github.com/entaku0818)
 
@@ -82,33 +92,40 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 #### 実績・取り組み
 
 **アプリ開発の内製化とコード品質の抜本的改善**
+
 - 創業当初から外注で開発されていたアプリはUnitTestがなく、バグ検知が手動テストに依存していた
 - マルチモジュールアーキテクチャを導入し、新規モジュールでテストカバレッジ80%以上を達成
 - iOS/Androidエンジニア4名と連携し、機能開発を止めずに段階的なリファクタリングを推進。結果としてリリース後の不具合報告が約40%減少
 
 **コラボ収録機能の新規開発**
+
 - パーソナリティ同士がリモートで収録できる「コラボ収録」機能を設計・開発
 - アジャイル開発を導入し、PdMと週次で成果物をレビュー。開発途中段階でパーソナリティ5名に検証協力を依頼し、フィードバックを元にUIを改善
 - リリース後、新たに100名以上のパーソナリティがコラボ収録を利用。パーソナリティ間の交流促進とコンテンツの多様化に貢献
 
 **生放送機能の開発**
+
 - Agoraを活用したリアルタイム音声配信機能をiOS/Android両プラットフォームで実装
 - 生放送の作成・開始・予約画面をフルスクラッチで開発し、配信前チェック機能（ネットワーク状態・権限確認）も実装
 - 低遅延配信とリスナー参加機能を実現し、パーソナリティとリスナーの双方向コミュニケーションを可能に
 
 **PL限定コメント機能（Android）**
+
 - パーソナリティ限定コメントの表示・制御機能を設計・実装
 - 放送種別の取得・判定ロジックを追加し、限定機能の出し分けを実現
 
 **Material3移行（Android収録アプリ）**
+
 - UIコンポーネントをMaterial3に統一し、デザインシステムの一貫性を確保
 
 **バックエンド（Go）API開発**
+
 - コラボ収録機能向けにOpenAPIでセッションAPIを設計・実装
 - Agoraを活用した生放送用DBの構築とAPI整備
 - エッセンシャルルーム機能（参加承認・拒否・退出）のAPI開発
 
 **採用活動**
+
 - エンジニア採用の1次面談を担当し、技術力とカルチャーフィットの両面から候補者を評価
 - 3名の採用に貢献し、チームの開発体制強化に寄与
 
@@ -118,9 +135,9 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 - フレームワーク: SwiftUI / UIKit / RxSwift / Jetpack Compose
 - 音声・配信: AVFoundation / Agora SDK / ExoPlayer
 - アーキテクチャ: マルチモジュール / MVVM
-- その他: XCTest / GitHub Actions 
+- その他: XCTest / GitHub Actions
 
-### CBCloud (2019/04-2021/11)
+### CBCloud (2019/04 - 2021/11)
 
 [CBCloud Website](https://cb-cloud.com/)
 
@@ -131,18 +148,21 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 #### 実績・取り組み
 
 **SmaRyuTruck新規開発でのチームリーダー就任**
+
 - エンジニア中心のチームで途中からチームリーダーに志願
 - 社長がプロダクトオーナーを務める中、開発優先順位の調整とステークホルダー間の橋渡しを担当
 - 顧客先へ直接出向き、運送業務の現場課題をヒアリング。その知見をプロダクト要件に反映させ、サービス導入を推進
 - [一般貨物向け配送依頼ページ](https://pickgo.town/)の新規作成を担当
 
 **PickGoチーム再建と機能開発**
+
 - チームメンバーの退職が相次ぎ、開発者が自分一人となる状況を経験
 - 短期間で既存コードベースと業務フローを把握し、開発を継続
 - [JAL航空便連携](https://press.jal.co.jp/ja/release/202103/005969.html)を要件定義からリリースまで一人で完遂
 - 季節変動に対応した配送料金の動的変更機能を実装
 
 **採用活動**
+
 - エンジニア採用の1次面談を担当
 
 #### 主な成果物
@@ -157,7 +177,7 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 - フロントエンド: Nuxt.js
 - バックエンド: Rails
 
-### Lifesports (2018/02-2019/03)
+### Lifesports (2018/02 - 2019/03)
 
 [Lifesports Website](https://lifesports.jp/)
 
@@ -175,9 +195,9 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 - モバイル: Swift / Kotlin
 - バックエンド: Laravel
 
-### 株式会社エーピーコミュニケーションズ
+### 株式会社エーピーコミュニケーションズ (2013/09 - 2018/02)
 
-[エーピーコミュニケーションズ Website](https://www.ap-com.co.jp/)
+[株式会社エーピーコミュニケーションズ Website](https://www.ap-com.co.jp/)
 
 #### プロジェクト概要
 
@@ -197,36 +217,55 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 
 ## SideProject
 
-### linq社 iOSエンジニア (2023/04~2024/04)
+### ishin モバイルエンジニア (2025/07 - 2026/03)
+
+AIアバターが参加できる音声トークルームサービス「ishin」の開発に参加。モバイルアプリ・バックエンドAPI・Web の3領域にまたがって機能開発を担当した。
+
+**実績・取り組み**
+
+- React Native（Expo SDK 52）でトークルーム参加UI・波紋アニメーション・AIアバター選択機能などを実装
+- AIアバターのバッジ表示・自動応答トリガー・メッセージ表示キューシステムを設計・開発
+- キニナル（フォロー）機能・ブロック機能をモバイルとAPIの両側で実装
+- Firebase Analytics / BigQuery連携によるトークルーム参加・作成イベントのトラッキング基盤を構築
+- App Tracking Transparency（ATT）対応・GIF圧縮・EASビルドサイズ最適化などApp Store申請対応を担当
+- ishin-web（Next.js）でOGP画像生成を最適化。フォントキャッシュとメモリキャッシュの導入により初回11秒から1.75秒へ6.6倍高速化を達成
+- GoバックエンドAPIでハートビートAPI・BigQuery同期・AIアバター管理などのエンドポイントを開発
+
+**利用技術:** React Native / Expo / TypeScript / Go / Next.js / Firebase / BigQuery / Auth0 / EAS
+
+### linq社 iOSエンジニア (2023/04 - 2024/04)
 
 [linq Website](https://linq.co.jp/)
 
 位置情報共有アプリ「whoo」のiOS開発に参画。
 
 **実績・取り組み**
+
 - UIKitからSwiftUIへの段階的移行を推進
 - Map上で友人にスタンプを送る機能、メッセージ機能を新規開発
 - ユーザー同士の交流を促進するインタラクティブなアニメーションを実装
 
 **利用技術:** SwiftUI / UIKit / MapKit / CoreLocation / Core Animation
 
-### SOXAI ヘルスケアアプリ (2022/11~2023/03)
+### SOXAI ヘルスケアアプリ (2022/11 - 2023/03)
 
 [SOXAI Website](https://soxai.co.jp/)
 
 ヘルスケアアプリのモバイル開発に参画。
 
 **実績・取り組み**
+
 - マルチプラットフォームフレームワーク[Quasar](https://quasar.dev/)を用いた開発
 - ヘルスデータを可視化するグラフ画面の設計・実装
 
-### nossa360 Androidエンジニア (2020/04~2021/03)
+### nossa360 Androidエンジニア (2020/04 - 2021/03)
 
 [nossa360 Website](https://lp.nossa360biz.com/)
 
 建築・不動産業界向け360度撮影アプリ「nossa360」のAndroid版開発を担当。
 
 **実績・取り組み**
+
 - Camera2 APIを活用した360度撮影機能を実装
 - 画像処理の最適化によりアプリのパフォーマンスを向上
 - 建築現場での利用に特化したUI/UX改善を実施
@@ -236,4 +275,4 @@ iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュ�
 # その他
 
 - 私自身に関することはこちら  
-  <https://github.com/entaku0818/entaku0818/blob/main/personal.md>
+  [personal.md](personal.md)

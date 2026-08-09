@@ -1,0 +1,373 @@
+{
+  "name": "entaku",
+  "role": "Mobile App Developer",
+  "description": "iOSリードエンジニア。Swift / Kotlin / Go を使ったモバイルアプリ開発が得意。TVer・Voicy 等でリードエンジニアとして活躍。",
+  "githubUsername": "entaku0818",
+  "twitterUrl": "https://twitter.com/entaku_0818",
+  "twitterId": "@entaku_0818",
+  "githubUrl": "https://github.com/entaku0818",
+  "siteUrl": "https://entaku.dev",
+  "summary": [
+    "IT専門学校を卒業後、10年以上にわたりソフトウェア開発の幅広い経験を積んできました。SIerではインフラからフロントエンドまでのシステム開発に携わりました。その後モバイルアプリ開発に特化し、iOS/Android両プラットフォームで複数のアプリをリリースし、特に音声配信やリアルタイム通信を活用したアプリ開発で実績を重ねてきました。",
+    "直近では株式会社VoicyでiOSエンジニア兼チームリーダーとして、外注主体だったアプリ開発を内製化。マルチモジュール化を進め、新規モジュールではテストカバレッジ80%以上を達成。また、アジャイル開発を導入してパーソナリティ向け施策の開発を主導し、コラボ収録機能などの新機能開発からアーキテクチャ刷新まで行い、新たに100名のパーソナリティへコラボ収録をしていただくことができました。",
+    "2025年1月より株式会社TVerでiOSのリードエンジニアとして働いています。",
+    "iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュニティへの貢献にも力を入れています。"
+  ],
+  "technicalBackground": [
+    "SIer時代に培ったインフラ、バックエンド、フロントエンドの幅広い開発経験",
+    "iOS/Androidのモバイルアプリ開発に精通し、両プラットフォームに対応可能",
+    "アジャイル開発の導入と運用により、開発プロジェクトの推進とチームの成長に貢献",
+    "プロジェクトマネジメントの経験を活かし、ステークホルダーとの調整や優先順位付けを円滑に行う能力"
+  ],
+  "specialties": [
+    "モバイルアプリの開発、アーキテクチャ設計",
+    "音声配信 / ライブ配信の仕組み作り",
+    "事業マインドを持ったプロダクト開発 — 技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している"
+  ],
+  "talks": [
+    {
+      "event": "iOSDC JAPAN 2024",
+      "title": "Core Audio",
+      "links": [
+        {
+          "label": "詳細",
+          "url": "https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39"
+        }
+      ]
+    },
+    {
+      "event": "iOSDC JAPAN 2022",
+      "title": "音声配信アプリにおけるiOSを使った音声配信の全てと裏側",
+      "links": [
+        {
+          "label": "詳細",
+          "url": "https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0"
+        }
+      ]
+    },
+    {
+      "event": "iOSDC JAPAN 2021",
+      "title": "既存のネイティブアプリをFlutterへリプレイスする方法",
+      "links": [
+        { "label": "詳細", "url": "https://iosdc.jp/2021/" },
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
+        }
+      ]
+    },
+    {
+      "event": "iOSDC JAPAN 2020",
+      "title": "DroidKaigiの公式アプリで始めるiOSアプリのOSSコミッターへの道",
+      "links": [
+        {
+          "label": "詳細",
+          "url": "https://fortee.jp/iosdc-japan-2020/proposal/c3c70224-08cf-48d7-b5e5-a3d4589737fa"
+        },
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/entaku/droidkaigifalsegong-shi-ahuriteshi-meru-iosahuriosskomitutahefalsedao"
+        }
+      ]
+    },
+    {
+      "event": "Vue.js アーキテクチャリング勉強会",
+      "title": "Vue / Vuex のアーキテクチャを完全に理解した",
+      "links": [
+        {
+          "label": "詳細",
+          "url": "https://cw-engineers.connpass.com/event/146975/"
+        },
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/entaku/vue-vuex-falseakitekutiyawan-quan-nili-jie-sita"
+        }
+      ]
+    }
+  ],
+  "communities": [
+    {
+      "name": "Swift愛好会",
+      "role": "運営メンバー",
+      "url": "https://love-swift.connpass.com/",
+      "linkLabel": "connpass",
+      "description": "Swiftエンジニア2,200名以上が参加するコミュニティの運営に携わり、月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）。"
+    },
+    {
+      "name": "DroidKaigi",
+      "role": "スタッフ",
+      "url": "https://droidkaigi.jp/",
+      "linkLabel": "Website",
+      "description": "Android開発者向けカンファレンス「DroidKaigi」のスタッフとして運営に参加。"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "TVer",
+      "period": "2025/01 - 現在",
+      "url": "https://tver.jp/",
+      "overview": "日本最大級の民放公式テレビポータル「TVer」にて、iOSリードエンジニアとして参画。動画配信プラットフォームの開発・改善を担当。",
+      "highlights": [
+        {
+          "title": "Xcode Cloudによる CI環境の構築",
+          "points": [
+            "テストは存在していたがCI環境が未整備だった状況を改善",
+            "Xcode Cloudを導入し、PR単位での自動テスト実行とビルド検証を実現。開発サイクルの安定性を向上"
+          ]
+        },
+        {
+          "title": "ウォークスルー画面の刷新",
+          "points": [
+            "既存のオンボーディングフローを全面的に見直し、ユーザーが直感的にアプリを理解できるUIに改善"
+          ]
+        },
+        {
+          "title": "ミラノ冬季五輪対応",
+          "points": [
+            "2026年ミラノ冬季オリンピックに向け、既存アプリの五輪コンテンツ対応を担当",
+            "五輪特集トップ画面・特集UIを新規実装し、大会期間中のユーザー体験を向上",
+            "動画再生関連のコードをTCA（The Composable Architecture）でリプレイスし、保守性・テスタビリティを改善"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "言語", "items": ["Swift"] },
+        {
+          "label": "フレームワーク",
+          "items": ["SwiftUI", "UIKit", "Combine", "TCA"]
+        },
+        { "label": "動画再生", "items": ["AVFoundation", "AVPlayer"] },
+        { "label": "CI/CD", "items": ["Xcode Cloud"] }
+      ]
+    },
+    {
+      "company": "Voicy",
+      "period": "2021/12 - 2024/12",
+      "url": "https://voicy.jp/",
+      "overview": "音声配信プラットフォーム「Voicy」にて、iOSエンジニア兼チームリーダーとして3年間従事。パーソナリティ向け収録アプリの開発責任者として、外注主体だった開発体制の内製化からアーキテクチャ刷新、新機能開発までをリードした。",
+      "highlights": [
+        {
+          "title": "アプリ開発の内製化とコード品質の抜本的改善",
+          "points": [
+            "創業当初から外注で開発されていたアプリはUnitTestがなく、バグ検知が手動テストに依存していた",
+            "マルチモジュールアーキテクチャを導入し、新規モジュールでテストカバレッジ80%以上を達成",
+            "iOS/Androidエンジニア4名と連携し、機能開発を止めずに段階的なリファクタリングを推進。結果としてリリース後の不具合報告が約40%減少"
+          ]
+        },
+        {
+          "title": "コラボ収録機能の新規開発",
+          "points": [
+            "パーソナリティ同士がリモートで収録できる「コラボ収録」機能を設計・開発",
+            "アジャイル開発を導入し、PdMと週次で成果物をレビュー。開発途中段階でパーソナリティ5名に検証協力を依頼し、フィードバックを元にUIを改善",
+            "リリース後、新たに100名以上のパーソナリティがコラボ収録を利用。パーソナリティ間の交流促進とコンテンツの多様化に貢献"
+          ]
+        },
+        {
+          "title": "生放送機能の開発",
+          "points": [
+            "Agoraを活用したリアルタイム音声配信機能をiOS/Android両プラットフォームで実装",
+            "生放送の作成・開始・予約画面をフルスクラッチで開発し、配信前チェック機能（ネットワーク状態・権限確認）も実装",
+            "低遅延配信とリスナー参加機能を実現し、パーソナリティとリスナーの双方向コミュニケーションを可能に"
+          ]
+        },
+        {
+          "title": "PL限定コメント機能（Android）",
+          "points": [
+            "パーソナリティ限定コメントの表示・制御機能を設計・実装",
+            "放送種別の取得・判定ロジックを追加し、限定機能の出し分けを実現"
+          ]
+        },
+        {
+          "title": "Material3移行（Android収録アプリ）",
+          "points": [
+            "UIコンポーネントをMaterial3に統一し、デザインシステムの一貫性を確保"
+          ]
+        },
+        {
+          "title": "バックエンド（Go）API開発",
+          "points": [
+            "コラボ収録機能向けにOpenAPIでセッションAPIを設計・実装",
+            "Agoraを活用した生放送用DBの構築とAPI整備",
+            "エッセンシャルルーム機能（参加承認・拒否・退出）のAPI開発"
+          ]
+        },
+        {
+          "title": "採用活動",
+          "points": [
+            "エンジニア採用の1次面談を担当し、技術力とカルチャーフィットの両面から候補者を評価",
+            "3名の採用に貢献し、チームの開発体制強化に寄与"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "言語", "items": ["Swift", "Kotlin", "Go"] },
+        {
+          "label": "フレームワーク",
+          "items": ["SwiftUI", "UIKit", "RxSwift", "Jetpack Compose"]
+        },
+        {
+          "label": "音声・配信",
+          "items": ["AVFoundation", "Agora SDK", "ExoPlayer"]
+        },
+        { "label": "アーキテクチャ", "items": ["マルチモジュール", "MVVM"] },
+        { "label": "その他", "items": ["XCTest", "GitHub Actions"] }
+      ]
+    },
+    {
+      "company": "CBCloud",
+      "period": "2019/04 - 2021/11",
+      "url": "https://cb-cloud.com/",
+      "overview": "配送マッチングプラットフォーム「PickGo」および一般貨物運送事業者向けSaaS「SmaRyuTruck」の開発に従事。モバイルエンジニアからチームリーダーへとステップアップし、開発と顧客折衝の両面で貢献。",
+      "highlights": [
+        {
+          "title": "SmaRyuTruck新規開発でのチームリーダー就任",
+          "points": [
+            "エンジニア中心のチームで途中からチームリーダーに志願",
+            "社長がプロダクトオーナーを務める中、開発優先順位の調整とステークホルダー間の橋渡しを担当",
+            "顧客先へ直接出向き、運送業務の現場課題をヒアリング。その知見をプロダクト要件に反映させ、サービス導入を推進",
+            "[一般貨物向け配送依頼ページ](https://pickgo.town/)の新規作成を担当"
+          ]
+        },
+        {
+          "title": "PickGoチーム再建と機能開発",
+          "points": [
+            "チームメンバーの退職が相次ぎ、開発者が自分一人となる状況を経験",
+            "短期間で既存コードベースと業務フローを把握し、開発を継続",
+            "[JAL航空便連携](https://press.jal.co.jp/ja/release/202103/005969.html)を要件定義からリリースまで一人で完遂",
+            "季節変動に対応した配送料金の動的変更機能を実装"
+          ]
+        },
+        {
+          "title": "採用活動",
+          "points": ["エンジニア採用の1次面談を担当"]
+        }
+      ],
+      "deliverables": [
+        {
+          "name": "SmaRyuTruck",
+          "url": "https://smaryu.town/truck/",
+          "description": "一般貨物運送事業者向けSaaS"
+        },
+        {
+          "name": "PickGo",
+          "url": "https://pickgo.town/",
+          "description": "配送マッチングプラットフォーム"
+        },
+        {
+          "name": "買い物代行サービス",
+          "url": "https://pickgo.town/consumer/shopping"
+        }
+      ],
+      "tech": [
+        { "label": "モバイル", "items": ["Swift", "Kotlin"] },
+        { "label": "フロントエンド", "items": ["Nuxt.js"] },
+        { "label": "バックエンド", "items": ["Rails"] }
+      ]
+    },
+    {
+      "company": "Lifesports",
+      "period": "2018/02 - 2019/03",
+      "url": "https://lifesports.jp/",
+      "overview": "スポーツマッチングサービスのモバイルアプリ開発に従事。ユーザー獲得に向けた機能改善とコミュニティ機能の新規開発を担当。",
+      "highlights": [
+        {
+          "points": [
+            "ユーザー数増加を目的とした既存機能の改善とUI/UX向上",
+            "スポーツ愛好者同士をつなぐコミュニティ機能を設計・実装"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "モバイル", "items": ["Swift", "Kotlin"] },
+        { "label": "バックエンド", "items": ["Laravel"] }
+      ]
+    },
+    {
+      "company": "株式会社エーピーコミュニケーションズ",
+      "period": "2013/09 - 2018/02",
+      "url": "https://www.ap-com.co.jp/",
+      "overview": "ネットワーク系SIerにて、インフラから開発まで幅広い領域を経験。ネットワークエンジニアとしてキャリアをスタートし、開発部門への異動を経てフルスタックなスキルを習得。",
+      "highlights": [
+        {
+          "points": [
+            "国内大手企業向けネットワーク認証システムの運用・保守を担当",
+            "大規模システムリプレイスプロジェクトに参画し、インフラ構築から移行作業までを遂行",
+            "開発部門異動後、教育事業会社・娯楽事業のシステム保守・リプレイスを担当"
+          ]
+        }
+      ],
+      "tech": [
+        {
+          "label": "バックエンド",
+          "items": ["Java (Spring)", "PHP (Laravel)"]
+        },
+        { "label": "データベース", "items": ["MySQL"] },
+        { "label": "インフラ", "items": ["ネットワーク構築・運用"] }
+      ]
+    }
+  ],
+  "sideProjects": [
+    {
+      "title": "ishin モバイルエンジニア",
+      "period": "2025/07 - 2026/03",
+      "overview": "AIアバターが参加できる音声トークルームサービス「ishin」の開発に参加。モバイルアプリ・バックエンドAPI・Web の3領域にまたがって機能開発を担当した。",
+      "points": [
+        "React Native（Expo SDK 52）でトークルーム参加UI・波紋アニメーション・AIアバター選択機能などを実装",
+        "AIアバターのバッジ表示・自動応答トリガー・メッセージ表示キューシステムを設計・開発",
+        "キニナル（フォロー）機能・ブロック機能をモバイルとAPIの両側で実装",
+        "Firebase Analytics / BigQuery連携によるトークルーム参加・作成イベントのトラッキング基盤を構築",
+        "App Tracking Transparency（ATT）対応・GIF圧縮・EASビルドサイズ最適化などApp Store申請対応を担当",
+        "ishin-web（Next.js）でOGP画像生成を最適化。フォントキャッシュとメモリキャッシュの導入により初回11秒から1.75秒へ6.6倍高速化を達成",
+        "GoバックエンドAPIでハートビートAPI・BigQuery同期・AIアバター管理などのエンドポイントを開発"
+      ],
+      "tech": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Go",
+        "Next.js",
+        "Firebase",
+        "BigQuery",
+        "Auth0",
+        "EAS"
+      ]
+    },
+    {
+      "title": "linq社 iOSエンジニア",
+      "period": "2023/04 - 2024/04",
+      "url": "https://linq.co.jp/",
+      "siteName": "linq",
+      "overview": "位置情報共有アプリ「whoo」のiOS開発に参画。",
+      "points": [
+        "UIKitからSwiftUIへの段階的移行を推進",
+        "Map上で友人にスタンプを送る機能、メッセージ機能を新規開発",
+        "ユーザー同士の交流を促進するインタラクティブなアニメーションを実装"
+      ],
+      "tech": ["SwiftUI", "UIKit", "MapKit", "CoreLocation", "Core Animation"]
+    },
+    {
+      "title": "SOXAI ヘルスケアアプリ",
+      "period": "2022/11 - 2023/03",
+      "url": "https://soxai.co.jp/",
+      "siteName": "SOXAI",
+      "overview": "ヘルスケアアプリのモバイル開発に参画。",
+      "points": [
+        "マルチプラットフォームフレームワーク[Quasar](https://quasar.dev/)を用いた開発",
+        "ヘルスデータを可視化するグラフ画面の設計・実装"
+      ]
+    },
+    {
+      "title": "nossa360 Androidエンジニア",
+      "period": "2020/04 - 2021/03",
+      "url": "https://lp.nossa360biz.com/",
+      "siteName": "nossa360",
+      "overview": "建築・不動産業界向け360度撮影アプリ「nossa360」のAndroid版開発を担当。",
+      "points": [
+        "Camera2 APIを活用した360度撮影機能を実装",
+        "画像処理の最適化によりアプリのパフォーマンスを向上",
+        "建築現場での利用に特化したUI/UX改善を実施"
+      ],
+      "tech": ["Kotlin", "Camera2 API", "画像処理"]
+    }
+  ]
+}
