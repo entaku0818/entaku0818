@@ -50,9 +50,19 @@ export const Articles = ({ articles }: Props): JSX.Element => (
   </div>
 )
 
+/** 記事一覧を管理しているスプレッドシート */
+const SPREADSHEET_ID = '1S286LYrmDHOPjvZHQh8d2pSg_MVaZOb_Znr9zUahd2M'
+
 export async function getStaticProps() {
+  const apiKey = process.env.GOOGLE_SHEETS_API_KEY
+  if (!apiKey) {
+    throw new Error(
+      'GOOGLE_SHEETS_API_KEY が設定されていません。.env または Vercel の環境変数を確認してください。',
+    )
+  }
+
   const res = await fetch(
-    'https://sheets.googleapis.com/v4/spreadsheets/1S286LYrmDHOPjvZHQh8d2pSg_MVaZOb_Znr9zUahd2M/values/article?key=AIzaSyAxzVLiIMLhFGrQUeU0JH8sL-7-0o4iXxY'
+    `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/article?key=${apiKey}`,
   )
   const json = await res.json()
 
@@ -61,8 +71,8 @@ export async function getStaticProps() {
       String(elm[1]) === '1'
         ? 'Qiita'
         : String(elm[1]) === '2'
-        ? 'Zenn'
-        : 'Note'
+          ? 'Zenn'
+          : 'Note'
     const obj = {
       name: elm[0],
       type: type,
