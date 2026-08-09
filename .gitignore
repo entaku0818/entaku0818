@@ -37,3 +37,4 @@ yarn-error.log*
 # misc (local)
 firebase-debug.log
 .playwright-cli/
+tsconfig.tsbuildinfo
