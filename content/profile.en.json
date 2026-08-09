@@ -1,0 +1,370 @@
+{
+  "name": "entaku",
+  "role": "Senior iOS Engineer — Video Streaming & Ad Tech",
+  "description": "Senior iOS engineer specializing in video streaming and ad monetization. Currently iOS lead at TVer, one of Japan's largest free ad-supported streaming services.",
+  "githubUsername": "entaku0818",
+  "twitterUrl": "https://twitter.com/entaku_0818",
+  "twitterId": "@entaku_0818",
+  "githubUrl": "https://github.com/entaku0818",
+  "siteUrl": "https://entaku.dev/en",
+  "summary": [
+    "iOS lead engineer with 10+ years in software development, specializing in video streaming and ad monetization. I currently lead iOS development at TVer, one of Japan's largest free ad-supported streaming services, where I work on video playback infrastructure with The Composable Architecture and on the ad integration around it.",
+    "Before TVer, I led the in-housing of Voicy's iOS app — an audio streaming platform — introducing a multi-module architecture with 80%+ test coverage on new modules and reducing post-release bug reports by roughly 40%.",
+    "I also build for Android and Go on the backend, which lets me design features end to end rather than stopping at the app boundary.",
+    "Outside of work I speak at iOSDC Japan and help organize Swift愛好会 (Swift Lovers), a Japanese Swift community of 2,200+ engineers."
+  ],
+  "technicalBackground": [
+    "Full-stack background from my SIer years — infrastructure, backend and frontend",
+    "Ships production apps on both iOS and Android, not just one platform",
+    "Introduces and runs agile practices to move teams and projects forward",
+    "Comfortable with stakeholder alignment and prioritization as a team lead"
+  ],
+  "specialties": [
+    "Video playback and ad monetization on mobile — player architecture, live and VOD",
+    "Audio and live streaming infrastructure",
+    "Product-minded engineering — deciding what to build from a business perspective, not only a technical one"
+  ],
+  "talks": [
+    {
+      "event": "iOSDC Japan 2024",
+      "title": "Core Audio",
+      "links": [
+        {
+          "label": "Details",
+          "url": "https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39"
+        }
+      ]
+    },
+    {
+      "event": "iOSDC Japan 2022",
+      "title": "Everything behind audio broadcasting on iOS",
+      "links": [
+        {
+          "label": "Details",
+          "url": "https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0"
+        }
+      ]
+    },
+    {
+      "event": "iOSDC Japan 2021",
+      "title": "How to replace an existing native app with Flutter",
+      "links": [
+        { "label": "Details", "url": "https://iosdc.jp/2021/" },
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
+        }
+      ]
+    },
+    {
+      "event": "iOSDC Japan 2020",
+      "title": "Becoming an iOS OSS contributor through the DroidKaigi official app",
+      "links": [
+        {
+          "label": "Details",
+          "url": "https://fortee.jp/iosdc-japan-2020/proposal/c3c70224-08cf-48d7-b5e5-a3d4589737fa"
+        },
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/entaku/droidkaigifalsegong-shi-ahuriteshi-meru-iosahuriosskomitutahefalsedao"
+        }
+      ]
+    },
+    {
+      "event": "Vue.js Architecting Meetup",
+      "title": "Understanding Vue / Vuex architecture, completely",
+      "links": [
+        {
+          "label": "Details",
+          "url": "https://cw-engineers.connpass.com/event/146975/"
+        },
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/entaku/vue-vuex-falseakitekutiyawan-quan-nili-jie-sita"
+        }
+      ]
+    }
+  ],
+  "communities": [
+    {
+      "name": "Swift愛好会 (Swift Lovers)",
+      "role": "Organizer",
+      "url": "https://love-swift.connpass.com/",
+      "linkLabel": "connpass",
+      "description": "Organizer of a Japanese Swift community with 2,200+ engineers, running meetups once or twice a month (98 editions and counting)."
+    },
+    {
+      "name": "DroidKaigi",
+      "role": "Staff",
+      "url": "https://droidkaigi.jp/",
+      "linkLabel": "Website",
+      "description": "Staff member of DroidKaigi, the largest Android developer conference in Japan."
+    }
+  ],
+  "experiences": [
+    {
+      "company": "TVer",
+      "period": "Jan 2025 - Present",
+      "url": "https://tver.jp/",
+      "overview": "iOS lead engineer at TVer, one of Japan's largest free ad-supported streaming services, working on the video playback experience and the ad integration around it.",
+      "highlights": [
+        {
+          "title": "Video playback and ad monetization",
+          "points": [
+            "Work on player features for both live and on-demand streaming, including the ad integration layer around playback",
+            "Replaced playback-related code with The Composable Architecture, improving maintainability and testability"
+          ]
+        },
+        {
+          "title": "Large-scale live event delivery",
+          "points": [
+            "Delivered the streaming experience for the Milano Cortina 2026 Winter Olympics, including a dedicated top screen and event UI",
+            "Built reusable player modules covering both live and VOD playback under a hard, externally fixed deadline"
+          ]
+        },
+        {
+          "title": "CI with Xcode Cloud",
+          "points": [
+            "Tests existed but there was no CI. Introduced Xcode Cloud so every pull request runs automated tests and build verification",
+            "Stabilized the development cycle for the whole iOS team"
+          ]
+        },
+        {
+          "title": "Onboarding redesign",
+          "points": [
+            "Rebuilt the walkthrough flow so new users understand the app immediately"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "Language", "items": ["Swift"] },
+        {
+          "label": "Frameworks",
+          "items": ["SwiftUI", "UIKit", "Combine", "TCA"]
+        },
+        { "label": "Playback", "items": ["AVFoundation", "AVPlayer"] },
+        { "label": "CI/CD", "items": ["Xcode Cloud"] }
+      ]
+    },
+    {
+      "company": "Voicy",
+      "period": "Dec 2021 - Dec 2024",
+      "url": "https://voicy.jp/",
+      "overview": "iOS engineer and team lead at Voicy, an audio streaming platform. As the owner of the recording app for creators, I led the move from outsourced development to an in-house team, the architecture overhaul, and new feature development.",
+      "highlights": [
+        {
+          "title": "In-housing development and rebuilding code quality",
+          "points": [
+            "The app had been outsourced since the company's founding, had no unit tests, and relied on manual QA to catch bugs",
+            "Introduced a multi-module architecture and reached 80%+ test coverage on new modules",
+            "Drove incremental refactoring with four iOS/Android engineers without pausing feature work, cutting post-release bug reports by about 40%"
+          ]
+        },
+        {
+          "title": "Collaborative recording",
+          "points": [
+            "Designed and built a feature that lets creators record together remotely",
+            "Introduced agile practices, reviewing increments weekly with the PdM and running mid-development validation with five creators",
+            "100+ creators adopted collaborative recording after launch"
+          ]
+        },
+        {
+          "title": "Live broadcasting",
+          "points": [
+            "Implemented real-time audio broadcasting on both iOS and Android using Agora",
+            "Built the creation, start and scheduling screens from scratch, including pre-broadcast checks for network state and permissions",
+            "Enabled low-latency delivery and listener participation for two-way communication"
+          ]
+        },
+        {
+          "title": "Backend (Go) API development",
+          "points": [
+            "Designed and implemented the session API for collaborative recording with OpenAPI",
+            "Built the live broadcasting database and its APIs around Agora",
+            "Developed the APIs for room admission, rejection and exit flows"
+          ]
+        },
+        {
+          "title": "Android work",
+          "points": [
+            "Designed and implemented creator-only comment display and control, including broadcast-type detection",
+            "Migrated the Android recording app's UI components to Material 3"
+          ]
+        },
+        {
+          "title": "Hiring",
+          "points": [
+            "Ran first-round engineering interviews, assessing both technical skill and culture fit",
+            "Contributed to three hires that strengthened the team"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "Languages", "items": ["Swift", "Kotlin", "Go"] },
+        {
+          "label": "Frameworks",
+          "items": ["SwiftUI", "UIKit", "RxSwift", "Jetpack Compose"]
+        },
+        {
+          "label": "Audio & streaming",
+          "items": ["AVFoundation", "Agora SDK", "ExoPlayer"]
+        },
+        { "label": "Architecture", "items": ["Multi-module", "MVVM"] },
+        { "label": "Other", "items": ["XCTest", "GitHub Actions"] }
+      ]
+    },
+    {
+      "company": "CBCloud",
+      "period": "Apr 2019 - Nov 2021",
+      "url": "https://cb-cloud.com/",
+      "overview": "Worked on PickGo, a delivery matching platform, and SmaRyuTruck, a SaaS for freight carriers. Moved from mobile engineer to team lead, contributing on both development and customer-facing work.",
+      "highlights": [
+        {
+          "title": "Team lead on the SmaRyuTruck launch",
+          "points": [
+            "Volunteered to take over as team lead partway through the project",
+            "Coordinated development priorities and bridged stakeholders while the CEO acted as product owner",
+            "Visited customers directly to understand real logistics operations and fed those findings into product requirements",
+            "Built the [freight delivery request page](https://pickgo.town/)"
+          ]
+        },
+        {
+          "title": "Rebuilding the PickGo team",
+          "points": [
+            "After a wave of departures I was the only remaining developer on the product",
+            "Got up to speed on the existing codebase and business flows quickly enough to keep shipping",
+            "Delivered the [JAL air freight integration](https://press.jal.co.jp/ja/release/202103/005969.html) alone, from requirements to release",
+            "Implemented dynamic delivery pricing that responds to seasonal demand"
+          ]
+        },
+        {
+          "title": "Hiring",
+          "points": ["Ran first-round engineering interviews"]
+        }
+      ],
+      "deliverables": [
+        {
+          "name": "SmaRyuTruck",
+          "url": "https://smaryu.town/truck/",
+          "description": "SaaS for freight carriers"
+        },
+        {
+          "name": "PickGo",
+          "url": "https://pickgo.town/",
+          "description": "Delivery matching platform"
+        },
+        {
+          "name": "Shopping proxy service",
+          "url": "https://pickgo.town/consumer/shopping"
+        }
+      ],
+      "tech": [
+        { "label": "Mobile", "items": ["Swift", "Kotlin"] },
+        { "label": "Frontend", "items": ["Nuxt.js"] },
+        { "label": "Backend", "items": ["Rails"] }
+      ]
+    },
+    {
+      "company": "Lifesports",
+      "period": "Feb 2018 - Mar 2019",
+      "url": "https://lifesports.jp/",
+      "overview": "Mobile app development for a sports matching service, focused on feature improvements for user growth and a new community feature.",
+      "highlights": [
+        {
+          "points": [
+            "Improved existing features and UI/UX to grow the user base",
+            "Designed and implemented a community feature connecting sports enthusiasts"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "Mobile", "items": ["Swift", "Kotlin"] },
+        { "label": "Backend", "items": ["Laravel"] }
+      ]
+    },
+    {
+      "company": "AP Communications",
+      "period": "Sep 2013 - Feb 2018",
+      "url": "https://www.ap-com.co.jp/",
+      "overview": "Started my career at a network-focused SIer, covering everything from infrastructure to application development after moving to the development division.",
+      "highlights": [
+        {
+          "points": [
+            "Operated and maintained a network authentication system for a major Japanese enterprise",
+            "Joined a large-scale system replacement project, handling infrastructure setup through migration",
+            "After moving to the development division, maintained and replaced systems for education and entertainment businesses"
+          ]
+        }
+      ],
+      "tech": [
+        { "label": "Backend", "items": ["Java (Spring)", "PHP (Laravel)"] },
+        { "label": "Database", "items": ["MySQL"] },
+        { "label": "Infrastructure", "items": ["Network design & operations"] }
+      ]
+    }
+  ],
+  "sideProjects": [
+    {
+      "title": "ishin — Mobile Engineer",
+      "period": "Jul 2025 - Mar 2026",
+      "overview": "Contributed to ishin, a voice talk room service where AI avatars can join conversations. Worked across three areas: the mobile app, the backend API and the web front end.",
+      "points": [
+        "Built talk room join UI, ripple animations and AI avatar selection in React Native (Expo SDK 52)",
+        "Designed AI avatar badges, auto-response triggers and a message display queue system",
+        "Implemented follow and block features on both the mobile app and the API",
+        "Built event tracking for room joins and creations via Firebase Analytics and BigQuery",
+        "Handled App Store submission work: App Tracking Transparency, GIF compression and EAS build size optimization",
+        "Optimized OGP image generation in ishin-web (Next.js): 6.6x faster (11s → 1.75s) via font and memory caching",
+        "Developed heartbeat, BigQuery sync and AI avatar management endpoints in the Go backend"
+      ],
+      "tech": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Go",
+        "Next.js",
+        "Firebase",
+        "BigQuery",
+        "Auth0",
+        "EAS"
+      ]
+    },
+    {
+      "title": "linq — iOS Engineer",
+      "period": "Apr 2023 - Apr 2024",
+      "url": "https://linq.co.jp/",
+      "siteName": "linq",
+      "overview": "Joined iOS development for whoo, a location sharing app.",
+      "points": [
+        "Drove the incremental migration from UIKit to SwiftUI",
+        "Built new features for sending stamps to friends on the map, and messaging",
+        "Implemented interactive animations that encourage user-to-user interaction"
+      ],
+      "tech": ["SwiftUI", "UIKit", "MapKit", "CoreLocation", "Core Animation"]
+    },
+    {
+      "title": "SOXAI Healthcare App",
+      "period": "Nov 2022 - Mar 2023",
+      "url": "https://soxai.co.jp/",
+      "siteName": "SOXAI",
+      "overview": "Joined mobile development for a healthcare app.",
+      "points": [
+        "Developed with [Quasar](https://quasar.dev/), a cross-platform framework",
+        "Designed and implemented the graph screens visualizing health data"
+      ]
+    },
+    {
+      "title": "nossa360 — Android Engineer",
+      "period": "Apr 2020 - Mar 2021",
+      "url": "https://lp.nossa360biz.com/",
+      "siteName": "nossa360",
+      "overview": "Android development for nossa360, a 360-degree camera app for the construction and real estate industries.",
+      "points": [
+        "Implemented 360-degree capture using the Camera2 API",
+        "Improved app performance through image processing optimization",
+        "Refined the UI/UX for use on construction sites"
+      ],
+      "tech": ["Kotlin", "Camera2 API", "Image processing"]
+    }
+  ]
+}

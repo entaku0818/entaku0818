@@ -1,4 +1,5 @@
-import profileJson from './profile.json'
+import profileJaJson from './profile.ja.json'
+import profileEnJson from './profile.en.json'
 
 export type Link = {
   label: string
@@ -76,10 +77,19 @@ export type Profile = {
   sideProjects: SideProject[]
 }
 
-/**
- * entaku.dev のトップページと README.md の共通データ。
- * README.md は `yarn readme` でこのデータから生成される。
- */
-export const profile = profileJson as Profile
+export type Lang = 'ja' | 'en'
 
-export default profile
+/**
+ * entaku.dev のトップページと README のデータ。
+ * 日本語は `/` と README.md、英語は `/en` と README.en.md に対応する。
+ * README は `yarn readme` でこのデータから生成される。
+ */
+export const profileJa = profileJaJson as Profile
+export const profileEn = profileEnJson as Profile
+
+export const profiles: Record<Lang, Profile> = {
+  ja: profileJa,
+  en: profileEn,
+}
+
+export default profileJa
