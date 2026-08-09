@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Home page matches snapshot 1`] = `
+exports[`English home page matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="min-h-screen bg-gray-50"
@@ -13,7 +13,7 @@ exports[`Home page matches snapshot 1`] = `
       >
         <a
           class="text-lg font-black tracking-widest text-gray-900 hover:text-indigo-600 transition-colors"
-          href="/"
+          href="/en"
         >
           ENTAKU
         </a>
@@ -22,7 +22,7 @@ exports[`Home page matches snapshot 1`] = `
         >
           <a
             class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
-            href="/"
+            href="/en"
           >
             Home
           </a>
@@ -30,19 +30,19 @@ exports[`Home page matches snapshot 1`] = `
             class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
             href="/personal"
           >
-            Personal
+            Personal (JA)
           </a>
           <a
             class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
             href="/articles"
           >
-            Articles
+            Articles (JA)
           </a>
           <a
             class="text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors"
-            href="/en"
+            href="/"
           >
-            English
+            日本語
           </a>
         </nav>
       </div>
@@ -56,7 +56,7 @@ exports[`Home page matches snapshot 1`] = `
         <p
           class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4"
         >
-          Mobile App Developer
+          Senior iOS Engineer — Video Streaming & Ad Tech
         </p>
         <h1
           class="text-8xl font-black text-white mb-8 leading-none"
@@ -118,22 +118,22 @@ exports[`Home page matches snapshot 1`] = `
         <h2
           class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
         >
-          概要
+          Overview
         </h2>
         <div
           class="text-gray-600 leading-relaxed space-y-4"
         >
           <p>
-            IT専門学校を卒業後、10年以上にわたりソフトウェア開発の幅広い経験を積んできました。SIerではインフラからフロントエンドまでのシステム開発に携わりました。その後モバイルアプリ開発に特化し、iOS/Android両プラットフォームで複数のアプリをリリースし、特に音声配信やリアルタイム通信を活用したアプリ開発で実績を重ねてきました。
+            iOS lead engineer with 10+ years in software development, specializing in video streaming and ad monetization. I currently lead iOS development at TVer, one of Japan's largest free ad-supported streaming services, where I work on video playback infrastructure with The Composable Architecture and on the ad integration around it.
           </p>
           <p>
-            直近では株式会社VoicyでiOSエンジニア兼チームリーダーとして、外注主体だったアプリ開発を内製化。マルチモジュール化を進め、新規モジュールではテストカバレッジ80%以上を達成。また、アジャイル開発を導入してパーソナリティ向け施策の開発を主導し、コラボ収録機能などの新機能開発からアーキテクチャ刷新まで行い、新たに100名のパーソナリティへコラボ収録をしていただくことができました。
+            Before TVer, I led the in-housing of Voicy's iOS app — an audio streaming platform — introducing a multi-module architecture with 80%+ test coverage on new modules and reducing post-release bug reports by roughly 40%.
           </p>
           <p>
-            2025年1月より株式会社TVerでiOSのリードエンジニアとして働いています。
+            I also build for Android and Go on the backend, which lets me design features end to end rather than stopping at the app boundary.
           </p>
           <p>
-            iOSDC JAPAN 2024での登壇やSwift愛好会の運営など、技術コミュニティへの貢献にも力を入れています。
+            Outside of work I speak at iOSDC Japan and help organize Swift愛好会 (Swift Lovers), a Japanese Swift community of 2,200+ engineers.
           </p>
         </div>
       </section>
@@ -143,7 +143,7 @@ exports[`Home page matches snapshot 1`] = `
         <h2
           class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
         >
-          技術略歴
+          Background
         </h2>
         <ul
           class="space-y-3 max-w-3xl"
@@ -157,7 +157,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              SIer時代に培ったインフラ、バックエンド、フロントエンドの幅広い開発経験
+              Full-stack background from my SIer years — infrastructure, backend and frontend
             </span>
           </li>
           <li
@@ -169,7 +169,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              iOS/Androidのモバイルアプリ開発に精通し、両プラットフォームに対応可能
+              Ships production apps on both iOS and Android, not just one platform
             </span>
           </li>
           <li
@@ -181,7 +181,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              アジャイル開発の導入と運用により、開発プロジェクトの推進とチームの成長に貢献
+              Introduces and runs agile practices to move teams and projects forward
             </span>
           </li>
           <li
@@ -193,7 +193,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              プロジェクトマネジメントの経験を活かし、ステークホルダーとの調整や優先順位付けを円滑に行う能力
+              Comfortable with stakeholder alignment and prioritization as a team lead
             </span>
           </li>
         </ul>
@@ -204,7 +204,7 @@ exports[`Home page matches snapshot 1`] = `
         <h2
           class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
         >
-          得意なこと
+          What I do best
         </h2>
         <ul
           class="space-y-3 max-w-3xl"
@@ -218,7 +218,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              モバイルアプリの開発、アーキテクチャ設計
+              Video playback and ad monetization on mobile — player architecture, live and VOD
             </span>
           </li>
           <li
@@ -230,7 +230,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              音声配信 / ライブ配信の仕組み作り
+              Audio and live streaming infrastructure
             </span>
           </li>
           <li
@@ -242,7 +242,7 @@ exports[`Home page matches snapshot 1`] = `
             <span
               class="text-gray-600 text-sm"
             >
-              事業マインドを持ったプロダクト開発 — 技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している
+              Product-minded engineering — deciding what to build from a business perspective, not only a technical one
             </span>
           </li>
         </ul>
@@ -253,7 +253,7 @@ exports[`Home page matches snapshot 1`] = `
         <h2
           class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
         >
-          登壇歴
+          Talks
         </h2>
         <div
           class="grid grid-cols-1 md:grid-cols-2 gap-6"
@@ -264,12 +264,12 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
             >
-              iOSDC JAPAN 2024
+              iOSDC Japan 2024
             </p>
             <p
               class="text-gray-700 mb-4"
             >
-              「Core Audio」
+              “Core Audio”
             </p>
             <div
               class="flex gap-4"
@@ -280,7 +280,7 @@ exports[`Home page matches snapshot 1`] = `
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                詳細 →
+                Details →
               </a>
             </div>
           </div>
@@ -290,12 +290,12 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
             >
-              iOSDC JAPAN 2022
+              iOSDC Japan 2022
             </p>
             <p
               class="text-gray-700 mb-4"
             >
-              「音声配信アプリにおけるiOSを使った音声配信の全てと裏側」
+              “Everything behind audio broadcasting on iOS”
             </p>
             <div
               class="flex gap-4"
@@ -306,7 +306,7 @@ exports[`Home page matches snapshot 1`] = `
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                詳細 →
+                Details →
               </a>
             </div>
           </div>
@@ -316,12 +316,12 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
             >
-              iOSDC JAPAN 2021
+              iOSDC Japan 2021
             </p>
             <p
               class="text-gray-700 mb-4"
             >
-              「既存のネイティブアプリをFlutterへリプレイスする方法」
+              “How to replace an existing native app with Flutter”
             </p>
             <div
               class="flex gap-4"
@@ -332,7 +332,7 @@ exports[`Home page matches snapshot 1`] = `
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                詳細 →
+                Details →
               </a>
               <a
                 class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
@@ -350,12 +350,12 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
             >
-              iOSDC JAPAN 2020
+              iOSDC Japan 2020
             </p>
             <p
               class="text-gray-700 mb-4"
             >
-              「DroidKaigiの公式アプリで始めるiOSアプリのOSSコミッターへの道」
+              “Becoming an iOS OSS contributor through the DroidKaigi official app”
             </p>
             <div
               class="flex gap-4"
@@ -366,7 +366,7 @@ exports[`Home page matches snapshot 1`] = `
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                詳細 →
+                Details →
               </a>
               <a
                 class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
@@ -384,12 +384,12 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
             >
-              Vue.js アーキテクチャリング勉強会
+              Vue.js Architecting Meetup
             </p>
             <p
               class="text-gray-700 mb-4"
             >
-              「Vue / Vuex のアーキテクチャを完全に理解した」
+              “Understanding Vue / Vuex architecture, completely”
             </p>
             <div
               class="flex gap-4"
@@ -400,7 +400,7 @@ exports[`Home page matches snapshot 1`] = `
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                詳細 →
+                Details →
               </a>
               <a
                 class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
@@ -420,7 +420,7 @@ exports[`Home page matches snapshot 1`] = `
         <h2
           class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
         >
-          コミュニティ活動
+          Community
         </h2>
         <div
           class="space-y-6 max-w-2xl"
@@ -434,7 +434,7 @@ exports[`Home page matches snapshot 1`] = `
               <h3
                 class="text-lg font-bold text-gray-900"
               >
-                Swift愛好会
+                Swift愛好会 (Swift Lovers)
               </h3>
               <a
                 class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
@@ -448,7 +448,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 mt-3 text-sm"
             >
-              Swiftエンジニア2,200名以上が参加するコミュニティの運営に携わり、月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）。
+              Organizer of a Japanese Swift community with 2,200+ engineers, running meetups once or twice a month (98 editions and counting).
             </p>
           </div>
           <div
@@ -474,7 +474,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 mt-3 text-sm"
             >
-              Android開発者向けカンファレンス「DroidKaigi」のスタッフとして運営に参加。
+              Staff member of DroidKaigi, the largest Android developer conference in Japan.
             </p>
           </div>
         </div>
@@ -485,7 +485,7 @@ exports[`Home page matches snapshot 1`] = `
         <h2
           class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
         >
-          職歴
+          Experience
         </h2>
         <div
           class="space-y-6"
@@ -505,7 +505,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2025/01 - 現在
+                  Jan 2025 - Present
                 </p>
               </div>
               <a
@@ -524,19 +524,19 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  プロジェクト概要
+                  Project overview
                 </h4>
                 <p
                   class="text-gray-600 text-sm"
                 >
-                  日本最大級の民放公式テレビポータル「TVer」にて、iOSリードエンジニアとして参画。動画配信プラットフォームの開発・改善を担当。
+                  iOS lead engineer at TVer, one of Japan's largest free ad-supported streaming services, working on the video playback experience and the ad integration around it.
                 </p>
               </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <div
                   class="space-y-4"
@@ -545,7 +545,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Xcode Cloudによる CI環境の構築
+                      Video playback and ad monetization
                     </p>
                     <ul
                       class="space-y-2"
@@ -559,7 +559,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          テストは存在していたがCI環境が未整備だった状況を改善
+                          Work on player features for both live and on-demand streaming, including the ad integration layer around playback
                         </span>
                       </li>
                       <li
@@ -571,7 +571,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          Xcode Cloudを導入し、PR単位での自動テスト実行とビルド検証を実現。開発サイクルの安定性を向上
+                          Replaced playback-related code with The Composable Architecture, improving maintainability and testability
                         </span>
                       </li>
                     </ul>
@@ -580,7 +580,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      ウォークスルー画面の刷新
+                      Large-scale live event delivery
                     </p>
                     <ul
                       class="space-y-2"
@@ -594,7 +594,19 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          既存のオンボーディングフローを全面的に見直し、ユーザーが直感的にアプリを理解できるUIに改善
+                          Delivered the streaming experience for the Milano Cortina 2026 Winter Olympics, including a dedicated top screen and event UI
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          Built reusable player modules covering both live and VOD playback under a hard, externally fixed deadline
                         </span>
                       </li>
                     </ul>
@@ -603,7 +615,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      ミラノ冬季五輪対応
+                      CI with Xcode Cloud
                     </p>
                     <ul
                       class="space-y-2"
@@ -617,7 +629,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          2026年ミラノ冬季オリンピックに向け、既存アプリの五輪コンテンツ対応を担当
+                          Tests existed but there was no CI. Introduced Xcode Cloud so every pull request runs automated tests and build verification
                         </span>
                       </li>
                       <li
@@ -629,9 +641,20 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          五輪特集トップ画面・特集UIを新規実装し、大会期間中のユーザー体験を向上
+                          Stabilized the development cycle for the whole iOS team
                         </span>
                       </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      Onboarding redesign
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
                       <li
                         class="flex gap-3 items-start"
                       >
@@ -641,7 +664,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          動画再生関連のコードをTCA（The Composable Architecture）でリプレイスし、保守性・テスタビリティを改善
+                          Rebuilt the walkthrough flow so new users understand the app immediately
                         </span>
                       </li>
                     </ul>
@@ -652,7 +675,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -716,7 +739,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2021/12 - 2024/12
+                  Dec 2021 - Dec 2024
                 </p>
               </div>
               <a
@@ -735,19 +758,19 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  プロジェクト概要
+                  Project overview
                 </h4>
                 <p
                   class="text-gray-600 text-sm"
                 >
-                  音声配信プラットフォーム「Voicy」にて、iOSエンジニア兼チームリーダーとして3年間従事。パーソナリティ向け収録アプリの開発責任者として、外注主体だった開発体制の内製化からアーキテクチャ刷新、新機能開発までをリードした。
+                  iOS engineer and team lead at Voicy, an audio streaming platform. As the owner of the recording app for creators, I led the move from outsourced development to an in-house team, the architecture overhaul, and new feature development.
                 </p>
               </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <div
                   class="space-y-4"
@@ -756,7 +779,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      アプリ開発の内製化とコード品質の抜本的改善
+                      In-housing development and rebuilding code quality
                     </p>
                     <ul
                       class="space-y-2"
@@ -770,7 +793,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          創業当初から外注で開発されていたアプリはUnitTestがなく、バグ検知が手動テストに依存していた
+                          The app had been outsourced since the company's founding, had no unit tests, and relied on manual QA to catch bugs
                         </span>
                       </li>
                       <li
@@ -782,7 +805,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          マルチモジュールアーキテクチャを導入し、新規モジュールでテストカバレッジ80%以上を達成
+                          Introduced a multi-module architecture and reached 80%+ test coverage on new modules
                         </span>
                       </li>
                       <li
@@ -794,7 +817,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          iOS/Androidエンジニア4名と連携し、機能開発を止めずに段階的なリファクタリングを推進。結果としてリリース後の不具合報告が約40%減少
+                          Drove incremental refactoring with four iOS/Android engineers without pausing feature work, cutting post-release bug reports by about 40%
                         </span>
                       </li>
                     </ul>
@@ -803,7 +826,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      コラボ収録機能の新規開発
+                      Collaborative recording
                     </p>
                     <ul
                       class="space-y-2"
@@ -817,7 +840,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          パーソナリティ同士がリモートで収録できる「コラボ収録」機能を設計・開発
+                          Designed and built a feature that lets creators record together remotely
                         </span>
                       </li>
                       <li
@@ -829,7 +852,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          アジャイル開発を導入し、PdMと週次で成果物をレビュー。開発途中段階でパーソナリティ5名に検証協力を依頼し、フィードバックを元にUIを改善
+                          Introduced agile practices, reviewing increments weekly with the PdM and running mid-development validation with five creators
                         </span>
                       </li>
                       <li
@@ -841,7 +864,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          リリース後、新たに100名以上のパーソナリティがコラボ収録を利用。パーソナリティ間の交流促進とコンテンツの多様化に貢献
+                          100+ creators adopted collaborative recording after launch
                         </span>
                       </li>
                     </ul>
@@ -850,7 +873,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      生放送機能の開発
+                      Live broadcasting
                     </p>
                     <ul
                       class="space-y-2"
@@ -864,7 +887,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          Agoraを活用したリアルタイム音声配信機能をiOS/Android両プラットフォームで実装
+                          Implemented real-time audio broadcasting on both iOS and Android using Agora
                         </span>
                       </li>
                       <li
@@ -876,7 +899,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          生放送の作成・開始・予約画面をフルスクラッチで開発し、配信前チェック機能（ネットワーク状態・権限確認）も実装
+                          Built the creation, start and scheduling screens from scratch, including pre-broadcast checks for network state and permissions
                         </span>
                       </li>
                       <li
@@ -888,7 +911,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          低遅延配信とリスナー参加機能を実現し、パーソナリティとリスナーの双方向コミュニケーションを可能に
+                          Enabled low-latency delivery and listener participation for two-way communication
                         </span>
                       </li>
                     </ul>
@@ -897,7 +920,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      PL限定コメント機能（Android）
+                      Backend (Go) API development
                     </p>
                     <ul
                       class="space-y-2"
@@ -911,7 +934,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          パーソナリティ限定コメントの表示・制御機能を設計・実装
+                          Designed and implemented the session API for collaborative recording with OpenAPI
                         </span>
                       </li>
                       <li
@@ -923,7 +946,19 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          放送種別の取得・判定ロジックを追加し、限定機能の出し分けを実現
+                          Built the live broadcasting database and its APIs around Agora
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          Developed the APIs for room admission, rejection and exit flows
                         </span>
                       </li>
                     </ul>
@@ -932,7 +967,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Material3移行（Android収録アプリ）
+                      Android work
                     </p>
                     <ul
                       class="space-y-2"
@@ -946,7 +981,19 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          UIコンポーネントをMaterial3に統一し、デザインシステムの一貫性を確保
+                          Designed and implemented creator-only comment display and control, including broadcast-type detection
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          Migrated the Android recording app's UI components to Material 3
                         </span>
                       </li>
                     </ul>
@@ -955,7 +1002,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      バックエンド（Go）API開発
+                      Hiring
                     </p>
                     <ul
                       class="space-y-2"
@@ -969,7 +1016,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          コラボ収録機能向けにOpenAPIでセッションAPIを設計・実装
+                          Ran first-round engineering interviews, assessing both technical skill and culture fit
                         </span>
                       </li>
                       <li
@@ -981,54 +1028,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          Agoraを活用した生放送用DBの構築とAPI整備
-                        </span>
-                      </li>
-                      <li
-                        class="flex gap-3 items-start"
-                      >
-                        <span
-                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                        />
-                        <span
-                          class="text-gray-600 text-sm"
-                        >
-                          エッセンシャルルーム機能（参加承認・拒否・退出）のAPI開発
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p
-                      class="text-sm font-semibold text-gray-700 mb-2"
-                    >
-                      採用活動
-                    </p>
-                    <ul
-                      class="space-y-2"
-                    >
-                      <li
-                        class="flex gap-3 items-start"
-                      >
-                        <span
-                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                        />
-                        <span
-                          class="text-gray-600 text-sm"
-                        >
-                          エンジニア採用の1次面談を担当し、技術力とカルチャーフィットの両面から候補者を評価
-                        </span>
-                      </li>
-                      <li
-                        class="flex gap-3 items-start"
-                      >
-                        <span
-                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                        />
-                        <span
-                          class="text-gray-600 text-sm"
-                        >
-                          3名の採用に貢献し、チームの開発体制強化に寄与
+                          Contributed to three hires that strengthened the team
                         </span>
                       </li>
                     </ul>
@@ -1039,7 +1039,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -1097,7 +1097,7 @@ exports[`Home page matches snapshot 1`] = `
                   <span
                     class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
                   >
-                    マルチモジュール
+                    Multi-module
                   </span>
                   <span
                     class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
@@ -1133,7 +1133,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2019/04 - 2021/11
+                  Apr 2019 - Nov 2021
                 </p>
               </div>
               <a
@@ -1152,19 +1152,19 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  プロジェクト概要
+                  Project overview
                 </h4>
                 <p
                   class="text-gray-600 text-sm"
                 >
-                  配送マッチングプラットフォーム「PickGo」および一般貨物運送事業者向けSaaS「SmaRyuTruck」の開発に従事。モバイルエンジニアからチームリーダーへとステップアップし、開発と顧客折衝の両面で貢献。
+                  Worked on PickGo, a delivery matching platform, and SmaRyuTruck, a SaaS for freight carriers. Moved from mobile engineer to team lead, contributing on both development and customer-facing work.
                 </p>
               </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <div
                   class="space-y-4"
@@ -1173,7 +1173,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      SmaRyuTruck新規開発でのチームリーダー就任
+                      Team lead on the SmaRyuTruck launch
                     </p>
                     <ul
                       class="space-y-2"
@@ -1187,7 +1187,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          エンジニア中心のチームで途中からチームリーダーに志願
+                          Volunteered to take over as team lead partway through the project
                         </span>
                       </li>
                       <li
@@ -1199,7 +1199,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          社長がプロダクトオーナーを務める中、開発優先順位の調整とステークホルダー間の橋渡しを担当
+                          Coordinated development priorities and bridged stakeholders while the CEO acted as product owner
                         </span>
                       </li>
                       <li
@@ -1211,7 +1211,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          顧客先へ直接出向き、運送業務の現場課題をヒアリング。その知見をプロダクト要件に反映させ、サービス導入を推進
+                          Visited customers directly to understand real logistics operations and fed those findings into product requirements
                         </span>
                       </li>
                       <li
@@ -1223,15 +1223,15 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
+                          Built the 
                           <a
                             class="text-indigo-600 hover:text-indigo-800"
                             href="https://pickgo.town/"
                             rel="noopener noreferrer"
                             target="_blank"
                           >
-                            一般貨物向け配送依頼ページ
+                            freight delivery request page
                           </a>
-                          の新規作成を担当
                         </span>
                       </li>
                     </ul>
@@ -1240,7 +1240,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      PickGoチーム再建と機能開発
+                      Rebuilding the PickGo team
                     </p>
                     <ul
                       class="space-y-2"
@@ -1254,7 +1254,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          チームメンバーの退職が相次ぎ、開発者が自分一人となる状況を経験
+                          After a wave of departures I was the only remaining developer on the product
                         </span>
                       </li>
                       <li
@@ -1266,7 +1266,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          短期間で既存コードベースと業務フローを把握し、開発を継続
+                          Got up to speed on the existing codebase and business flows quickly enough to keep shipping
                         </span>
                       </li>
                       <li
@@ -1278,15 +1278,16 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
+                          Delivered the 
                           <a
                             class="text-indigo-600 hover:text-indigo-800"
                             href="https://press.jal.co.jp/ja/release/202103/005969.html"
                             rel="noopener noreferrer"
                             target="_blank"
                           >
-                            JAL航空便連携
+                            JAL air freight integration
                           </a>
-                          を要件定義からリリースまで一人で完遂
+                           alone, from requirements to release
                         </span>
                       </li>
                       <li
@@ -1298,7 +1299,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          季節変動に対応した配送料金の動的変更機能を実装
+                          Implemented dynamic delivery pricing that responds to seasonal demand
                         </span>
                       </li>
                     </ul>
@@ -1307,7 +1308,7 @@ exports[`Home page matches snapshot 1`] = `
                     <p
                       class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      採用活動
+                      Hiring
                     </p>
                     <ul
                       class="space-y-2"
@@ -1321,7 +1322,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          エンジニア採用の1次面談を担当
+                          Ran first-round engineering interviews
                         </span>
                       </li>
                     </ul>
@@ -1332,7 +1333,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  主な成果物
+                  Deliverables
                 </h4>
                 <ul
                   class="space-y-2"
@@ -1355,7 +1356,7 @@ exports[`Home page matches snapshot 1`] = `
                         >
                           SmaRyuTruck
                         </a>
-                         - 一般貨物運送事業者向けSaaS
+                         - SaaS for freight carriers
                       </span>
                     </span>
                   </li>
@@ -1377,7 +1378,7 @@ exports[`Home page matches snapshot 1`] = `
                         >
                           PickGo
                         </a>
-                         - 配送マッチングプラットフォーム
+                         - Delivery matching platform
                       </span>
                     </span>
                   </li>
@@ -1397,7 +1398,7 @@ exports[`Home page matches snapshot 1`] = `
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          買い物代行サービス
+                          Shopping proxy service
                         </a>
                       </span>
                     </span>
@@ -1408,7 +1409,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -1452,7 +1453,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2018/02 - 2019/03
+                  Feb 2018 - Mar 2019
                 </p>
               </div>
               <a
@@ -1471,19 +1472,19 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  プロジェクト概要
+                  Project overview
                 </h4>
                 <p
                   class="text-gray-600 text-sm"
                 >
-                  スポーツマッチングサービスのモバイルアプリ開発に従事。ユーザー獲得に向けた機能改善とコミュニティ機能の新規開発を担当。
+                  Mobile app development for a sports matching service, focused on feature improvements for user growth and a new community feature.
                 </p>
               </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <div
                   class="space-y-4"
@@ -1501,7 +1502,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          ユーザー数増加を目的とした既存機能の改善とUI/UX向上
+                          Improved existing features and UI/UX to grow the user base
                         </span>
                       </li>
                       <li
@@ -1513,7 +1514,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          スポーツ愛好者同士をつなぐコミュニティ機能を設計・実装
+                          Designed and implemented a community feature connecting sports enthusiasts
                         </span>
                       </li>
                     </ul>
@@ -1524,7 +1525,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -1558,12 +1559,12 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-xl font-bold text-gray-900"
                 >
-                  株式会社エーピーコミュニケーションズ
+                  AP Communications
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2013/09 - 2018/02
+                  Sep 2013 - Feb 2018
                 </p>
               </div>
               <a
@@ -1582,19 +1583,19 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  プロジェクト概要
+                  Project overview
                 </h4>
                 <p
                   class="text-gray-600 text-sm"
                 >
-                  ネットワーク系SIerにて、インフラから開発まで幅広い領域を経験。ネットワークエンジニアとしてキャリアをスタートし、開発部門への異動を経てフルスタックなスキルを習得。
+                  Started my career at a network-focused SIer, covering everything from infrastructure to application development after moving to the development division.
                 </p>
               </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <div
                   class="space-y-4"
@@ -1612,7 +1613,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          国内大手企業向けネットワーク認証システムの運用・保守を担当
+                          Operated and maintained a network authentication system for a major Japanese enterprise
                         </span>
                       </li>
                       <li
@@ -1624,7 +1625,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          大規模システムリプレイスプロジェクトに参画し、インフラ構築から移行作業までを遂行
+                          Joined a large-scale system replacement project, handling infrastructure setup through migration
                         </span>
                       </li>
                       <li
@@ -1636,7 +1637,7 @@ exports[`Home page matches snapshot 1`] = `
                         <span
                           class="text-gray-600 text-sm"
                         >
-                          開発部門異動後、教育事業会社・娯楽事業のシステム保守・リプレイスを担当
+                          After moving to the development division, maintained and replaced systems for education and entertainment businesses
                         </span>
                       </li>
                     </ul>
@@ -1647,7 +1648,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -1670,7 +1671,7 @@ exports[`Home page matches snapshot 1`] = `
                   <span
                     class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
                   >
-                    ネットワーク構築・運用
+                    Network design & operations
                   </span>
                 </div>
               </div>
@@ -1699,19 +1700,19 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-lg font-bold text-gray-900"
                 >
-                  ishin モバイルエンジニア
+                  ishin — Mobile Engineer
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2025/07 - 2026/03
+                  Jul 2025 - Mar 2026
                 </p>
               </div>
             </div>
             <p
               class="text-gray-600 text-sm mb-4"
             >
-              AIアバターが参加できる音声トークルームサービス「ishin」の開発に参加。モバイルアプリ・バックエンドAPI・Web の3領域にまたがって機能開発を担当した。
+              Contributed to ishin, a voice talk room service where AI avatars can join conversations. Worked across three areas: the mobile app, the backend API and the web front end.
             </p>
             <div
               class="space-y-4"
@@ -1720,7 +1721,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <ul
                   class="space-y-2"
@@ -1734,7 +1735,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      React Native（Expo SDK 52）でトークルーム参加UI・波紋アニメーション・AIアバター選択機能などを実装
+                      Built talk room join UI, ripple animations and AI avatar selection in React Native (Expo SDK 52)
                     </span>
                   </li>
                   <li
@@ -1746,7 +1747,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      AIアバターのバッジ表示・自動応答トリガー・メッセージ表示キューシステムを設計・開発
+                      Designed AI avatar badges, auto-response triggers and a message display queue system
                     </span>
                   </li>
                   <li
@@ -1758,7 +1759,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      キニナル（フォロー）機能・ブロック機能をモバイルとAPIの両側で実装
+                      Implemented follow and block features on both the mobile app and the API
                     </span>
                   </li>
                   <li
@@ -1770,7 +1771,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      Firebase Analytics / BigQuery連携によるトークルーム参加・作成イベントのトラッキング基盤を構築
+                      Built event tracking for room joins and creations via Firebase Analytics and BigQuery
                     </span>
                   </li>
                   <li
@@ -1782,7 +1783,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      App Tracking Transparency（ATT）対応・GIF圧縮・EASビルドサイズ最適化などApp Store申請対応を担当
+                      Handled App Store submission work: App Tracking Transparency, GIF compression and EAS build size optimization
                     </span>
                   </li>
                   <li
@@ -1794,7 +1795,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      ishin-web（Next.js）でOGP画像生成を最適化。フォントキャッシュとメモリキャッシュの導入により初回11秒から1.75秒へ6.6倍高速化を達成
+                      Optimized OGP image generation in ishin-web (Next.js): 6.6x faster (11s → 1.75s) via font and memory caching
                     </span>
                   </li>
                   <li
@@ -1806,7 +1807,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      GoバックエンドAPIでハートビートAPI・BigQuery同期・AIアバター管理などのエンドポイントを開発
+                      Developed heartbeat, BigQuery sync and AI avatar management endpoints in the Go backend
                     </span>
                   </li>
                 </ul>
@@ -1815,7 +1816,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -1879,12 +1880,12 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-lg font-bold text-gray-900"
                 >
-                  linq社 iOSエンジニア
+                  linq — iOS Engineer
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2023/04 - 2024/04
+                  Apr 2023 - Apr 2024
                 </p>
               </div>
               <a
@@ -1899,7 +1900,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 text-sm mb-4"
             >
-              位置情報共有アプリ「whoo」のiOS開発に参画。
+              Joined iOS development for whoo, a location sharing app.
             </p>
             <div
               class="space-y-4"
@@ -1908,7 +1909,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <ul
                   class="space-y-2"
@@ -1922,7 +1923,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      UIKitからSwiftUIへの段階的移行を推進
+                      Drove the incremental migration from UIKit to SwiftUI
                     </span>
                   </li>
                   <li
@@ -1934,7 +1935,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      Map上で友人にスタンプを送る機能、メッセージ機能を新規開発
+                      Built new features for sending stamps to friends on the map, and messaging
                     </span>
                   </li>
                   <li
@@ -1946,7 +1947,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      ユーザー同士の交流を促進するインタラクティブなアニメーションを実装
+                      Implemented interactive animations that encourage user-to-user interaction
                     </span>
                   </li>
                 </ul>
@@ -1955,7 +1956,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -1999,12 +2000,12 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-lg font-bold text-gray-900"
                 >
-                  SOXAI ヘルスケアアプリ
+                  SOXAI Healthcare App
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2022/11 - 2023/03
+                  Nov 2022 - Mar 2023
                 </p>
               </div>
               <a
@@ -2019,7 +2020,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 text-sm mb-4"
             >
-              ヘルスケアアプリのモバイル開発に参画。
+              Joined mobile development for a healthcare app.
             </p>
             <div
               class="space-y-4"
@@ -2028,7 +2029,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <ul
                   class="space-y-2"
@@ -2042,7 +2043,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      マルチプラットフォームフレームワーク
+                      Developed with 
                       <a
                         class="text-indigo-600 hover:text-indigo-800"
                         href="https://quasar.dev/"
@@ -2051,7 +2052,7 @@ exports[`Home page matches snapshot 1`] = `
                       >
                         Quasar
                       </a>
-                      を用いた開発
+                      , a cross-platform framework
                     </span>
                   </li>
                   <li
@@ -2063,7 +2064,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      ヘルスデータを可視化するグラフ画面の設計・実装
+                      Designed and implemented the graph screens visualizing health data
                     </span>
                   </li>
                 </ul>
@@ -2080,12 +2081,12 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-lg font-bold text-gray-900"
                 >
-                  nossa360 Androidエンジニア
+                  nossa360 — Android Engineer
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
                 >
-                  2020/04 - 2021/03
+                  Apr 2020 - Mar 2021
                 </p>
               </div>
               <a
@@ -2100,7 +2101,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 text-sm mb-4"
             >
-              建築・不動産業界向け360度撮影アプリ「nossa360」のAndroid版開発を担当。
+              Android development for nossa360, a 360-degree camera app for the construction and real estate industries.
             </p>
             <div
               class="space-y-4"
@@ -2109,7 +2110,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  実績・取り組み
+                  Highlights
                 </h4>
                 <ul
                   class="space-y-2"
@@ -2123,7 +2124,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      Camera2 APIを活用した360度撮影機能を実装
+                      Implemented 360-degree capture using the Camera2 API
                     </span>
                   </li>
                   <li
@@ -2135,7 +2136,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      画像処理の最適化によりアプリのパフォーマンスを向上
+                      Improved app performance through image processing optimization
                     </span>
                   </li>
                   <li
@@ -2147,7 +2148,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      建築現場での利用に特化したUI/UX改善を実施
+                      Refined the UI/UX for use on construction sites
                     </span>
                   </li>
                 </ul>
@@ -2156,7 +2157,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  利用技術
+                  Tech stack
                 </h4>
                 <div
                   class="flex flex-wrap mt-2"
@@ -2174,7 +2175,7 @@ exports[`Home page matches snapshot 1`] = `
                   <span
                     class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
                   >
-                    画像処理
+                    Image processing
                   </span>
                 </div>
               </div>
@@ -2197,7 +2198,7 @@ exports[`Home page matches snapshot 1`] = `
         <p
           class="text-gray-400 text-sm"
         >
-          Mobile App Developer
+          Senior iOS Engineer — Video Streaming & Ad Tech
         </p>
       </div>
     </footer>
