@@ -118,7 +118,7 @@ exports[`Home page matches snapshot 1`] = `
           class="text-gray-600 leading-relaxed space-y-4"
         >
           <p>
-            IT専門学校を卒業後、10年以上にわたりソフトウェア開発の幅広い経験を積んできました。SIerではインフラからフロントエンドまでのシステム開発に携わり、その後モバイルアプリ開発に特化。iOS/Android両プラットフォームで複数のアプリをリリースし、特に音声配信やリアルタイム通信を活用したアプリ開発で実績を重ねてきました。
+            IT専門学校を卒業後、10年以上にわたりソフトウェア開発の幅広い経験を積んできました。SIerではインフラからフロントエンドまでのシステム開発に携わりました。その後モバイルアプリ開発に特化し、iOS/Android両プラットフォームで複数のアプリをリリースし、特に音声配信やリアルタイム通信を活用したアプリ開発で実績を重ねてきました。
           </p>
           <p>
             直近では株式会社VoicyでiOSエンジニア兼チームリーダーとして、外注主体だったアプリ開発を内製化。マルチモジュール化を進め、新規モジュールではテストカバレッジ80%以上を達成。また、アジャイル開発を導入してパーソナリティ向け施策の開発を主導し、コラボ収録機能などの新機能開発からアーキテクチャ刷新まで行い、新たに100名のパーソナリティへコラボ収録をしていただくことができました。
@@ -258,6 +258,92 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
             >
+              iOSDC JAPAN 2024
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「Core Audio」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
+              iOSDC JAPAN 2022
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「音声配信アプリにおけるiOSを使った音声配信の全てと裏側」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
+              iOSDC JAPAN 2021
+            </p>
+            <p
+              class="text-gray-700 mb-4"
+            >
+              「既存のネイティブアプリをFlutterへリプレイスする方法」
+            </p>
+            <div
+              class="flex gap-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://iosdc.jp/2021/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                詳細 →
+              </a>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Speaker Deck →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <p
+              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
+            >
               iOSDC JAPAN 2020
             </p>
             <p
@@ -277,7 +363,7 @@ exports[`Home page matches snapshot 1`] = `
                 詳細 →
               </a>
               <a
-                class="text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
                 href="https://speakerdeck.com/entaku/droidkaigifalsegong-shi-ahuriteshi-meru-iosahuriosskomitutahefalsedao"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -311,72 +397,12 @@ exports[`Home page matches snapshot 1`] = `
                 詳細 →
               </a>
               <a
-                class="text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
                 href="https://speakerdeck.com/entaku/vue-vuex-falseakitekutiyawan-quan-nili-jie-sita"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Speaker Deck →
-              </a>
-            </div>
-          </div>
-          <div
-            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
-          >
-            <p
-              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
-            >
-              iOSDC JAPAN 2021
-            </p>
-            <p
-              class="text-gray-700 mb-4"
-            >
-              「既存のネイティブアプリをFlutterへリプレイスする方法」
-            </p>
-            <div
-              class="flex gap-4"
-            >
-              <a
-                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
-                href="https://iosdc.jp/2021/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                詳細 →
-              </a>
-              <a
-                class="text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
-                href="https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Speaker Deck →
-              </a>
-            </div>
-          </div>
-          <div
-            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
-          >
-            <p
-              class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2"
-            >
-              iOSDC JAPAN 2022
-            </p>
-            <p
-              class="text-gray-700 mb-4"
-            >
-              「音声配信アプリにおけるiOSを使った音声配信の全てと裏側」
-            </p>
-            <div
-              class="flex gap-4"
-            >
-              <a
-                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
-                href="https://fortee.jp/iosdc-japan-2022/proposal/ee2ab807-9053-4779-84f9-ec9951f7cfc0"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                詳細 →
               </a>
             </div>
           </div>
@@ -416,7 +442,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 mt-3 text-sm"
             >
-              Swiftエンジニア2,200名以上が参加するコミュニティの運営メンバー。月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）。
+              Swiftエンジニア2,200名以上が参加するコミュニティの運営に携わり、月1〜2回のペースで勉強会を企画・開催（vol.98まで継続中）。
             </p>
           </div>
           <div
@@ -506,58 +532,115 @@ exports[`Home page matches snapshot 1`] = `
                 >
                   実績・取り組み
                 </h4>
-                <ul
-                  class="space-y-2"
+                <div
+                  class="space-y-4"
                 >
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Xcode Cloudを導入し、PR単位での自動テスト実行とビルド検証を実現
-                    </span>
-                  </li>
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                      Xcode Cloudによる CI環境の構築
+                    </p>
+                    <ul
+                      class="space-y-2"
                     >
-                      ウォークスルー画面を全面刷新し、直感的なオンボーディングUIに改善
-                    </span>
-                  </li>
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          テストは存在していたがCI環境が未整備だった状況を改善
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          Xcode Cloudを導入し、PR単位での自動テスト実行とビルド検証を実現。開発サイクルの安定性を向上
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      2026年ミラノ冬季オリンピック向けの特集トップ画面・特集UIを新規実装
-                    </span>
-                  </li>
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                      ウォークスルー画面の刷新
+                    </p>
+                    <ul
+                      class="space-y-2"
                     >
-                      動画再生関連コードをTCA（The Composable Architecture）でリプレイスし保守性向上
-                    </span>
-                  </li>
-                </ul>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          既存のオンボーディングフローを全面的に見直し、ユーザーが直感的にアプリを理解できるUIに改善
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      ミラノ冬季五輪対応
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          2026年ミラノ冬季オリンピックに向け、既存アプリの五輪コンテンツ対応を担当
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          五輪特集トップ画面・特集UIを新規実装し、大会期間中のユーザー体験を向上
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          動画再生関連のコードをTCA（The Composable Architecture）でリプレイスし、保守性・テスタビリティを改善
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
               <div>
                 <h4
@@ -660,46 +743,291 @@ exports[`Home page matches snapshot 1`] = `
                 >
                   実績・取り組み
                 </h4>
-                <ul
-                  class="space-y-2"
+                <div
+                  class="space-y-4"
                 >
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      マルチモジュールアーキテクチャを導入し、新規モジュールでテストカバレッジ80%以上を達成。リリース後の不具合報告が約40%減少
-                    </span>
-                  </li>
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                      アプリ開発の内製化とコード品質の抜本的改善
+                    </p>
+                    <ul
+                      class="space-y-2"
                     >
-                      コラボ収録機能を設計・開発。リリース後100名以上のパーソナリティが利用
-                    </span>
-                  </li>
-                  <li
-                    class="flex gap-3 items-start"
-                  >
-                    <span
-                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
-                    />
-                    <span
-                      class="text-gray-600 text-sm"
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          創業当初から外注で開発されていたアプリはUnitTestがなく、バグ検知が手動テストに依存していた
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          マルチモジュールアーキテクチャを導入し、新規モジュールでテストカバレッジ80%以上を達成
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          iOS/Androidエンジニア4名と連携し、機能開発を止めずに段階的なリファクタリングを推進。結果としてリリース後の不具合報告が約40%減少
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Agoraを活用したリアルタイム音声配信（生放送）機能をiOS/Android両プラットフォームで実装
-                    </span>
-                  </li>
-                </ul>
+                      コラボ収録機能の新規開発
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          パーソナリティ同士がリモートで収録できる「コラボ収録」機能を設計・開発
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          アジャイル開発を導入し、PdMと週次で成果物をレビュー。開発途中段階でパーソナリティ5名に検証協力を依頼し、フィードバックを元にUIを改善
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          リリース後、新たに100名以上のパーソナリティがコラボ収録を利用。パーソナリティ間の交流促進とコンテンツの多様化に貢献
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      生放送機能の開発
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          Agoraを活用したリアルタイム音声配信機能をiOS/Android両プラットフォームで実装
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          生放送の作成・開始・予約画面をフルスクラッチで開発し、配信前チェック機能（ネットワーク状態・権限確認）も実装
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          低遅延配信とリスナー参加機能を実現し、パーソナリティとリスナーの双方向コミュニケーションを可能に
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      PL限定コメント機能（Android）
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          パーソナリティ限定コメントの表示・制御機能を設計・実装
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          放送種別の取得・判定ロジックを追加し、限定機能の出し分けを実現
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      Material3移行（Android収録アプリ）
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          UIコンポーネントをMaterial3に統一し、デザインシステムの一貫性を確保
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      バックエンド（Go）API開発
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          コラボ収録機能向けにOpenAPIでセッションAPIを設計・実装
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          Agoraを活用した生放送用DBの構築とAPI整備
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          エッセンシャルルーム機能（参加承認・拒否・退出）のAPI開発
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      採用活動
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          エンジニア採用の1次面談を担当し、技術力とカルチャーフィットの両面から候補者を評価
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          3名の採用に貢献し、チームの開発体制強化に寄与
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
               <div>
                 <h4
@@ -763,6 +1091,16 @@ exports[`Home page matches snapshot 1`] = `
                   <span
                     class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
                   >
+                    マルチモジュール
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    MVVM
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
                     XCTest
                   </span>
                   <span
@@ -808,7 +1146,187 @@ exports[`Home page matches snapshot 1`] = `
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  プロジェクト
+                  プロジェクト概要
+                </h4>
+                <p
+                  class="text-gray-600 text-sm"
+                >
+                  配送マッチングプラットフォーム「PickGo」および一般貨物運送事業者向けSaaS「SmaRyuTruck」の開発に従事。モバイルエンジニアからチームリーダーへとステップアップし、開発と顧客折衝の両面で貢献。
+                </p>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <div
+                  class="space-y-4"
+                >
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      SmaRyuTruck新規開発でのチームリーダー就任
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          エンジニア中心のチームで途中からチームリーダーに志願
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          社長がプロダクトオーナーを務める中、開発優先順位の調整とステークホルダー間の橋渡しを担当
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          顧客先へ直接出向き、運送業務の現場課題をヒアリング。その知見をプロダクト要件に反映させ、サービス導入を推進
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          <a
+                            class="text-indigo-600 hover:text-indigo-800"
+                            href="https://pickgo.town/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            一般貨物向け配送依頼ページ
+                          </a>
+                          の新規作成を担当
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      PickGoチーム再建と機能開発
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          チームメンバーの退職が相次ぎ、開発者が自分一人となる状況を経験
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          短期間で既存コードベースと業務フローを把握し、開発を継続
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          <a
+                            class="text-indigo-600 hover:text-indigo-800"
+                            href="https://press.jal.co.jp/ja/release/202103/005969.html"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            JAL航空便連携
+                          </a>
+                          を要件定義からリリースまで一人で完遂
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          季節変動に対応した配送料金の動的変更機能を実装
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p
+                      class="text-sm font-semibold text-gray-700 mb-2"
+                    >
+                      採用活動
+                    </p>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          エンジニア採用の1次面談を担当
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  主な成果物
                 </h4>
                 <ul
                   class="space-y-2"
@@ -831,7 +1349,7 @@ exports[`Home page matches snapshot 1`] = `
                         >
                           SmaRyuTruck
                         </a>
-                         の新規開発
+                         - 一般貨物運送事業者向けSaaS
                       </span>
                     </span>
                   </li>
@@ -853,7 +1371,7 @@ exports[`Home page matches snapshot 1`] = `
                         >
                           PickGo
                         </a>
-                         の開発・運用
+                         - 配送マッチングプラットフォーム
                       </span>
                     </span>
                   </li>
@@ -866,14 +1384,16 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="text-gray-600 text-sm"
                     >
-                      <a
-                        class="text-indigo-600 hover:text-indigo-800"
-                        href="https://press.jal.co.jp/ja/release/202103/005969.html"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        JAL航空便連携
-                      </a>
+                      <span>
+                        <a
+                          class="text-indigo-600 hover:text-indigo-800"
+                          href="https://pickgo.town/consumer/shopping"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          買い物代行サービス
+                        </a>
+                      </span>
                     </span>
                   </li>
                 </ul>
@@ -902,6 +1422,11 @@ exports[`Home page matches snapshot 1`] = `
                   >
                     Nuxt.js
                   </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Rails
+                  </span>
                 </div>
               </div>
             </div>
@@ -926,7 +1451,7 @@ exports[`Home page matches snapshot 1`] = `
               </div>
               <a
                 class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
-                href="https://lifesports.jp"
+                href="https://lifesports.jp/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -934,13 +1459,61 @@ exports[`Home page matches snapshot 1`] = `
               </a>
             </div>
             <div
-              class="space-y-4"
+              class="space-y-5"
             >
-              <p
-                class="text-gray-600 text-sm"
-              >
-                スポーツ事業に関わる企業で、エンジニアとしてユーザー数を増やすための既存機能の修正やコミュニティ機能の設計・実装を行い、ユーザーの利用体験を向上させた。
-              </p>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  プロジェクト概要
+                </h4>
+                <p
+                  class="text-gray-600 text-sm"
+                >
+                  スポーツマッチングサービスのモバイルアプリ開発に従事。ユーザー獲得に向けた機能改善とコミュニティ機能の新規開発を担当。
+                </p>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <div
+                  class="space-y-4"
+                >
+                  <div>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          ユーザー数増加を目的とした既存機能の改善とUI/UX向上
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          スポーツ愛好者同士をつなぐコミュニティ機能を設計・実装
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
@@ -979,7 +1552,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-xl font-bold text-gray-900"
                 >
-                  エーピーコミュニケーションズ
+                  株式会社エーピーコミュニケーションズ
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
@@ -989,7 +1562,7 @@ exports[`Home page matches snapshot 1`] = `
               </div>
               <a
                 class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
-                href="https://www.ap-com.co.jp"
+                href="https://www.ap-com.co.jp/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -997,13 +1570,73 @@ exports[`Home page matches snapshot 1`] = `
               </a>
             </div>
             <div
-              class="space-y-4"
+              class="space-y-5"
             >
-              <p
-                class="text-gray-600 text-sm"
-              >
-                ネットワーク系SIerで、ネットワークエンジニアとして国内大手ネットワーク認証システムの運用やシステムリプレイスを担当。開発部門に異動後は、教育事業会社や娯楽事業のサービス保守システムリプレイスなど、様々なプロジェクトに携わった。
-              </p>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  プロジェクト概要
+                </h4>
+                <p
+                  class="text-gray-600 text-sm"
+                >
+                  ネットワーク系SIerにて、インフラから開発まで幅広い領域を経験。ネットワークエンジニアとしてキャリアをスタートし、開発部門への異動を経てフルスタックなスキルを習得。
+                </p>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <div
+                  class="space-y-4"
+                >
+                  <div>
+                    <ul
+                      class="space-y-2"
+                    >
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          国内大手企業向けネットワーク認証システムの運用・保守を担当
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          大規模システムリプレイスプロジェクトに参画し、インフラ構築から移行作業までを遂行
+                        </span>
+                      </li>
+                      <li
+                        class="flex gap-3 items-start"
+                      >
+                        <span
+                          class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                        />
+                        <span
+                          class="text-gray-600 text-sm"
+                        >
+                          開発部門異動後、教育事業会社・娯楽事業のシステム保守・リプレイスを担当
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
               <div>
                 <h4
                   class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
@@ -1027,6 +1660,11 @@ exports[`Home page matches snapshot 1`] = `
                     class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
                   >
                     MySQL
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    ネットワーク構築・運用
                   </span>
                 </div>
               </div>
@@ -1255,36 +1893,94 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="text-gray-600 text-sm mb-4"
             >
-              位置情報共有アプリwhooのSwiftUI化や利用ユーザー増加のためのMap上でスタンプを送る機能ややフレンドメッセージ機能を開発しました。また、マップ上のユーザーインタラクティブなアニメーションなどを対応しました。
+              位置情報共有アプリ「whoo」のiOS開発に参画。
             </p>
             <div
-              class="flex flex-wrap mt-2"
+              class="space-y-4"
             >
-              <span
-                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
-              >
-                SwiftUI
-              </span>
-              <span
-                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
-              >
-                UIKit
-              </span>
-              <span
-                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
-              >
-                MapKit
-              </span>
-              <span
-                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
-              >
-                CoreLocation
-              </span>
-              <span
-                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
-              >
-                Core Animation
-              </span>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      UIKitからSwiftUIへの段階的移行を推進
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      Map上で友人にスタンプを送る機能、メッセージ機能を新規開発
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      ユーザー同士の交流を促進するインタラクティブなアニメーションを実装
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    SwiftUI
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    UIKit
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    MapKit
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    CoreLocation
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Core Animation
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
           <div
@@ -1297,7 +1993,7 @@ exports[`Home page matches snapshot 1`] = `
                 <h3
                   class="text-lg font-bold text-gray-900"
                 >
-                  ヘルスケアアプリ モバイルエンジニア
+                  SOXAI ヘルスケアアプリ
                 </h3>
                 <p
                   class="text-sm text-gray-400 mt-1"
@@ -1315,10 +2011,58 @@ exports[`Home page matches snapshot 1`] = `
               </a>
             </div>
             <p
-              class="text-gray-600 text-sm"
+              class="text-gray-600 text-sm mb-4"
             >
-              quasarというマルチプラットフォーム開発技術で開発した。主に新アプリの画面リプレイスでヘルス画面というグラフを書く画面などを担当した。
+              ヘルスケアアプリのモバイル開発に参画。
             </p>
+            <div
+              class="space-y-4"
+            >
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      マルチプラットフォームフレームワーク
+                      <a
+                        class="text-indigo-600 hover:text-indigo-800"
+                        href="https://quasar.dev/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Quasar
+                      </a>
+                      を用いた開発
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      ヘルスデータを可視化するグラフ画面の設計・実装
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div
             class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
@@ -1348,10 +2092,87 @@ exports[`Home page matches snapshot 1`] = `
               </a>
             </div>
             <p
-              class="text-gray-600 text-sm"
+              class="text-gray-600 text-sm mb-4"
             >
-              nossa360という建築会社向けのカメラアプリを開発保守。主にAndroidのCameraAPI開発した。
+              建築・不動産業界向け360度撮影アプリ「nossa360」のAndroid版開発を担当。
             </p>
+            <div
+              class="space-y-4"
+            >
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  実績・取り組み
+                </h4>
+                <ul
+                  class="space-y-2"
+                >
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      Camera2 APIを活用した360度撮影機能を実装
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      画像処理の最適化によりアプリのパフォーマンスを向上
+                    </span>
+                  </li>
+                  <li
+                    class="flex gap-3 items-start"
+                  >
+                    <span
+                      class="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0"
+                    />
+                    <span
+                      class="text-gray-600 text-sm"
+                    >
+                      建築現場での利用に特化したUI/UX改善を実施
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  利用技術
+                </h4>
+                <div
+                  class="flex flex-wrap mt-2"
+                >
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Kotlin
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    Camera2 API
+                  </span>
+                  <span
+                    class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+                  >
+                    画像処理
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
