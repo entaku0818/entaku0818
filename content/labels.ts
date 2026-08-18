@@ -9,6 +9,7 @@ export type Labels = {
   communities: string
   experience: string
   sideProjects: string
+  personalApps: string
   projectOverview: string
   achievements: string
   deliverables: string
@@ -33,6 +34,7 @@ export const labels: Record<Lang, Labels> = {
     communities: 'コミュニティ活動',
     experience: '職歴',
     sideProjects: 'Side Projects',
+    personalApps: '個人開発',
     projectOverview: 'プロジェクト概要',
     achievements: '実績・取り組み',
     deliverables: '主な成果物',
@@ -52,6 +54,7 @@ export const labels: Record<Lang, Labels> = {
     communities: 'Community',
     experience: 'Experience',
     sideProjects: 'Side Projects',
+    personalApps: 'Personal Apps',
     projectOverview: 'Project overview',
     achievements: 'Highlights',
     deliverables: 'Deliverables',

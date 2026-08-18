@@ -366,5 +366,63 @@
       ],
       "tech": ["Kotlin", "Camera2 API", "Image processing"]
     }
+  ],
+  "personalApps": [
+    {
+      "name": "Simple Voice Recorder",
+      "platform": "iOS / Android",
+      "overview": "A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.",
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "AVFoundation",
+        "CloudKit",
+        "Kotlin",
+        "Android Jetpack",
+        "Room",
+        "WorkManager"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.entaku.simpleRecord"
+        }
+      ]
+    },
+    {
+      "name": "Simple Transcription",
+      "platform": "iOS",
+      "overview": "A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.",
+      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6504149514"
+        }
+      ]
+    },
+    {
+      "name": "Voice Narrator",
+      "platform": "iOS",
+      "overview": "A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.",
+      "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+        }
+      ]
+    },
+    {
+      "name": "Japanese Rhyme Finder",
+      "platform": "iOS",
+      "overview": "A tool that analyses Japanese rhymes and suggests candidates. I wrote the detection logic myself, based on vowel sequences and tuned for Japanese phonology.",
+      "tech": ["Swift", "Natural Language", "Core ML"],
+      "links": []
+    }
   ]
 }

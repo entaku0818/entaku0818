@@ -2183,6 +2183,276 @@ exports[`Home page in English matches snapshot 1`] = `
           </div>
         </div>
       </section>
+      <section
+        class="mb-20"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500"
+        >
+          Personal Apps
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-3"
+            >
+              <h3
+                class="text-lg font-bold text-gray-900"
+              >
+                Simple Voice Recorder
+              </h3>
+              <p
+                class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mt-1 flex-shrink-0 ml-3"
+              >
+                iOS / Android
+              </p>
+            </div>
+            <p
+              class="text-gray-600 text-sm mb-4"
+            >
+              A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.
+            </p>
+            <div
+              class="flex flex-wrap mt-2"
+            >
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Swift
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                SwiftUI
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                AVFoundation
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                CloudKit
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Kotlin
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Android Jetpack
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Room
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                WorkManager
+              </span>
+            </div>
+            <div
+              class="flex gap-4 mt-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App Store →
+              </a>
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://play.google.com/store/apps/details?id=com.entaku.simpleRecord"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Google Play →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-3"
+            >
+              <h3
+                class="text-lg font-bold text-gray-900"
+              >
+                Simple Transcription
+              </h3>
+              <p
+                class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mt-1 flex-shrink-0 ml-3"
+              >
+                iOS
+              </p>
+            </div>
+            <p
+              class="text-gray-600 text-sm mb-4"
+            >
+              A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.
+            </p>
+            <div
+              class="flex flex-wrap mt-2"
+            >
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Swift
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                SwiftUI
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Core ML
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Speech
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Natural Language
+              </span>
+            </div>
+            <div
+              class="flex gap-4 mt-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://apps.apple.com/jp/app/id6504149514"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App Store →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-3"
+            >
+              <h3
+                class="text-lg font-bold text-gray-900"
+              >
+                Voice Narrator
+              </h3>
+              <p
+                class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mt-1 flex-shrink-0 ml-3"
+              >
+                iOS
+              </p>
+            </div>
+            <p
+              class="text-gray-600 text-sm mb-4"
+            >
+              A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.
+            </p>
+            <div
+              class="flex flex-wrap mt-2"
+            >
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Swift
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                SwiftUI
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                AVFoundation
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Speech
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Core Audio
+              </span>
+            </div>
+            <div
+              class="flex gap-4 mt-4"
+            >
+              <a
+                class="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+                href="https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App Store →
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow"
+          >
+            <div
+              class="flex justify-between items-start mb-3"
+            >
+              <h3
+                class="text-lg font-bold text-gray-900"
+              >
+                Japanese Rhyme Finder
+              </h3>
+              <p
+                class="text-xs font-semibold text-indigo-500 uppercase tracking-wider mt-1 flex-shrink-0 ml-3"
+              >
+                iOS
+              </p>
+            </div>
+            <p
+              class="text-gray-600 text-sm mb-4"
+            >
+              A tool that analyses Japanese rhymes and suggests candidates. I wrote the detection logic myself, based on vowel sequences and tuned for Japanese phonology.
+            </p>
+            <div
+              class="flex flex-wrap mt-2"
+            >
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Swift
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Natural Language
+              </span>
+              <span
+                class="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1"
+              >
+                Core ML
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer
       class="bg-gray-900 text-white py-12"

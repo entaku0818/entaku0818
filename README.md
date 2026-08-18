@@ -274,6 +274,38 @@ AIアバターが参加できる音声トークルームサービス「ishin」�
 
 **利用技術:** Kotlin / Camera2 API / 画像処理
 
+## 個人開発
+
+### シンプル録音 - 音声レコーダー (iOS / Android)
+
+ワンタップで録音を始められる音声レコーダー。バックグラウンド録音、プレイリスト、ロック画面での録音時間表示などを実装し、英語・日本語・中国語・スペイン語などの多言語に対応している。
+
+**利用技術:** Swift / SwiftUI / AVFoundation / CloudKit / Kotlin / Android Jetpack / Room / WorkManager
+
+[App Store](https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409) / [Google Play](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
+
+### シンプル文字起こし (iOS)
+
+音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。
+
+**利用技術:** Swift / SwiftUI / Core ML / Speech / Natural Language
+
+[App Store](https://apps.apple.com/jp/app/id6504149514)
+
+### 読み上げナレーター (iOS)
+
+入力したテキストを読み上げる音声合成アプリ。iOSの音声まわりのAPIを実際のプロダクトで試すために作り、リリース後もフィードバックを見ながら改善を続けている。
+
+**利用技術:** Swift / SwiftUI / AVFoundation / Speech / Core Audio
+
+[App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
+
+### 韻を踏んだらいいんじゃない (iOS)
+
+日本語の韻を分析して候補を提案するツール。母音の並びをもとにした韻の検出ロジックを自作し、日本語の音韻構造に合わせて調整した。
+
+**利用技術:** Swift / Natural Language / Core ML
+
 # その他
 
 - 私自身に関することはこちら  

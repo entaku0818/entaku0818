@@ -35,6 +35,8 @@ const TARGETS = [
       sideProjects: '## SideProject',
       sideHighlights: '**実績・取り組み**',
       sideTech: '**利用技術:**',
+      personalApps: '## 個人開発',
+      personalAppTech: '**利用技術:**',
       more: '# その他',
       personalLine: '- 私自身に関することはこちら  ',
       personalFile: 'personal.md',
@@ -61,6 +63,8 @@ const TARGETS = [
       sideProjects: '## Side Projects',
       sideHighlights: '**Highlights**',
       sideTech: '**Tech stack:**',
+      personalApps: '## Personal Apps',
+      personalAppTech: '**Tech stack:**',
       more: '# More',
       personalLine: '- More about me  ',
       personalFile: 'personal.en.md',
@@ -168,11 +172,24 @@ const buildReadme = ({ source, otherLangLine, headings, talkLine }) => {
     }
   }
 
+  section(headings.personalApps)
+  for (const app of profile.personalApps) {
+    section(`### ${app.name} (${app.platform})`)
+    push(app.overview, '')
+    push(`${headings.personalAppTech} ${app.tech.join(' / ')}`, '')
+    if (app.links.length > 0) {
+      push(
+        app.links.map((link) => `[${link.label}](${link.url})`).join(' / '),
+        '',
+      )
+    }
+  }
+
   section(headings.more)
   push(
     headings.personalLine,
     `  [${headings.personalFile}](${headings.personalFile})`,
-    ''
+    '',
   )
 
   return `${lines

@@ -274,6 +274,38 @@ Android development for nossa360, a 360-degree camera app for the construction a
 
 **Tech stack:** Kotlin / Camera2 API / Image processing
 
+## Personal Apps
+
+### Simple Voice Recorder (iOS / Android)
+
+A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.
+
+**Tech stack:** Swift / SwiftUI / AVFoundation / CloudKit / Kotlin / Android Jetpack / Room / WorkManager
+
+[App Store](https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409) / [Google Play](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
+
+### Simple Transcription (iOS)
+
+A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.
+
+**Tech stack:** Swift / SwiftUI / Core ML / Speech / Natural Language
+
+[App Store](https://apps.apple.com/jp/app/id6504149514)
+
+### Voice Narrator (iOS)
+
+A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.
+
+**Tech stack:** Swift / SwiftUI / AVFoundation / Speech / Core Audio
+
+[App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
+
+### Japanese Rhyme Finder (iOS)
+
+A tool that analyses Japanese rhymes and suggests candidates. I wrote the detection logic myself, based on vowel sequences and tuned for Japanese phonology.
+
+**Tech stack:** Swift / Natural Language / Core ML
+
 # More
 
 - More about me  

@@ -75,6 +75,17 @@ export type Profile = {
   communities: Community[]
   experiences: Experience[]
   sideProjects: SideProject[]
+  personalApps: PersonalApp[]
+}
+
+export type PersonalApp = {
+  name: string
+  /** iOS / Android など、配信しているプラットフォーム */
+  platform: string
+  overview: string
+  tech: string[]
+  /** App Store / Google Play へのリンク。未公開のものは空配列 */
+  links: Link[]
 }
 
 export type Lang = 'ja' | 'en'

@@ -369,5 +369,63 @@
       ],
       "tech": ["Kotlin", "Camera2 API", "画像処理"]
     }
+  ],
+  "personalApps": [
+    {
+      "name": "シンプル録音 - 音声レコーダー",
+      "platform": "iOS / Android",
+      "overview": "ワンタップで録音を始められる音声レコーダー。バックグラウンド録音、プレイリスト、ロック画面での録音時間表示などを実装し、英語・日本語・中国語・スペイン語などの多言語に対応している。",
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "AVFoundation",
+        "CloudKit",
+        "Kotlin",
+        "Android Jetpack",
+        "Room",
+        "WorkManager"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.entaku.simpleRecord"
+        }
+      ]
+    },
+    {
+      "name": "シンプル文字起こし",
+      "platform": "iOS",
+      "overview": "音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。",
+      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6504149514"
+        }
+      ]
+    },
+    {
+      "name": "読み上げナレーター",
+      "platform": "iOS",
+      "overview": "入力したテキストを読み上げる音声合成アプリ。iOSの音声まわりのAPIを実際のプロダクトで試すために作り、リリース後もフィードバックを見ながら改善を続けている。",
+      "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+        }
+      ]
+    },
+    {
+      "name": "韻を踏んだらいいんじゃない",
+      "platform": "iOS",
+      "overview": "日本語の韻を分析して候補を提案するツール。母音の並びをもとにした韻の検出ロジックを自作し、日本語の音韻構造に合わせて調整した。",
+      "tech": ["Swift", "Natural Language", "Core ML"],
+      "links": []
+    }
   ]
 }

@@ -31,7 +31,7 @@ personal.en.md → /en/personal
 - profile JSON の文字列には `[表示名](URL)` のインラインリンクを書ける。README ではそのまま、サイトでは `components/profilePage.tsx` の `InlineMarkdown` がリンクとして描画する。
 - 見出しなどのUI文言はプロフィールデータではなく `content/labels.ts`（`Record<Lang, Labels>`）に置く。
 - `personal.md` / `personal.en.md` はサイトにそのまま出る。GitHub上でも読まれるのでマークダウンとして自然に保つ。
-- `MAKE.md` / `resume_2026.md` はサイトからは参照していないドキュメント。
+- `resume_2026.md` はサイトからは参照していないドキュメント。
 
 ## 多言語対応
 

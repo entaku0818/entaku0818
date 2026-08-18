@@ -357,6 +357,38 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
             ))}
           </div>
         </section>
+
+        {/* Personal Apps */}
+        <section className="mb-20">
+          <SectionTitle>{l.personalApps}</SectionTitle>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {profile.personalApps.map((app) => (
+              <Card key={app.name}>
+                <div className="flex justify-between items-start mb-3">
+                  <h3 className="text-lg font-bold text-gray-900">
+                    {app.name}
+                  </h3>
+                  <p className="text-xs font-semibold text-indigo-500 uppercase tracking-wider mt-1 flex-shrink-0 ml-3">
+                    {app.platform}
+                  </p>
+                </div>
+                <p className="text-gray-600 text-sm mb-4">{app.overview}</p>
+                <Tags tech={[{ label: l.tech, items: app.tech }]} />
+                {app.links.length > 0 && (
+                  <div className="flex gap-4 mt-4">
+                    {app.links.map((link) => (
+                      <ExternalLink
+                        key={link.url}
+                        href={link.url}
+                        label={link.label}
+                      />
+                    ))}
+                  </div>
+                )}
+              </Card>
+            ))}
+          </div>
+        </section>
       </main>
 
       <footer className="bg-gray-900 text-white py-12">
