@@ -50,7 +50,7 @@
 ## Community
 
 - **Swift愛好会 (Swift Lovers)** Organizer
-  Organizer of a Japanese Swift community with 2,200+ engineers, running meetups once or twice a month (98 editions and counting).
+  Organizer of a Japanese Swift community with 2,200+ engineers, running meetups once or twice a month.
   [Swift愛好会 (Swift Lovers)](https://love-swift.connpass.com/)
 - **DroidKaigi** Staff
   Staff member of DroidKaigi, the largest Android developer conference in Japan.
