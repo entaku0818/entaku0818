@@ -44,7 +44,7 @@ This page is about me beyond the resume — how I think as an engineer, what I e
   - My club: Liverpool
 - Live music
   - I go to three or four shows a year
-  - Favorite artists: peaple1 / KEYTALK
+  - Favorite artists: PEOPLE 1 / KEYTALK
 
 # 🌟 Skills
 
