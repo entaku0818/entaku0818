@@ -6,7 +6,7 @@
 - iOS lead at TVer, one of Japan's largest free ad-supported streaming services. I rebuilt the playback stack with The Composable Architecture, work on the ad integration around it, and supported streaming of the Milano Cortina 2026 Winter Olympics.
 - At Voicy I brought the recording app in-house from an outsourced team, reaching 80%+ test coverage on new modules and cutting post-release bug reports by roughly 40%.
 - On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory — along with the Go / Firebase backends and on-device AI behind them.
-- Four talks at iOSDC Japan (2020–2024). I help organize Swift愛好会 (Swift Lovers) and have volunteered as DroidKaigi staff.
+- Five talks at iOSDC Japan (2020–2026). I help organize Swift愛好会 (Swift Lovers) and have volunteered as DroidKaigi staff.
 
 ## Timeline
 
@@ -36,6 +36,8 @@
 
 ## Talks
 
+- “Preserving iOS architecture and the human role in the AI era” at iOSDC Japan 2026
+  [Speaker Deck](https://speakerdeck.com/techtver/iosdc2026)
 - “Core Audio” at iOSDC Japan 2024
   [Details](https://fortee.jp/iosdc-japan-2024/proposal/8c6f01d9-8fd3-4d5e-afef-f29d561f3c39)
 - “Everything behind audio broadcasting on iOS” at iOSDC Japan 2022

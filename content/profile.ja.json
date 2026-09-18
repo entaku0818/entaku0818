@@ -12,7 +12,7 @@
     "現在は株式会社TVerのiOSリードエンジニア。The Composable Architecture による再生基盤のリプレイスと広告連携を担当し、2026年ミラノ冬季オリンピックの配信にも対応しました。",
     "前職のVoicyでは、外注主体だった収録アプリの開発を内製化。新規モジュールでテストカバレッジ80%以上、リリース後の不具合報告を約40%削減しました。",
     "個人ではシンプル録音・読み上げナレーター・ClipKit・Festory など複数のアプリを配信中。アプリだけでなく Go / Firebase のバックエンドやオンデバイスAIまで一人で作っています。",
-    "iOSDC JAPAN で4回登壇（2020〜2024）。Swift愛好会の運営、DroidKaigi のスタッフとしてコミュニティにも関わっています。"
+    "iOSDC JAPAN で5回登壇（2020〜2026）。Swift愛好会の運営、DroidKaigi のスタッフとしてコミュニティにも関わっています。"
   ],
   "timeline": [
     {
@@ -112,6 +112,16 @@
     "事業マインドを持ったプロダクト開発 — 技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している"
   ],
   "talks": [
+    {
+      "event": "iOSDC JAPAN 2026",
+      "title": "AI時代におけるiOS設計の守り方と人間の役割",
+      "links": [
+        {
+          "label": "Speaker Deck",
+          "url": "https://speakerdeck.com/techtver/iosdc2026"
+        }
+      ]
+    },
     {
       "event": "iOSDC JAPAN 2024",
       "title": "Core Audio",
