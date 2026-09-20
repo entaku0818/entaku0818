@@ -50,7 +50,10 @@
       "event": "iOSDC JAPAN 2021",
       "title": "既存のネイティブアプリをFlutterへリプレイスする方法",
       "links": [
-        { "label": "詳細", "url": "https://iosdc.jp/2021/" },
+        {
+          "label": "詳細",
+          "url": "https://iosdc.jp/2021/"
+        },
         {
           "label": "Speaker Deck",
           "url": "https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
@@ -138,13 +141,22 @@
         }
       ],
       "tech": [
-        { "label": "言語", "items": ["Swift"] },
+        {
+          "label": "言語",
+          "items": ["Swift"]
+        },
         {
           "label": "フレームワーク",
           "items": ["SwiftUI", "UIKit", "Combine", "TCA"]
         },
-        { "label": "動画再生", "items": ["AVFoundation", "AVPlayer"] },
-        { "label": "CI/CD", "items": ["Xcode Cloud"] }
+        {
+          "label": "動画再生",
+          "items": ["AVFoundation", "AVPlayer"]
+        },
+        {
+          "label": "CI/CD",
+          "items": ["Xcode Cloud"]
+        }
       ]
     },
     {
@@ -207,7 +219,10 @@
         }
       ],
       "tech": [
-        { "label": "言語", "items": ["Swift", "Kotlin", "Go"] },
+        {
+          "label": "言語",
+          "items": ["Swift", "Kotlin", "Go"]
+        },
         {
           "label": "フレームワーク",
           "items": ["SwiftUI", "UIKit", "RxSwift", "Jetpack Compose"]
@@ -216,8 +231,14 @@
           "label": "音声・配信",
           "items": ["AVFoundation", "Agora SDK", "ExoPlayer"]
         },
-        { "label": "アーキテクチャ", "items": ["マルチモジュール", "MVVM"] },
-        { "label": "その他", "items": ["XCTest", "GitHub Actions"] }
+        {
+          "label": "アーキテクチャ",
+          "items": ["マルチモジュール", "MVVM"]
+        },
+        {
+          "label": "その他",
+          "items": ["XCTest", "GitHub Actions"]
+        }
       ]
     },
     {
@@ -266,9 +287,18 @@
         }
       ],
       "tech": [
-        { "label": "モバイル", "items": ["Swift", "Kotlin"] },
-        { "label": "フロントエンド", "items": ["Nuxt.js"] },
-        { "label": "バックエンド", "items": ["Rails"] }
+        {
+          "label": "モバイル",
+          "items": ["Swift", "Kotlin"]
+        },
+        {
+          "label": "フロントエンド",
+          "items": ["Nuxt.js"]
+        },
+        {
+          "label": "バックエンド",
+          "items": ["Rails"]
+        }
       ]
     },
     {
@@ -285,8 +315,14 @@
         }
       ],
       "tech": [
-        { "label": "モバイル", "items": ["Swift", "Kotlin"] },
-        { "label": "バックエンド", "items": ["Laravel"] }
+        {
+          "label": "モバイル",
+          "items": ["Swift", "Kotlin"]
+        },
+        {
+          "label": "バックエンド",
+          "items": ["Laravel"]
+        }
       ]
     },
     {
@@ -308,8 +344,14 @@
           "label": "バックエンド",
           "items": ["Java (Spring)", "PHP (Laravel)"]
         },
-        { "label": "データベース", "items": ["MySQL"] },
-        { "label": "インフラ", "items": ["ネットワーク構築・運用"] }
+        {
+          "label": "データベース",
+          "items": ["MySQL"]
+        },
+        {
+          "label": "インフラ",
+          "items": ["ネットワーク構築・運用"]
+        }
       ]
     }
   ],
@@ -380,8 +422,14 @@
   "personalApps": [
     {
       "name": "シンプル録音 - 音声レコーダー",
+      "tagline": "ワンタップで始まる音声レコーダー",
       "platform": "iOS / Android",
       "overview": "ワンタップで録音を始められる音声レコーダー。バックグラウンド録音、プレイリスト、ロック画面での録音時間表示などを実装し、英語・日本語・中国語・スペイン語などの多言語に対応している。",
+      "screenshot": "/apps/simple-recorder.webp",
+      "metrics": [
+        "App Store 評価 4.2 / 229件",
+        "iOS・Android の両方を個人で開発・運用"
+      ],
       "tech": [
         "Swift",
         "SwiftUI",
@@ -404,21 +452,39 @@
       ]
     },
     {
-      "name": "シンプル文字起こし",
+      "name": "ClipKit - コピー履歴管理",
+      "tagline": "コピーした内容を、バックグラウンドでも取りこぼさない",
       "platform": "iOS",
-      "overview": "音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。",
-      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "overview": "コピーした内容を自動で保存するクリップボード履歴アプリ。iOS 16以降のバックグラウンド制限を Picture in Picture で回避してクリップボードを監視し続ける仕組みを自作した。履歴の検索・ピン留め・テキスト変換、ウィジェットとキーボード拡張からの呼び出しにも対応している。",
+      "screenshot": "/apps/clipkit.webp",
+      "metrics": [
+        "App Store「クリップボード」検索で3位",
+        "PiPを使ったバックグラウンド監視を自作",
+        "TCA + RevenueCat でサブスクリプションを実装"
+      ],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "TCA",
+        "AVKit (PiP)",
+        "CloudKit",
+        "WidgetKit",
+        "Keyboard Extension",
+        "RevenueCat"
+      ],
       "links": [
         {
           "label": "App Store",
-          "url": "https://apps.apple.com/jp/app/id6504149514"
+          "url": "https://apps.apple.com/jp/app/id6759832862"
         }
       ]
     },
     {
       "name": "読み上げナレーター",
+      "tagline": "書いたテキストを、そのまま声にする",
       "platform": "iOS",
       "overview": "入力したテキストを読み上げる音声合成アプリ。iOSの音声まわりのAPIを実際のプロダクトで試すために作り、リリース後もフィードバックを見ながら改善を続けている。",
+      "screenshot": "/apps/narrator.webp",
       "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
       "links": [
         {
@@ -428,9 +494,75 @@
       ]
     },
     {
-      "name": "韻を踏んだらいいんじゃない",
+      "name": "シンプル文字起こし",
+      "tagline": "録音も会議メモも、その場でテキストに",
       "platform": "iOS",
-      "overview": "日本語の韻を分析して候補を提案するツール。母音の並びをもとにした韻の検出ロジックを自作し、日本語の音韻構造に合わせて調整した。",
+      "overview": "音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。",
+      "screenshot": "/apps/transcription.webp",
+      "metrics": ["音声認識をオンデバイスで実行し、音声を外部に送らない"],
+      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6504149514"
+        }
+      ]
+    },
+    {
+      "name": "Slumber - 睡眠記録・スマートアラーム",
+      "tagline": "眠りをスコアにして、気持ちよく起きる",
+      "platform": "iOS",
+      "overview": "睡眠の記録と分析を行うアプリ。日の出時刻・体動・画面の明るさの3条件から起床タイミングを判定するスマートアラームを実装し、AlarmKitでサイレントモードでも鳴るようにしている。毎朝の睡眠スコアと週間レポート、ロック画面ウィジェットを提供する。",
+      "screenshot": "/apps/slumber.webp",
+      "metrics": [
+        "AlarmKitでサイレントモードでも鳴るアラームを実装",
+        "CoreMotion・CoreLocation・輝度の3条件で起床タイミングを判定"
+      ],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "AlarmKit",
+        "CoreMotion",
+        "CoreLocation",
+        "HealthKit",
+        "WeatherKit",
+        "WidgetKit"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6770225144"
+        }
+      ]
+    },
+    {
+      "name": "Festory - フェス・ライブ参戦記録",
+      "tagline": "セトリごと残す、参戦の記録帳",
+      "platform": "iOS",
+      "overview": "フェスやライブへの参加を記録するアプリ。セットリストやアンコールの記録、行きたいイベントのウィッシュリスト、国内主要フェスのラインナップ情報を扱う。iOSアプリに加えてGoのAPIとランディングページも自分で作り、Cloud Run と Vercel で運用している。",
+      "screenshot": "/apps/festory.webp",
+      "metrics": ["iOSアプリ・Go API・Webまでを一人で設計して運用"],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "Go",
+        "Cloud Run",
+        "React",
+        "Vite",
+        "Firebase"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6763427429"
+        }
+      ]
+    },
+    {
+      "name": "韻を踏んだらいいんじゃない",
+      "tagline": "母音の並びから韻の候補を出すツール",
+      "platform": "iOS",
+      "overview": "日本語の韻を分析して候補を提案するツール。母音の並びをもとにした韻の検出ロジックを自作し、日本語の音韻構造に合わせて調整した。ストア未配信のプロトタイプ。",
       "tech": ["Swift", "Natural Language", "Core ML"],
       "links": []
     }

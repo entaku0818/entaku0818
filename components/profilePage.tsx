@@ -3,31 +3,26 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import Header from './header'
-import { profiles } from '../content/profile'
+import AppSection from './appSection'
+import ContactForm from './contactForm'
+import Reveal from './reveal'
+import useCountUp from '../hocks/useCountUp'
+import { profiles, releasedApps } from '../content/profile'
 import labels from '../content/labels'
+import type { HeroStat } from '../content/labels'
 import type { Lang, TechCategory } from '../content/profile'
-import type { JSX } from 'react'
-
-const Tag = ({ children }: { children: string }) => (
-  <span className="inline-block px-2 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 rounded-md mr-1 mb-1">
-    {children}
-  </span>
-)
+import type { JSX, ReactNode } from 'react'
 
 const Tags = ({ tech }: { tech: TechCategory[] }) => (
-  <div className="flex flex-wrap mt-2">
+  <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1">
     {tech
       .flatMap((category) => category.items)
       .map((item) => (
-        <Tag key={item}>{item}</Tag>
+        <span key={item} className="text-xs text-muted">
+          {item}
+        </span>
       ))}
   </div>
-)
-
-const SectionTitle = ({ children }: { children: string }) => (
-  <h2 className="text-3xl font-bold text-gray-900 mb-10 pl-4 border-l-4 border-indigo-500">
-    {children}
-  </h2>
 )
 
 const inlineLinkPattern = /\[([^\]]+)\]\(([^)]+)\)/g
@@ -47,7 +42,7 @@ const InlineMarkdown = ({ children }: { children: string }) => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-indigo-600 hover:text-indigo-800"
+        className="text-accent hover:text-accent-hover"
       >
         {label}
       </a>,
@@ -60,20 +55,23 @@ const InlineMarkdown = ({ children }: { children: string }) => {
 }
 
 const BulletItem = ({ children }: { children: JSX.Element | string }) => (
-  <li className="flex gap-3 items-start">
-    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0" />
-    <span className="text-gray-600 text-sm">{children}</span>
+  <li className="flex items-start gap-3">
+    <span
+      aria-hidden="true"
+      className="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hairline"
+    />
+    <span className="text-sm leading-relaxed text-ink/70">{children}</span>
   </li>
 )
 
 const SubHeading = ({ children }: { children: string }) => (
-  <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
+  <h4 className="mb-2 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
     {children}
   </h4>
 )
 
-const Card = ({ children }: { children: JSX.Element | JSX.Element[] }) => (
-  <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 hover:shadow-md transition-shadow">
+const Card = ({ children }: { children: ReactNode }) => (
+  <div className="rounded-2xl border border-hairline/60 bg-white p-6 sm:p-8">
     {children}
   </div>
 )
@@ -83,10 +81,78 @@ const ExternalLink = ({ href, label }: { href: string; label: string }) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+    className="text-sm text-accent transition-colors hover:text-accent-hover"
   >
-    {label} →
+    {label} ›
   </a>
+)
+
+/** セクションの見出し。中央寄せにも左寄せにもできる */
+const SectionHeading = ({
+  eyebrow,
+  title,
+  lead,
+  centered = false,
+}: {
+  eyebrow: string
+  title: string
+  lead?: string
+  centered?: boolean
+}) => (
+  <div className={centered ? 'mx-auto max-w-2xl text-center' : 'max-w-2xl'}>
+    <p className="text-xs font-semibold tracking-[0.2em] text-muted uppercase">
+      {eyebrow}
+    </p>
+    <h2 className="mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl">
+      {title}
+    </h2>
+    {lead && (
+      <p className="mt-5 text-lg leading-relaxed text-muted sm:text-xl">
+        {lead}
+      </p>
+    )}
+  </div>
+)
+
+/** ヒーローの数字。画面に入るとカウントアップする */
+const Stat = ({ stat }: { stat: HeroStat }) => {
+  const { ref, display } = useCountUp(stat.value, { decimals: stat.decimals })
+
+  return (
+    <div className="text-center">
+      <p className="text-4xl font-semibold tracking-tight text-ink sm:text-5xl">
+        <span ref={ref}>{display}</span>
+        {stat.suffix && (
+          <span className="text-2xl text-muted sm:text-3xl">{stat.suffix}</span>
+        )}
+      </p>
+      <p className="mx-auto mt-3 max-w-[15rem] text-xs leading-snug text-muted">
+        {stat.label}
+      </p>
+    </div>
+  )
+}
+
+/** 職歴などの長い内容を畳んでおくブロック */
+const Fold = ({
+  title,
+  children,
+}: {
+  title: string
+  children: ReactNode
+}): JSX.Element => (
+  <details className="group border-b border-hairline/70">
+    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-6 text-left text-lg text-ink transition-colors hover:text-accent">
+      {title}
+      <span
+        aria-hidden="true"
+        className="text-2xl leading-none font-light text-muted transition-transform duration-300 group-open:rotate-45"
+      >
+        +
+      </span>
+    </summary>
+    <div className="pb-10">{children}</div>
+  </details>
 )
 
 /** OGP画像は言語に関わらず同じエンドポイントを使う */
@@ -96,9 +162,21 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
   const profile = profiles[lang]
   const l = labels[lang]
   const title = `${profile.name} - ${profile.role}`
+  const released = releasedApps(profile)
+  // ストア未配信のものはフル幅のセクションを与えず、最後にまとめて小さく出す
+  const prototypes = profile.personalApps.filter(
+    (app) => app.links.length === 0,
+  )
+  const stats = l.hero.stats(released.length)
+
+  const sections = [
+    { id: 'apps', label: l.nav.apps },
+    { id: 'about', label: l.nav.about },
+    { id: 'contact', label: l.nav.contact },
+  ]
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white text-ink">
       <Head>
         <title>{title}</title>
         <meta name="description" content={profile.description} />
@@ -124,279 +202,421 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
         <meta name="twitter:description" content={profile.description} />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
-      <Header lang={lang} />
 
-      {/* Hero Section */}
-      <div className="bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900">
-        <div className="container mx-auto px-6 pt-40 pb-24">
-          <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
-            {profile.role}
-          </p>
-          <h1 className="text-8xl font-black text-white mb-8 leading-none">
-            {profile.name}
-          </h1>
-          <div className="flex gap-5">
-            <a
-              href={profile.twitterUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <FontAwesomeIcon size="lg" icon={faTwitter} />
-            </a>
-            <a
-              href={profile.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <FontAwesomeIcon size="lg" icon={faGithub} />
-            </a>
-          </div>
+      <Header
+        lang={lang}
+        sections={sections}
+        ctaHref="#contact"
+        ctaLabel={l.nav.contact}
+      />
+
+      {/* Hero */}
+      <section className="bg-white">
+        <div className="container mx-auto px-6 pt-36 pb-20 text-center sm:pt-44 sm:pb-28">
+          <Reveal>
+            <p className="text-sm text-muted">{profile.name}</p>
+            <h1 className="mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl">
+              {l.hero.headline}
+            </h1>
+            <p className="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl">
+              {l.hero.stack}
+            </p>
+            <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg">
+              {l.hero.lead}
+            </p>
+          </Reveal>
+
+          <Reveal delay={120}>
+            <div className="mt-11 flex flex-col items-center justify-center gap-5 sm:flex-row sm:gap-8">
+              <a
+                href="#contact"
+                className="w-full max-w-xs rounded-full bg-accent px-8 py-3.5 text-base font-medium text-white transition-colors hover:bg-accent-hover sm:w-auto"
+              >
+                {l.hero.primaryCta}
+              </a>
+              <a
+                href="#apps"
+                className="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
+              >
+                {l.hero.secondaryCta}
+                <span
+                  aria-hidden="true"
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  ›
+                </span>
+              </a>
+            </div>
+          </Reveal>
+
+          <Reveal delay={220}>
+            <dl className="mx-auto mt-20 grid max-w-3xl grid-cols-1 gap-12 border-t border-hairline/70 pt-14 sm:grid-cols-3 sm:gap-8">
+              {stats.map((stat) => (
+                <Stat key={stat.label} stat={stat} />
+              ))}
+            </dl>
+          </Reveal>
         </div>
+      </section>
+
+      {/* 個人開発: 1セクション1アプリ */}
+      <div id="apps" className="scroll-mt-20">
+        <section className="bg-white">
+          <div className="container mx-auto px-6 pt-10 pb-4 sm:pt-16">
+            <Reveal>
+              <SectionHeading
+                eyebrow={l.apps.eyebrow}
+                title={l.apps.title}
+                lead={l.apps.lead}
+                centered
+              />
+            </Reveal>
+          </div>
+        </section>
+        {released.map((app, index) => (
+          <AppSection key={app.name} app={app} lang={lang} index={index} />
+        ))}
+
+        {prototypes.length > 0 && (
+          <section className="bg-white">
+            <div className="container mx-auto px-6 pb-24 sm:pb-32">
+              <div className="mx-auto max-w-3xl border-t border-hairline/70 pt-10">
+                <p className="text-xs font-semibold tracking-[0.2em] text-muted uppercase">
+                  {l.apps.prototypes}
+                </p>
+                <ul className="mt-6 space-y-6">
+                  {prototypes.map((app) => (
+                    <li
+                      key={app.name}
+                      data-app={app.name}
+                      className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8"
+                    >
+                      <div>
+                        <h3 className="font-medium text-ink">{app.name}</h3>
+                        <p className="mt-1 text-sm text-muted">{app.tagline}</p>
+                      </div>
+                      <p className="text-xs whitespace-nowrap text-muted">
+                        {app.platform} · {l.apps.unreleased}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </section>
+        )}
       </div>
 
-      <main className="container mx-auto px-6 py-20">
-        {/* Overview */}
-        <section className="mb-20">
-          <SectionTitle>{l.overview}</SectionTitle>
-          <div className="text-gray-600 leading-relaxed space-y-4">
-            {profile.summary.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
+      {/* About */}
+      <section id="about" className="scroll-mt-20 bg-white">
+        <div className="container mx-auto px-6 py-24 sm:py-32">
+          <Reveal>
+            <SectionHeading
+              eyebrow={l.about.eyebrow}
+              title={l.about.title}
+              centered
+            />
+          </Reveal>
+
+          <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-10 md:grid-cols-3">
+            {profile.specialties.map((item, index) => (
+              <Reveal key={item} delay={index * 100}>
+                <p className="text-5xl font-semibold tracking-tight text-hairline">
+                  {String(index + 1).padStart(2, '0')}
+                </p>
+                <p className="mt-4 leading-relaxed text-ink">{item}</p>
+              </Reveal>
             ))}
           </div>
-        </section>
 
-        {/* Technical Background */}
-        <section className="mb-20">
-          <SectionTitle>{l.technicalBackground}</SectionTitle>
-          <ul className="space-y-3 max-w-3xl">
-            {profile.technicalBackground.map((item) => (
-              <BulletItem key={item}>{item}</BulletItem>
-            ))}
-          </ul>
-        </section>
+          <div className="mx-auto mt-24 grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-5">
+            <Reveal className="lg:col-span-3">
+              <h3 className="mb-5 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
+                {l.overview}
+              </h3>
+              <div className="space-y-5 leading-relaxed text-ink/70">
+                {profile.summary.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+            </Reveal>
+            <Reveal delay={120} className="lg:col-span-2">
+              <h3 className="mb-5 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
+                {l.technicalBackground}
+              </h3>
+              <ul className="space-y-4">
+                {profile.technicalBackground.map((item) => (
+                  <BulletItem key={item}>{item}</BulletItem>
+                ))}
+              </ul>
+            </Reveal>
+          </div>
+        </div>
+      </section>
 
-        {/* Specialties */}
-        <section className="mb-20">
-          <SectionTitle>{l.specialties}</SectionTitle>
-          <ul className="space-y-3 max-w-3xl">
-            {profile.specialties.map((item) => (
-              <BulletItem key={item}>{item}</BulletItem>
-            ))}
-          </ul>
-        </section>
+      {/* Contact */}
+      <section id="contact" className="scroll-mt-20 bg-surface">
+        <div className="container mx-auto px-6 py-24 sm:py-32">
+          <Reveal>
+            <SectionHeading
+              eyebrow={l.contact.eyebrow}
+              title={l.contact.title}
+              lead={l.contact.lead}
+              centered
+            />
+          </Reveal>
+          <Reveal delay={120}>
+            <div className="mx-auto mt-14 max-w-3xl">
+              <ContactForm lang={lang} />
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
-        {/* Talks */}
-        <section className="mb-20">
-          <SectionTitle>{l.talks}</SectionTitle>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {profile.talks.map((talk) => (
-              <Card key={`${talk.event}-${talk.title}`}>
-                <p className="text-xs font-semibold text-indigo-500 uppercase tracking-wider mb-2">
-                  {talk.event}
-                </p>
-                <p className="text-gray-700 mb-4">
-                  {lang === 'ja' ? `「${talk.title}」` : `“${talk.title}”`}
-                </p>
-                <div className="flex gap-4">
-                  {talk.links.map((link) => (
-                    <ExternalLink
-                      key={link.url}
-                      href={link.url}
-                      label={link.label}
-                    />
+      {/* 職歴・登壇・コミュニティ */}
+      <section className="bg-white">
+        <div className="container mx-auto px-6 py-24 sm:py-32">
+          <Reveal>
+            <SectionHeading
+              eyebrow={l.more.eyebrow}
+              title={l.more.title}
+              lead={l.more.lead}
+            />
+          </Reveal>
+
+          <div className="mt-14 border-t border-hairline/70">
+            <Reveal>
+              <Fold title={l.experience}>
+                <div className="space-y-5">
+                  {profile.experiences.map((experience) => (
+                    <Card key={experience.company}>
+                      <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <h3 className="text-xl font-semibold tracking-tight text-ink">
+                            {experience.company}
+                          </h3>
+                          <p className="mt-1 text-sm text-muted">
+                            {experience.period}
+                          </p>
+                        </div>
+                        <ExternalLink href={experience.url} label={l.website} />
+                      </div>
+                      <div className="space-y-5">
+                        <div>
+                          <SubHeading>{l.projectOverview}</SubHeading>
+                          <p className="text-sm leading-relaxed text-ink/70">
+                            {experience.overview}
+                          </p>
+                        </div>
+                        <div>
+                          <SubHeading>{l.achievements}</SubHeading>
+                          <div className="space-y-4">
+                            {experience.highlights.map((highlight) => (
+                              <div key={highlight.title ?? highlight.points[0]}>
+                                {highlight.title && (
+                                  <p className="mb-2 text-sm font-semibold text-ink">
+                                    {highlight.title}
+                                  </p>
+                                )}
+                                <ul className="space-y-2">
+                                  {highlight.points.map((point) => (
+                                    <BulletItem key={point}>
+                                      <InlineMarkdown>{point}</InlineMarkdown>
+                                    </BulletItem>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                        {experience.deliverables && (
+                          <div>
+                            <SubHeading>{l.deliverables}</SubHeading>
+                            <ul className="space-y-2">
+                              {experience.deliverables.map((deliverable) => (
+                                <BulletItem key={deliverable.url}>
+                                  <span>
+                                    <a
+                                      href={deliverable.url}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-accent hover:text-accent-hover"
+                                    >
+                                      {deliverable.name}
+                                    </a>
+                                    {deliverable.description
+                                      ? ` - ${deliverable.description}`
+                                      : ''}
+                                  </span>
+                                </BulletItem>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        <div>
+                          <SubHeading>{l.tech}</SubHeading>
+                          <Tags tech={experience.tech} />
+                        </div>
+                      </div>
+                    </Card>
                   ))}
                 </div>
-              </Card>
-            ))}
-          </div>
-        </section>
+              </Fold>
+            </Reveal>
 
-        {/* Community */}
-        <section className="mb-20">
-          <SectionTitle>{l.communities}</SectionTitle>
-          <div className="space-y-6 max-w-2xl">
-            {profile.communities.map((community) => (
-              <Card key={community.name}>
-                <div className="flex justify-between items-start">
-                  <h3 className="text-lg font-bold text-gray-900">
-                    {community.name}
-                  </h3>
-                  <ExternalLink
-                    href={community.url}
-                    label={community.linkLabel}
-                  />
-                </div>
-                <p className="text-gray-600 mt-3 text-sm">
-                  {community.description}
-                </p>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        {/* Work Experience */}
-        <section className="mb-20">
-          <SectionTitle>{l.experience}</SectionTitle>
-          <div className="space-y-6">
-            {profile.experiences.map((experience) => (
-              <Card key={experience.company}>
-                <div className="flex justify-between items-start mb-6">
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">
-                      {experience.company}
-                    </h3>
-                    <p className="text-sm text-gray-400 mt-1">
-                      {experience.period}
-                    </p>
-                  </div>
-                  <ExternalLink href={experience.url} label={l.website} />
-                </div>
+            <Reveal>
+              <Fold title={l.sideProjects}>
                 <div className="space-y-5">
-                  <div>
-                    <SubHeading>{l.projectOverview}</SubHeading>
-                    <p className="text-gray-600 text-sm">
-                      {experience.overview}
-                    </p>
-                  </div>
-                  <div>
-                    <SubHeading>{l.achievements}</SubHeading>
-                    <div className="space-y-4">
-                      {experience.highlights.map((highlight) => (
-                        <div key={highlight.title ?? highlight.points[0]}>
-                          {highlight.title && (
-                            <p className="text-sm font-semibold text-gray-700 mb-2">
-                              {highlight.title}
-                            </p>
-                          )}
+                  {profile.sideProjects.map((project) => (
+                    <Card key={project.title}>
+                      <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <h3 className="text-lg font-semibold tracking-tight text-ink">
+                            {project.title}
+                          </h3>
+                          <p className="mt-1 text-sm text-muted">
+                            {project.period}
+                          </p>
+                        </div>
+                        {project.url && (
+                          <ExternalLink href={project.url} label={l.website} />
+                        )}
+                      </div>
+                      <p className="mb-4 text-sm leading-relaxed text-ink/70">
+                        {project.overview}
+                      </p>
+                      <div className="space-y-4">
+                        <div>
+                          <SubHeading>{l.achievements}</SubHeading>
                           <ul className="space-y-2">
-                            {highlight.points.map((point) => (
+                            {project.points.map((point) => (
                               <BulletItem key={point}>
                                 <InlineMarkdown>{point}</InlineMarkdown>
                               </BulletItem>
                             ))}
                           </ul>
                         </div>
-                      ))}
-                    </div>
-                  </div>
-                  {experience.deliverables && (
-                    <div>
-                      <SubHeading>{l.deliverables}</SubHeading>
-                      <ul className="space-y-2">
-                        {experience.deliverables.map((deliverable) => (
-                          <BulletItem key={deliverable.url}>
-                            <span>
-                              <a
-                                href={deliverable.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-indigo-600 hover:text-indigo-800"
-                              >
-                                {deliverable.name}
-                              </a>
-                              {deliverable.description
-                                ? ` - ${deliverable.description}`
-                                : ''}
-                            </span>
-                          </BulletItem>
+                        {project.tech && (
+                          <div>
+                            <SubHeading>{l.tech}</SubHeading>
+                            <Tags
+                              tech={[{ label: l.tech, items: project.tech }]}
+                            />
+                          </div>
+                        )}
+                      </div>
+                    </Card>
+                  ))}
+                </div>
+              </Fold>
+            </Reveal>
+
+            <Reveal>
+              <Fold title={l.talks}>
+                <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+                  {profile.talks.map((talk) => (
+                    <Card key={`${talk.event}-${talk.title}`}>
+                      <p className="mb-2 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
+                        {talk.event}
+                      </p>
+                      <p className="mb-4 text-ink">
+                        {lang === 'ja'
+                          ? `「${talk.title}」`
+                          : `“${talk.title}”`}
+                      </p>
+                      <div className="flex flex-wrap gap-4">
+                        {talk.links.map((link) => (
+                          <ExternalLink
+                            key={link.url}
+                            href={link.url}
+                            label={link.label}
+                          />
                         ))}
-                      </ul>
-                    </div>
-                  )}
-                  <div>
-                    <SubHeading>{l.tech}</SubHeading>
-                    <Tags tech={experience.tech} />
-                  </div>
+                      </div>
+                    </Card>
+                  ))}
                 </div>
-              </Card>
-            ))}
-          </div>
-        </section>
+              </Fold>
+            </Reveal>
 
-        {/* Side Projects */}
-        <section className="mb-20">
-          <SectionTitle>{l.sideProjects}</SectionTitle>
-          <div className="space-y-6">
-            {profile.sideProjects.map((project) => (
-              <Card key={project.title}>
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h3 className="text-lg font-bold text-gray-900">
-                      {project.title}
-                    </h3>
-                    <p className="text-sm text-gray-400 mt-1">
-                      {project.period}
-                    </p>
-                  </div>
-                  {project.url && (
-                    <ExternalLink href={project.url} label={l.website} />
-                  )}
+            <Reveal>
+              <Fold title={l.communities}>
+                <div className="space-y-5">
+                  {profile.communities.map((community) => (
+                    <Card key={community.name}>
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <h3 className="text-lg font-semibold tracking-tight text-ink">
+                          {community.name}
+                        </h3>
+                        <ExternalLink
+                          href={community.url}
+                          label={community.linkLabel}
+                        />
+                      </div>
+                      <p className="mt-3 text-sm leading-relaxed text-ink/70">
+                        {community.description}
+                      </p>
+                    </Card>
+                  ))}
                 </div>
-                <p className="text-gray-600 text-sm mb-4">{project.overview}</p>
-                <div className="space-y-4">
-                  <div>
-                    <SubHeading>{l.achievements}</SubHeading>
-                    <ul className="space-y-2">
-                      {project.points.map((point) => (
-                        <BulletItem key={point}>
-                          <InlineMarkdown>{point}</InlineMarkdown>
-                        </BulletItem>
-                      ))}
-                    </ul>
-                  </div>
-                  {project.tech && (
-                    <div>
-                      <SubHeading>{l.tech}</SubHeading>
-                      <Tags tech={[{ label: l.tech, items: project.tech }]} />
-                    </div>
-                  )}
-                </div>
-              </Card>
-            ))}
+              </Fold>
+            </Reveal>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Personal Apps */}
-        <section className="mb-20">
-          <SectionTitle>{l.personalApps}</SectionTitle>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {profile.personalApps.map((app) => (
-              <Card key={app.name}>
-                <div className="flex justify-between items-start mb-3">
-                  <h3 className="text-lg font-bold text-gray-900">
-                    {app.name}
-                  </h3>
-                  <p className="text-xs font-semibold text-indigo-500 uppercase tracking-wider mt-1 flex-shrink-0 ml-3">
-                    {app.platform}
-                  </p>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">{app.overview}</p>
-                <Tags tech={[{ label: l.tech, items: app.tech }]} />
-                {app.links.length > 0 && (
-                  <div className="flex gap-4 mt-4">
-                    {app.links.map((link) => (
-                      <ExternalLink
-                        key={link.url}
-                        href={link.url}
-                        label={link.label}
-                      />
-                    ))}
-                  </div>
-                )}
-              </Card>
-            ))}
+      <footer className="border-t border-hairline/70 bg-surface">
+        <div className="container mx-auto flex flex-col items-center gap-6 px-6 py-14 text-center">
+          <div>
+            <p className="text-sm font-semibold tracking-[0.18em] text-ink">
+              {profile.name.toUpperCase()}
+            </p>
+            <p className="mt-1.5 text-sm text-muted">{profile.role}</p>
           </div>
-        </section>
-      </main>
-
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-lg font-black tracking-widest mb-2">
-            {profile.name.toUpperCase()}
-          </p>
-          <p className="text-gray-400 text-sm">{profile.role}</p>
+          <p className="text-sm text-muted">{l.footerNote}</p>
+          <nav className="flex flex-wrap justify-center gap-x-7 gap-y-2 text-sm text-muted">
+            <a
+              href={lang === 'en' ? '/en' : '/'}
+              className="transition-colors hover:text-ink"
+            >
+              {l.nav.home}
+            </a>
+            <a
+              href={lang === 'en' ? '/en/personal' : '/personal'}
+              className="transition-colors hover:text-ink"
+            >
+              {l.nav.personal}
+            </a>
+            <a
+              href={lang === 'en' ? '/en/articles' : '/articles'}
+              className="transition-colors hover:text-ink"
+            >
+              {l.nav.articles}
+            </a>
+            <a href="#contact" className="transition-colors hover:text-ink">
+              {l.nav.contact}
+            </a>
+          </nav>
+          <div className="flex gap-6">
+            <a
+              href={profile.twitterUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X / Twitter"
+              className="text-muted transition-colors hover:text-ink"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href={profile.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              className="text-muted transition-colors hover:text-ink"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </div>
         </div>
       </footer>
     </div>

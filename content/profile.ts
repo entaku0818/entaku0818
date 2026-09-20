@@ -80,13 +80,26 @@ export type Profile = {
 
 export type PersonalApp = {
   name: string
+  /** カード見出しの下に出る一行キャッチ */
+  tagline: string
   /** iOS / Android など、配信しているプラットフォーム */
   platform: string
   overview: string
+  /**
+   * 端末モックに入れる画面画像（public/apps 配下）。
+   * App Store のスクショから画面部分だけを切り出したもの。未配信のアプリには無い。
+   */
+  screenshot?: string
+  /** 順位・評価・技術的な見どころなど、実績として並べる短い文 */
+  metrics?: string[]
   tech: string[]
   /** App Store / Google Play へのリンク。未公開のものは空配列 */
   links: Link[]
 }
+
+/** ストアで配信中のアプリだけを数える。未配信のプロトタイプは実績に含めない */
+export const releasedApps = (profile: Profile): PersonalApp[] =>
+  profile.personalApps.filter((app) => app.links.length > 0)
 
 export type Lang = 'ja' | 'en'
 

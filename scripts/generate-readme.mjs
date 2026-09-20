@@ -36,6 +36,7 @@ const TARGETS = [
       sideHighlights: '**実績・取り組み**',
       sideTech: '**利用技術:**',
       personalApps: '## 個人開発',
+      personalAppMetrics: '**実績・見どころ**',
       personalAppTech: '**利用技術:**',
       more: '# その他',
       personalLine: '- 私自身に関することはこちら  ',
@@ -64,6 +65,7 @@ const TARGETS = [
       sideHighlights: '**Highlights**',
       sideTech: '**Tech stack:**',
       personalApps: '## Personal Apps',
+      personalAppMetrics: '**Highlights**',
       personalAppTech: '**Tech stack:**',
       more: '# More',
       personalLine: '- More about me  ',
@@ -175,7 +177,13 @@ const buildReadme = ({ source, otherLangLine, headings, talkLine }) => {
   section(headings.personalApps)
   for (const app of profile.personalApps) {
     section(`### ${app.name} (${app.platform})`)
+    push(`*${app.tagline}*`, '')
     push(app.overview, '')
+    if (app.metrics?.length) {
+      push(headings.personalAppMetrics, '')
+      for (const metric of app.metrics) push(`- ${metric}`)
+      push('')
+    }
     push(`${headings.personalAppTech} ${app.tech.join(' / ')}`, '')
     if (app.links.length > 0) {
       push(

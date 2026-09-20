@@ -1,1 +1,40 @@
 @import 'tailwindcss';
+
+/* Appleのプロダクトページに寄せた白基調のパレット */
+@theme {
+  --color-ink: #1d1d1f;
+  --color-muted: #86868b;
+  --color-surface: #f5f5f7;
+  --color-hairline: #d2d2d7;
+  --color-accent: #0071e3;
+  --color-accent-hover: #0077ed;
+}
+
+/* ヘッダーが固定なので、アンカー移動のときにその分だけ余白を残す */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+ * 動きを控える設定のときは、スクロール演出もホバーの動きも止める。
+ * React 側の hook でも判定しているが、CSSのトランジションはここでまとめて無効化する。
+ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}

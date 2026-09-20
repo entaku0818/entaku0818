@@ -32,14 +32,15 @@ export const PersonalPage = ({
           <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
             {l.personalEyebrow}
           </p>
-          <h1 className="text-6xl font-black text-white leading-none">
+          <h1 className="text-5xl sm:text-6xl font-black text-white leading-none">
             {l.personalTitle}
           </h1>
         </div>
       </div>
 
       <main className="container mx-auto px-6 py-20 max-w-3xl">
-        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-10">
+        {/* break-words: personal.md に100文字級のURLがあり、折り返さないと横スクロールが出る */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sm:p-10 break-words">
           <ReactMarkdown
             components={{
               h1: ({ ...props }) => (
@@ -62,7 +63,7 @@ export const PersonalPage = ({
               ),
               p: ({ ...props }) => (
                 <p
-                  className="mb-4 text-gray-600 leading-relaxed text-sm"
+                  className="mb-4 text-gray-600 leading-relaxed text-sm break-words"
                   {...props}
                 />
               ),
@@ -78,7 +79,7 @@ export const PersonalPage = ({
               li: ({ ...props }) => (
                 <li className="flex gap-3 items-start text-gray-600 text-sm">
                   <span className="mt-2 w-1.5 h-1.5 rounded-full bg-indigo-400 flex-shrink-0" />
-                  <span {...props} />
+                  <span className="min-w-0 break-words" {...props} />
                 </li>
               ),
               blockquote: ({ ...props }) => (
@@ -89,7 +90,7 @@ export const PersonalPage = ({
               ),
               a: ({ ...props }) => (
                 <a
-                  className="text-indigo-600 hover:text-indigo-800 transition-colors"
+                  className="text-indigo-600 hover:text-indigo-800 transition-colors [overflow-wrap:anywhere]"
                   {...props}
                 />
               ),

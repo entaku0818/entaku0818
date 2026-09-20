@@ -49,7 +49,10 @@
       "event": "iOSDC Japan 2021",
       "title": "How to replace an existing native app with Flutter",
       "links": [
-        { "label": "Details", "url": "https://iosdc.jp/2021/" },
+        {
+          "label": "Details",
+          "url": "https://iosdc.jp/2021/"
+        },
         {
           "label": "Speaker Deck",
           "url": "https://speakerdeck.com/entaku/pickgo-for-partnerfalseyi-xing-fang-fa-karaxue-hu-ji-cun-falseneiteihuahuriwoflutterherihureisusurufang-fa"
@@ -137,13 +140,22 @@
         }
       ],
       "tech": [
-        { "label": "Language", "items": ["Swift"] },
+        {
+          "label": "Language",
+          "items": ["Swift"]
+        },
         {
           "label": "Frameworks",
           "items": ["SwiftUI", "UIKit", "Combine", "TCA"]
         },
-        { "label": "Playback", "items": ["AVFoundation", "AVPlayer"] },
-        { "label": "CI/CD", "items": ["Xcode Cloud"] }
+        {
+          "label": "Playback",
+          "items": ["AVFoundation", "AVPlayer"]
+        },
+        {
+          "label": "CI/CD",
+          "items": ["Xcode Cloud"]
+        }
       ]
     },
     {
@@ -200,7 +212,10 @@
         }
       ],
       "tech": [
-        { "label": "Languages", "items": ["Swift", "Kotlin", "Go"] },
+        {
+          "label": "Languages",
+          "items": ["Swift", "Kotlin", "Go"]
+        },
         {
           "label": "Frameworks",
           "items": ["SwiftUI", "UIKit", "RxSwift", "Jetpack Compose"]
@@ -209,8 +224,14 @@
           "label": "Audio & streaming",
           "items": ["AVFoundation", "Agora SDK", "ExoPlayer"]
         },
-        { "label": "Architecture", "items": ["Multi-module", "MVVM"] },
-        { "label": "Other", "items": ["XCTest", "GitHub Actions"] }
+        {
+          "label": "Architecture",
+          "items": ["Multi-module", "MVVM"]
+        },
+        {
+          "label": "Other",
+          "items": ["XCTest", "GitHub Actions"]
+        }
       ]
     },
     {
@@ -259,9 +280,18 @@
         }
       ],
       "tech": [
-        { "label": "Mobile", "items": ["Swift", "Kotlin"] },
-        { "label": "Frontend", "items": ["Nuxt.js"] },
-        { "label": "Backend", "items": ["Rails"] }
+        {
+          "label": "Mobile",
+          "items": ["Swift", "Kotlin"]
+        },
+        {
+          "label": "Frontend",
+          "items": ["Nuxt.js"]
+        },
+        {
+          "label": "Backend",
+          "items": ["Rails"]
+        }
       ]
     },
     {
@@ -278,8 +308,14 @@
         }
       ],
       "tech": [
-        { "label": "Mobile", "items": ["Swift", "Kotlin"] },
-        { "label": "Backend", "items": ["Laravel"] }
+        {
+          "label": "Mobile",
+          "items": ["Swift", "Kotlin"]
+        },
+        {
+          "label": "Backend",
+          "items": ["Laravel"]
+        }
       ]
     },
     {
@@ -297,9 +333,18 @@
         }
       ],
       "tech": [
-        { "label": "Backend", "items": ["Java (Spring)", "PHP (Laravel)"] },
-        { "label": "Database", "items": ["MySQL"] },
-        { "label": "Infrastructure", "items": ["Network design & operations"] }
+        {
+          "label": "Backend",
+          "items": ["Java (Spring)", "PHP (Laravel)"]
+        },
+        {
+          "label": "Database",
+          "items": ["MySQL"]
+        },
+        {
+          "label": "Infrastructure",
+          "items": ["Network design & operations"]
+        }
       ]
     }
   ],
@@ -370,8 +415,14 @@
   "personalApps": [
     {
       "name": "Simple Voice Recorder",
+      "tagline": "A voice recorder that starts with one tap",
       "platform": "iOS / Android",
       "overview": "A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.",
+      "screenshot": "/apps/simple-recorder.webp",
+      "metrics": [
+        "Rated 4.2 from 229 App Store reviews",
+        "Both the iOS and Android apps built and maintained solo"
+      ],
       "tech": [
         "Swift",
         "SwiftUI",
@@ -394,21 +445,39 @@
       ]
     },
     {
-      "name": "Simple Transcription",
+      "name": "ClipKit — Clipboard Manager",
+      "tagline": "Keeps watching the clipboard, even in the background",
       "platform": "iOS",
-      "overview": "A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.",
-      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "overview": "A clipboard manager that saves what you copy automatically. To keep watching the clipboard under the background limits introduced in iOS 16, I built the monitoring on top of Picture in Picture. It also covers search, pinning and text conversion, reachable from a widget and a keyboard extension.",
+      "screenshot": "/apps/clipkit.webp",
+      "metrics": [
+        "Ranks 3rd for “clipboard” on the Japanese App Store",
+        "Background monitoring built on Picture in Picture",
+        "Subscriptions with TCA and RevenueCat"
+      ],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "TCA",
+        "AVKit (PiP)",
+        "CloudKit",
+        "WidgetKit",
+        "Keyboard Extension",
+        "RevenueCat"
+      ],
       "links": [
         {
           "label": "App Store",
-          "url": "https://apps.apple.com/jp/app/id6504149514"
+          "url": "https://apps.apple.com/jp/app/id6759832862"
         }
       ]
     },
     {
       "name": "Voice Narrator",
+      "tagline": "Turns whatever you type into speech",
       "platform": "iOS",
       "overview": "A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.",
+      "screenshot": "/apps/narrator.webp",
       "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
       "links": [
         {
@@ -418,9 +487,77 @@
       ]
     },
     {
-      "name": "Japanese Rhyme Finder",
+      "name": "Simple Transcription",
+      "tagline": "Recordings and meeting notes, as text",
       "platform": "iOS",
-      "overview": "A tool that analyses Japanese rhymes and suggests candidates. I wrote the detection logic myself, based on vowel sequences and tuned for Japanese phonology.",
+      "overview": "A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.",
+      "screenshot": "/apps/transcription.webp",
+      "metrics": [
+        "Speech recognition runs on device, so audio never leaves it"
+      ],
+      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6504149514"
+        }
+      ]
+    },
+    {
+      "name": "Slumber — Sleep & Alarm",
+      "tagline": "Scores your sleep so you wake up well",
+      "platform": "iOS",
+      "overview": "A sleep tracking app. Its smart alarm picks a wake-up moment from three signals — sunrise time, body movement and screen brightness — and AlarmKit makes it ring even in silent mode. It reports a sleep score each morning, a weekly trend and a lock screen widget.",
+      "screenshot": "/apps/slumber.webp",
+      "metrics": [
+        "AlarmKit alarms that ring through silent mode",
+        "Wake-up timing from CoreMotion, CoreLocation and screen brightness"
+      ],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "AlarmKit",
+        "CoreMotion",
+        "CoreLocation",
+        "HealthKit",
+        "WeatherKit",
+        "WidgetKit"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6770225144"
+        }
+      ]
+    },
+    {
+      "name": "Festory — Concert & Setlist Log",
+      "tagline": "A log of every festival, setlist included",
+      "platform": "iOS",
+      "overview": "An app for logging the festivals and concerts you attend, with setlists, encores, a wishlist of upcoming events and lineups for major Japanese festivals. Alongside the iOS app I built the Go API and the landing page, running on Cloud Run and Vercel.",
+      "screenshot": "/apps/festory.webp",
+      "metrics": ["iOS app, Go API and web all designed and operated solo"],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "Go",
+        "Cloud Run",
+        "React",
+        "Vite",
+        "Firebase"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6763427429"
+        }
+      ]
+    },
+    {
+      "name": "Japanese Rhyme Finder",
+      "tagline": "Suggests rhymes from vowel sequences",
+      "platform": "iOS",
+      "overview": "A tool that analyses Japanese rhymes and suggests candidates. I wrote the detection logic myself, based on vowel sequences and tuned for Japanese phonology. A prototype that never shipped to the store.",
       "tech": ["Swift", "Natural Language", "Core ML"],
       "links": []
     }

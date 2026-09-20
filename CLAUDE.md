@@ -50,9 +50,42 @@ yarn build      # 本番ビルド
 ```
 
 - Next.js (Pages Router) + TypeScript + Tailwind CSS v4 + Jest。
+- トップページは Apple のプロダクトページ型。白基調・大きな余白・大きなタイポで、ヒーロー → 個人開発 → できること → お問い合わせ → 畳んだ職歴、の順に `components/profilePage.tsx` が組み立てる。色は `styles/globals.css` の `@theme`（`ink` / `muted` / `surface` / `hairline` / `accent`）を使い、生の `gray-*` を足さない。
+- 個人開発は **1セクション1アプリ**。`components/appSection.tsx` が端末モック（`components/deviceMock.tsx`、CSSだけで描く）とテキストを左右交互に並べる。
+- スクロール演出は `hocks/` の自作フックだけで作る（アニメーションライブラリは入れない）。`useReveal` / `useCountUp` は **最初から見えている状態で描画し**、演出できると分かったときだけ `useLayoutEffect` で隠してから動かす。こうしないとSSRのHTMLやJS無効時に中身が消える。`prefersReducedMotion()` を通る経路では演出そのものを行わず、CSS側でも `styles/globals.css` の `prefers-reduced-motion` でトランジションを止めている。
+- 1セクション内で複数の要素を動かすときは `Rise` に表示状態を渡し、監視は `useReveal` ひとつにまとめる。要素ごとに監視すると発火がばらついてガタつく。
+- Tailwind v4 の `translate-y-*` は `transform` ではなく **`translate` プロパティ**を使う。`transition-[...]` を自分で書くときは `translate` を対象に入れること（`transform` だけだと移動が瞬間移動になる）。`transition-transform` は v4 が `translate` も含めてくれるのでそのままでよい。
 - トップページには日英それぞれのスナップショットテストがある。データを更新したら `yarn test -u` で更新する。
 - `react-markdown` は ESM のため Jest から読めない。テスト対象のページ（トップ）では使わない。personal ページのみで利用している。
 - `/articles` は Google スプレッドシートから記事一覧を取得する（`lib/articles.ts`）。`GOOGLE_SHEETS_API_KEY` が必要で、ローカルは `.env.local`、本番は Vercel の環境変数に置く。キーをソースに直書きしない。
+
+## お問い合わせフォーム
+
+トップページの `#contact` から `pages/api/contact.ts` に POST し、Resend の REST API でメールを送る。SDKは入れず `fetch` で叩いているので依存は増えていない。
+
+環境変数（ローカルは `.env.local`、本番は Vercel）:
+
+| 変数 | 必須 | 内容 |
+| --- | --- | --- |
+| `RESEND_API_KEY` | ○ | Resend の APIキー |
+| `CONTACT_TO_EMAIL` | ○ | 通知の宛先 |
+| `CONTACT_FROM_EMAIL` | | 差出人。未設定なら `entaku.dev <onboarding@resend.dev>`（Resendの検証不要な送信元） |
+
+**未設定でも `yarn build` と `yarn dev` は通る。** その状態でフォームを送ると 500 ではなく 503 `{ code: 'not_configured' }` を返し、UIは「準備中なので X か GitHub へ」と案内する。キーを発行したら環境変数を足すだけで動きはじめる。
+
+- バリデーションとレート制限は `lib/contact.ts` に置き、APIルートとフォームで同じ関数を使う（クライアントで弾いた内容はサーバーでも必ず弾く）。
+- スパム対策は honeypot（`website` フィールド。埋まっていたら成功したふりをして捨てる）と、IPごと10分5件のメモリ内レート制限。サーバーレスではインスタンスをまたげないので、増えてきたら Upstash などに移す。
+
+## アプリのスクリーンショット
+
+個人開発セクションの端末モックに入れる画像は `public/apps/*.webp`。App Store の
+[iTunes Lookup API](https://itunes.apple.com/lookup?id=6759832862&country=jp) の `screenshotUrls`
+から取得し、**端末フレームとキャプションを取り除いて画面部分だけを切り出したもの**（ストアのスクショは
+マーケティング用に端末の絵が描き込まれているので、そのまま自前のモックに入れると枠が二重になる）。
+
+作り直すときは `scripts/` ではなく都度スクリプトを書く運用でよいが、切り出し範囲は目視で測った固定値を使うこと。
+背景色や影が画像ごとに違うため、自動判定は当てにならない。素のスクリーンショットのアプリ（シンプル文字起こし）は
+切り出さずそのまま使う。
 
 ## デプロイ
 

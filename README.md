@@ -284,21 +284,38 @@ AIアバターが参加できる音声トークルームサービス「ishin」�
 
 ### シンプル録音 - 音声レコーダー (iOS / Android)
 
+*ワンタップで始まる音声レコーダー*
+
 ワンタップで録音を始められる音声レコーダー。バックグラウンド録音、プレイリスト、ロック画面での録音時間表示などを実装し、英語・日本語・中国語・スペイン語などの多言語に対応している。
+
+**実績・見どころ**
+
+- App Store 評価 4.2 / 229件
+- iOS・Android の両方を個人で開発・運用
 
 **利用技術:** Swift / SwiftUI / AVFoundation / CloudKit / Kotlin / Android Jetpack / Room / WorkManager
 
 [App Store](https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409) / [Google Play](https://play.google.com/store/apps/details?id=com.entaku.simpleRecord)
 
-### シンプル文字起こし (iOS)
+### ClipKit - コピー履歴管理 (iOS)
 
-音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。
+*コピーした内容を、バックグラウンドでも取りこぼさない*
 
-**利用技術:** Swift / SwiftUI / Core ML / Speech / Natural Language
+コピーした内容を自動で保存するクリップボード履歴アプリ。iOS 16以降のバックグラウンド制限を Picture in Picture で回避してクリップボードを監視し続ける仕組みを自作した。履歴の検索・ピン留め・テキスト変換、ウィジェットとキーボード拡張からの呼び出しにも対応している。
 
-[App Store](https://apps.apple.com/jp/app/id6504149514)
+**実績・見どころ**
+
+- App Store「クリップボード」検索で3位
+- PiPを使ったバックグラウンド監視を自作
+- TCA + RevenueCat でサブスクリプションを実装
+
+**利用技術:** Swift / SwiftUI / TCA / AVKit (PiP) / CloudKit / WidgetKit / Keyboard Extension / RevenueCat
+
+[App Store](https://apps.apple.com/jp/app/id6759832862)
 
 ### 読み上げナレーター (iOS)
+
+*書いたテキストを、そのまま声にする*
 
 入力したテキストを読み上げる音声合成アプリ。iOSの音声まわりのAPIを実際のプロダクトで試すために作り、リリース後もフィードバックを見ながら改善を続けている。
 
@@ -306,9 +323,54 @@ AIアバターが参加できる音声トークルームサービス「ishin」�
 
 [App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
 
+### シンプル文字起こし (iOS)
+
+*録音も会議メモも、その場でテキストに*
+
+音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。
+
+**実績・見どころ**
+
+- 音声認識をオンデバイスで実行し、音声を外部に送らない
+
+**利用技術:** Swift / SwiftUI / Core ML / Speech / Natural Language
+
+[App Store](https://apps.apple.com/jp/app/id6504149514)
+
+### Slumber - 睡眠記録・スマートアラーム (iOS)
+
+*眠りをスコアにして、気持ちよく起きる*
+
+睡眠の記録と分析を行うアプリ。日の出時刻・体動・画面の明るさの3条件から起床タイミングを判定するスマートアラームを実装し、AlarmKitでサイレントモードでも鳴るようにしている。毎朝の睡眠スコアと週間レポート、ロック画面ウィジェットを提供する。
+
+**実績・見どころ**
+
+- AlarmKitでサイレントモードでも鳴るアラームを実装
+- CoreMotion・CoreLocation・輝度の3条件で起床タイミングを判定
+
+**利用技術:** Swift / SwiftUI / AlarmKit / CoreMotion / CoreLocation / HealthKit / WeatherKit / WidgetKit
+
+[App Store](https://apps.apple.com/jp/app/id6770225144)
+
+### Festory - フェス・ライブ参戦記録 (iOS)
+
+*セトリごと残す、参戦の記録帳*
+
+フェスやライブへの参加を記録するアプリ。セットリストやアンコールの記録、行きたいイベントのウィッシュリスト、国内主要フェスのラインナップ情報を扱う。iOSアプリに加えてGoのAPIとランディングページも自分で作り、Cloud Run と Vercel で運用している。
+
+**実績・見どころ**
+
+- iOSアプリ・Go API・Webまでを一人で設計して運用
+
+**利用技術:** Swift / SwiftUI / Go / Cloud Run / React / Vite / Firebase
+
+[App Store](https://apps.apple.com/jp/app/id6763427429)
+
 ### 韻を踏んだらいいんじゃない (iOS)
 
-日本語の韻を分析して候補を提案するツール。母音の並びをもとにした韻の検出ロジックを自作し、日本語の音韻構造に合わせて調整した。
+*母音の並びから韻の候補を出すツール*
+
+日本語の韻を分析して候補を提案するツール。母音の並びをもとにした韻の検出ロジックを自作し、日本語の音韻構造に合わせて調整した。ストア未配信のプロトタイプ。
 
 **利用技術:** Swift / Natural Language / Core ML
 
