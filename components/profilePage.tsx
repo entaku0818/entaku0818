@@ -155,6 +155,16 @@ const Fold = ({
   </details>
 )
 
+/**
+ * 得意なことは「見出し — 説明」の形で書かれていることがある。
+ * その形なら2つに分けて、見出しを大きく・説明を小さく出す。
+ */
+const splitStatement = (statement: string): [string, string?] => {
+  const separator = statement.indexOf(' — ')
+  if (separator === -1) return [statement]
+  return [statement.slice(0, separator), statement.slice(separator + 3)]
+}
+
 /** OGP画像は言語に関わらず同じエンドポイントを使う */
 const ogImageUrl = `${profiles.ja.siteUrl}/api/og`
 
@@ -162,11 +172,8 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
   const profile = profiles[lang]
   const l = labels[lang]
   const title = `${profile.name} - ${profile.role}`
+  // サイトに出すのはストアで配信中のものだけ（未配信のものは README には残る）
   const released = releasedApps(profile)
-  // ストア未配信のものはフル幅のセクションを与えず、最後にまとめて小さく出す
-  const prototypes = profile.personalApps.filter(
-    (app) => app.links.length === 0,
-  )
   const stats = l.hero.stats(released.length)
 
   const sections = [
@@ -276,35 +283,6 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
         {released.map((app, index) => (
           <AppSection key={app.name} app={app} lang={lang} index={index} />
         ))}
-
-        {prototypes.length > 0 && (
-          <section className="bg-white">
-            <div className="container mx-auto px-6 pb-24 sm:pb-32">
-              <div className="mx-auto max-w-3xl border-t border-hairline/70 pt-10">
-                <p className="text-xs font-semibold tracking-[0.2em] text-muted uppercase">
-                  {l.apps.prototypes}
-                </p>
-                <ul className="mt-6 space-y-6">
-                  {prototypes.map((app) => (
-                    <li
-                      key={app.name}
-                      data-app={app.name}
-                      className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8"
-                    >
-                      <div>
-                        <h3 className="font-medium text-ink">{app.name}</h3>
-                        <p className="mt-1 text-sm text-muted">{app.tagline}</p>
-                      </div>
-                      <p className="text-xs whitespace-nowrap text-muted">
-                        {app.platform} · {l.apps.unreleased}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </section>
-        )}
       </div>
 
       {/* About */}
@@ -318,15 +296,29 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
             />
           </Reveal>
 
-          <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-10 md:grid-cols-3">
-            {profile.specialties.map((item, index) => (
-              <Reveal key={item} delay={index * 100}>
-                <p className="text-5xl font-semibold tracking-tight text-hairline">
-                  {String(index + 1).padStart(2, '0')}
-                </p>
-                <p className="mt-4 leading-relaxed text-ink">{item}</p>
-              </Reveal>
-            ))}
+          <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-3">
+            {profile.specialties.map((item, index) => {
+              const [title, description] = splitStatement(item)
+
+              return (
+                <Reveal key={item} delay={index * 100} className="h-full">
+                  <div className="flex h-full flex-col rounded-3xl bg-surface p-7 sm:p-8">
+                    <p className="text-xs font-semibold tracking-[0.2em] text-accent">
+                      {String(index + 1).padStart(2, '0')}
+                    </p>
+                    {/* auto-phrase: 日本語を文節で折り返す。非対応ブラウザは通常の折り返しに戻るだけ */}
+                    <h3 className="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]">
+                      {title}
+                    </h3>
+                    {description && (
+                      <p className="mt-4 text-sm leading-relaxed text-muted [word-break:auto-phrase]">
+                        {description}
+                      </p>
+                    )}
+                  </div>
+                </Reveal>
+              )
+            })}
           </div>
 
           <div className="mx-auto mt-24 grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-5">

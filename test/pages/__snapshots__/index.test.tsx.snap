@@ -173,7 +173,7 @@ exports[`Home page matches snapshot 1`] = `
                   class="text-4xl font-semibold tracking-tight text-ink sm:text-5xl"
                 >
                   <span>
-                    6
+                    3
                   </span>
                   <span
                     class="text-2xl text-muted sm:text-3xl"
@@ -755,515 +755,6 @@ exports[`Home page matches snapshot 1`] = `
           </div>
         </div>
       </section>
-      <section
-        class="bg-surface"
-        data-app="シンプル文字起こし"
-      >
-        <div
-          class="container mx-auto px-6 py-20 sm:py-28 lg:py-36"
-        >
-          <div
-            class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20"
-          >
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 lg:order-2"
-            >
-              <div
-                class="relative mx-auto w-[220px] sm:w-[260px] lg:w-[300px] "
-              >
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[13%] -left-[2px] h-[4%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[20%] -left-[2px] h-[7%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[29%] -left-[2px] h-[7%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[22%] -right-[2px] h-[11%] w-[3px] rounded-r-sm bg-neutral-700"
-                />
-                <div
-                  class="relative rounded-[11.5%/5.3%] bg-neutral-900 p-[2.8%] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.45)] ring-1 ring-black/10"
-                >
-                  <div
-                    class="relative overflow-hidden rounded-[9.5%/4.4%] bg-white"
-                    style="aspect-ratio: 620 / 1344;"
-                  >
-                    <img
-                      alt="シンプル文字起こし の画面"
-                      class="h-full w-full object-cover"
-                      data-nimg="1"
-                      decoding="async"
-                      height="1344"
-                      loading="lazy"
-                      sizes="(min-width: 1024px) 300px, (min-width: 640px) 260px, 220px"
-                      src="/_next/image?url=%2Fapps%2Ftranscription.webp&w=3840&q=75"
-                      srcset="/_next/image?url=%2Fapps%2Ftranscription.webp&w=32&q=75 32w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=48&q=75 48w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=64&q=75 64w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=96&q=75 96w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=128&q=75 128w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=256&q=75 256w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=384&q=75 384w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=640&q=75 640w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=750&q=75 750w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=828&q=75 828w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=1080&q=75 1080w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=1200&q=75 1200w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=1920&q=75 1920w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=2048&q=75 2048w, /_next/image?url=%2Fapps%2Ftranscription.webp&w=3840&q=75 3840w"
-                      style="color: transparent;"
-                      width="620"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 lg:order-1"
-              style="transition-delay: 140ms;"
-            >
-              <p
-                class="text-xs font-semibold tracking-[0.18em] text-muted uppercase"
-              >
-                iOS
-              </p>
-              <h3
-                class="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
-              >
-                シンプル文字起こし
-              </h3>
-              <p
-                class="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
-              >
-                録音も会議メモも、その場でテキストに
-              </p>
-              <p
-                class="mt-6 max-w-xl leading-relaxed text-ink/70"
-              >
-                音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。
-              </p>
-              <ul
-                class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
-              >
-                <li
-                  class="flex items-start gap-3 text-sm font-medium text-ink"
-                >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-                  />
-                  音声認識をオンデバイスで実行し、音声を外部に送らない
-                </li>
-              </ul>
-              <div
-                class="mt-8 flex flex-wrap gap-x-4 gap-y-1.5"
-              >
-                <span
-                  class="text-xs text-muted"
-                >
-                  Swift
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  SwiftUI
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Core ML
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Speech
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Natural Language
-                </span>
-              </div>
-              <div
-                class="mt-8 flex flex-wrap gap-6"
-              >
-                <a
-                  class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
-                  href="https://apps.apple.com/jp/app/id6504149514"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  App Store
-                  <span
-                    aria-hidden="true"
-                    class="transition-transform duration-300 group-hover:translate-x-1"
-                  >
-                    ›
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="bg-white"
-        data-app="Slumber - 睡眠記録・スマートアラーム"
-      >
-        <div
-          class="container mx-auto px-6 py-20 sm:py-28 lg:py-36"
-        >
-          <div
-            class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20"
-          >
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
-            >
-              <div
-                class="relative mx-auto w-[220px] sm:w-[260px] lg:w-[300px] "
-              >
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[13%] -left-[2px] h-[4%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[20%] -left-[2px] h-[7%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[29%] -left-[2px] h-[7%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[22%] -right-[2px] h-[11%] w-[3px] rounded-r-sm bg-neutral-700"
-                />
-                <div
-                  class="relative rounded-[11.5%/5.3%] bg-neutral-900 p-[2.8%] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.45)] ring-1 ring-black/10"
-                >
-                  <div
-                    class="relative overflow-hidden rounded-[9.5%/4.4%] bg-white"
-                    style="aspect-ratio: 620 / 1344;"
-                  >
-                    <img
-                      alt="Slumber - 睡眠記録・スマートアラーム の画面"
-                      class="h-full w-full object-cover"
-                      data-nimg="1"
-                      decoding="async"
-                      height="1344"
-                      loading="lazy"
-                      sizes="(min-width: 1024px) 300px, (min-width: 640px) 260px, 220px"
-                      src="/_next/image?url=%2Fapps%2Fslumber.webp&w=3840&q=75"
-                      srcset="/_next/image?url=%2Fapps%2Fslumber.webp&w=32&q=75 32w, /_next/image?url=%2Fapps%2Fslumber.webp&w=48&q=75 48w, /_next/image?url=%2Fapps%2Fslumber.webp&w=64&q=75 64w, /_next/image?url=%2Fapps%2Fslumber.webp&w=96&q=75 96w, /_next/image?url=%2Fapps%2Fslumber.webp&w=128&q=75 128w, /_next/image?url=%2Fapps%2Fslumber.webp&w=256&q=75 256w, /_next/image?url=%2Fapps%2Fslumber.webp&w=384&q=75 384w, /_next/image?url=%2Fapps%2Fslumber.webp&w=640&q=75 640w, /_next/image?url=%2Fapps%2Fslumber.webp&w=750&q=75 750w, /_next/image?url=%2Fapps%2Fslumber.webp&w=828&q=75 828w, /_next/image?url=%2Fapps%2Fslumber.webp&w=1080&q=75 1080w, /_next/image?url=%2Fapps%2Fslumber.webp&w=1200&q=75 1200w, /_next/image?url=%2Fapps%2Fslumber.webp&w=1920&q=75 1920w, /_next/image?url=%2Fapps%2Fslumber.webp&w=2048&q=75 2048w, /_next/image?url=%2Fapps%2Fslumber.webp&w=3840&q=75 3840w"
-                      style="color: transparent;"
-                      width="620"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
-              style="transition-delay: 140ms;"
-            >
-              <p
-                class="text-xs font-semibold tracking-[0.18em] text-muted uppercase"
-              >
-                iOS
-              </p>
-              <h3
-                class="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
-              >
-                Slumber - 睡眠記録・スマートアラーム
-              </h3>
-              <p
-                class="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
-              >
-                眠りをスコアにして、気持ちよく起きる
-              </p>
-              <p
-                class="mt-6 max-w-xl leading-relaxed text-ink/70"
-              >
-                睡眠の記録と分析を行うアプリ。日の出時刻・体動・画面の明るさの3条件から起床タイミングを判定するスマートアラームを実装し、AlarmKitでサイレントモードでも鳴るようにしている。毎朝の睡眠スコアと週間レポート、ロック画面ウィジェットを提供する。
-              </p>
-              <ul
-                class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
-              >
-                <li
-                  class="flex items-start gap-3 text-sm font-medium text-ink"
-                >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-                  />
-                  AlarmKitでサイレントモードでも鳴るアラームを実装
-                </li>
-                <li
-                  class="flex items-start gap-3 text-sm font-medium text-ink"
-                >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-                  />
-                  CoreMotion・CoreLocation・輝度の3条件で起床タイミングを判定
-                </li>
-              </ul>
-              <div
-                class="mt-8 flex flex-wrap gap-x-4 gap-y-1.5"
-              >
-                <span
-                  class="text-xs text-muted"
-                >
-                  Swift
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  SwiftUI
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  AlarmKit
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  CoreMotion
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  CoreLocation
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  HealthKit
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  WeatherKit
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  WidgetKit
-                </span>
-              </div>
-              <div
-                class="mt-8 flex flex-wrap gap-6"
-              >
-                <a
-                  class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
-                  href="https://apps.apple.com/jp/app/id6770225144"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  App Store
-                  <span
-                    aria-hidden="true"
-                    class="transition-transform duration-300 group-hover:translate-x-1"
-                  >
-                    ›
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="bg-surface"
-        data-app="Festory - フェス・ライブ参戦記録"
-      >
-        <div
-          class="container mx-auto px-6 py-20 sm:py-28 lg:py-36"
-        >
-          <div
-            class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20"
-          >
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 lg:order-2"
-            >
-              <div
-                class="relative mx-auto w-[220px] sm:w-[260px] lg:w-[300px] "
-              >
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[13%] -left-[2px] h-[4%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[20%] -left-[2px] h-[7%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[29%] -left-[2px] h-[7%] w-[3px] rounded-l-sm bg-neutral-700"
-                />
-                <span
-                  aria-hidden="true"
-                  class="absolute top-[22%] -right-[2px] h-[11%] w-[3px] rounded-r-sm bg-neutral-700"
-                />
-                <div
-                  class="relative rounded-[11.5%/5.3%] bg-neutral-900 p-[2.8%] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.45)] ring-1 ring-black/10"
-                >
-                  <div
-                    class="relative overflow-hidden rounded-[9.5%/4.4%] bg-white"
-                    style="aspect-ratio: 620 / 1344;"
-                  >
-                    <img
-                      alt="Festory - フェス・ライブ参戦記録 の画面"
-                      class="h-full w-full object-cover"
-                      data-nimg="1"
-                      decoding="async"
-                      height="1344"
-                      loading="lazy"
-                      sizes="(min-width: 1024px) 300px, (min-width: 640px) 260px, 220px"
-                      src="/_next/image?url=%2Fapps%2Ffestory.webp&w=3840&q=75"
-                      srcset="/_next/image?url=%2Fapps%2Ffestory.webp&w=32&q=75 32w, /_next/image?url=%2Fapps%2Ffestory.webp&w=48&q=75 48w, /_next/image?url=%2Fapps%2Ffestory.webp&w=64&q=75 64w, /_next/image?url=%2Fapps%2Ffestory.webp&w=96&q=75 96w, /_next/image?url=%2Fapps%2Ffestory.webp&w=128&q=75 128w, /_next/image?url=%2Fapps%2Ffestory.webp&w=256&q=75 256w, /_next/image?url=%2Fapps%2Ffestory.webp&w=384&q=75 384w, /_next/image?url=%2Fapps%2Ffestory.webp&w=640&q=75 640w, /_next/image?url=%2Fapps%2Ffestory.webp&w=750&q=75 750w, /_next/image?url=%2Fapps%2Ffestory.webp&w=828&q=75 828w, /_next/image?url=%2Fapps%2Ffestory.webp&w=1080&q=75 1080w, /_next/image?url=%2Fapps%2Ffestory.webp&w=1200&q=75 1200w, /_next/image?url=%2Fapps%2Ffestory.webp&w=1920&q=75 1920w, /_next/image?url=%2Fapps%2Ffestory.webp&w=2048&q=75 2048w, /_next/image?url=%2Fapps%2Ffestory.webp&w=3840&q=75 3840w"
-                      style="color: transparent;"
-                      width="620"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 lg:order-1"
-              style="transition-delay: 140ms;"
-            >
-              <p
-                class="text-xs font-semibold tracking-[0.18em] text-muted uppercase"
-              >
-                iOS
-              </p>
-              <h3
-                class="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
-              >
-                Festory - フェス・ライブ参戦記録
-              </h3>
-              <p
-                class="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
-              >
-                セトリごと残す、参戦の記録帳
-              </p>
-              <p
-                class="mt-6 max-w-xl leading-relaxed text-ink/70"
-              >
-                フェスやライブへの参加を記録するアプリ。セットリストやアンコールの記録、行きたいイベントのウィッシュリスト、国内主要フェスのラインナップ情報を扱う。iOSアプリに加えてGoのAPIとランディングページも自分で作り、Cloud Run と Vercel で運用している。
-              </p>
-              <ul
-                class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
-              >
-                <li
-                  class="flex items-start gap-3 text-sm font-medium text-ink"
-                >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-                  />
-                  iOSアプリ・Go API・Webまでを一人で設計して運用
-                </li>
-              </ul>
-              <div
-                class="mt-8 flex flex-wrap gap-x-4 gap-y-1.5"
-              >
-                <span
-                  class="text-xs text-muted"
-                >
-                  Swift
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  SwiftUI
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Go
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Cloud Run
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  React
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Vite
-                </span>
-                <span
-                  class="text-xs text-muted"
-                >
-                  Firebase
-                </span>
-              </div>
-              <div
-                class="mt-8 flex flex-wrap gap-6"
-              >
-                <a
-                  class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
-                  href="https://apps.apple.com/jp/app/id6763427429"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  App Store
-                  <span
-                    aria-hidden="true"
-                    class="transition-transform duration-300 group-hover:translate-x-1"
-                  >
-                    ›
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="bg-white"
-      >
-        <div
-          class="container mx-auto px-6 pb-24 sm:pb-32"
-        >
-          <div
-            class="mx-auto max-w-3xl border-t border-hairline/70 pt-10"
-          >
-            <p
-              class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
-            >
-              プロトタイプ
-            </p>
-            <ul
-              class="mt-6 space-y-6"
-            >
-              <li
-                class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8"
-                data-app="韻を踏んだらいいんじゃない"
-              >
-                <div>
-                  <h3
-                    class="font-medium text-ink"
-                  >
-                    韻を踏んだらいいんじゃない
-                  </h3>
-                  <p
-                    class="mt-1 text-sm text-muted"
-                  >
-                    母音の並びから韻の候補を出すツール
-                  </p>
-                </div>
-                <p
-                  class="text-xs whitespace-nowrap text-muted"
-                >
-                  iOS · 未配信
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
     </div>
     <section
       class="scroll-mt-20 bg-white"
@@ -1293,56 +784,73 @@ exports[`Home page matches snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-10 md:grid-cols-3"
+          class="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-3"
         >
           <div>
             <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 h-full"
             >
-              <p
-                class="text-5xl font-semibold tracking-tight text-hairline"
+              <div
+                class="flex h-full flex-col rounded-3xl bg-surface p-7 sm:p-8"
               >
-                01
-              </p>
-              <p
-                class="mt-4 leading-relaxed text-ink"
-              >
-                モバイルアプリの開発、アーキテクチャ設計
-              </p>
+                <p
+                  class="text-xs font-semibold tracking-[0.2em] text-accent"
+                >
+                  01
+                </p>
+                <h3
+                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]"
+                >
+                  モバイルアプリの開発、アーキテクチャ設計
+                </h3>
+              </div>
             </div>
           </div>
           <div>
             <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 h-full"
               style="transition-delay: 100ms;"
             >
-              <p
-                class="text-5xl font-semibold tracking-tight text-hairline"
+              <div
+                class="flex h-full flex-col rounded-3xl bg-surface p-7 sm:p-8"
               >
-                02
-              </p>
-              <p
-                class="mt-4 leading-relaxed text-ink"
-              >
-                音声配信 / ライブ配信の仕組み作り
-              </p>
+                <p
+                  class="text-xs font-semibold tracking-[0.2em] text-accent"
+                >
+                  02
+                </p>
+                <h3
+                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]"
+                >
+                  音声配信 / ライブ配信の仕組み作り
+                </h3>
+              </div>
             </div>
           </div>
           <div>
             <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 h-full"
               style="transition-delay: 200ms;"
             >
-              <p
-                class="text-5xl font-semibold tracking-tight text-hairline"
+              <div
+                class="flex h-full flex-col rounded-3xl bg-surface p-7 sm:p-8"
               >
-                03
-              </p>
-              <p
-                class="mt-4 leading-relaxed text-ink"
-              >
-                事業マインドを持ったプロダクト開発 — 技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している
-              </p>
+                <p
+                  class="text-xs font-semibold tracking-[0.2em] text-accent"
+                >
+                  03
+                </p>
+                <h3
+                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]"
+                >
+                  事業マインドを持ったプロダクト開発
+                </h3>
+                <p
+                  class="mt-4 text-sm leading-relaxed text-muted [word-break:auto-phrase]"
+                >
+                  技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している
+                </p>
+              </div>
             </div>
           </div>
         </div>

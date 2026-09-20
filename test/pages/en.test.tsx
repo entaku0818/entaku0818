@@ -48,7 +48,7 @@ describe('Home page in English', () => {
       .map((heading) => heading.textContent)
 
     expect(headings).toEqual(profileEn.personalApps.map((app) => app.name))
-    expect(releasedApps(profileEn)).toHaveLength(6)
+    expect(releasedApps(profileEn)).toHaveLength(3)
     expect(headings[1]).toBe('ClipKit — Clipboard Manager')
   })
 
@@ -58,7 +58,7 @@ describe('Home page in English', () => {
       container.querySelectorAll('[data-app] img'),
     ).map((image) => image.getAttribute('src'))
 
-    expect(sources).toHaveLength(6)
+    expect(sources).toHaveLength(3)
     expect(sources.some((src) => src?.includes('clipkit'))).toBe(true)
   })
 

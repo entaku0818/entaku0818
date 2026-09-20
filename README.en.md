@@ -317,57 +317,6 @@ A text-to-speech app. I built it to try the iOS audio and speech APIs on a real 
 
 [App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
 
-### Simple Transcription (iOS)
-
-*Recordings and meeting notes, as text*
-
-A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.
-
-**Highlights**
-
-- Speech recognition runs on device, so audio never leaves it
-
-**Tech stack:** Swift / SwiftUI / Core ML / Speech / Natural Language
-
-[App Store](https://apps.apple.com/jp/app/id6504149514)
-
-### Slumber — Sleep & Alarm (iOS)
-
-*Scores your sleep so you wake up well*
-
-A sleep tracking app. Its smart alarm picks a wake-up moment from three signals — sunrise time, body movement and screen brightness — and AlarmKit makes it ring even in silent mode. It reports a sleep score each morning, a weekly trend and a lock screen widget.
-
-**Highlights**
-
-- AlarmKit alarms that ring through silent mode
-- Wake-up timing from CoreMotion, CoreLocation and screen brightness
-
-**Tech stack:** Swift / SwiftUI / AlarmKit / CoreMotion / CoreLocation / HealthKit / WeatherKit / WidgetKit
-
-[App Store](https://apps.apple.com/jp/app/id6770225144)
-
-### Festory — Concert & Setlist Log (iOS)
-
-*A log of every festival, setlist included*
-
-An app for logging the festivals and concerts you attend, with setlists, encores, a wishlist of upcoming events and lineups for major Japanese festivals. Alongside the iOS app I built the Go API and the landing page, running on Cloud Run and Vercel.
-
-**Highlights**
-
-- iOS app, Go API and web all designed and operated solo
-
-**Tech stack:** Swift / SwiftUI / Go / Cloud Run / React / Vite / Firebase
-
-[App Store](https://apps.apple.com/jp/app/id6763427429)
-
-### Japanese Rhyme Finder (iOS)
-
-*Suggests rhymes from vowel sequences*
-
-A tool that analyses Japanese rhymes and suggests candidates. I wrote the detection logic myself, based on vowel sequences and tuned for Japanese phonology. A prototype that never shipped to the store.
-
-**Tech stack:** Swift / Natural Language / Core ML
-
 # More
 
 - More about me  

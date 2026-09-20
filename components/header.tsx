@@ -92,10 +92,10 @@ export const Header = ({
 
         {/*
           モバイルは横幅が足りないので段を折らずに絞る。
-          トップはCTA優先、他のページはページ間のリンクを残す。
+          CTAがあるページはCTA優先、無いページはページ間のリンクを残す。
         */}
         <div className="ml-auto flex items-center gap-3 md:ml-0 md:hidden">
-          {sections.length === 0 && (
+          {!ctaHref && (
             <>
               <a
                 href={localePath(lang, '/personal')}

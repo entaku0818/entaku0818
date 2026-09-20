@@ -23,13 +23,13 @@ describe('Home page', () => {
     expect(getByText(labels.ja.hero.stack)).toBeTruthy()
   })
 
-  it('puts a contact call to action directly under the hero', () => {
+  it('points the hero call to action at the apps', () => {
     const { getAllByRole } = render(<Home />, {})
     const cta = getAllByRole('link', {
-      name: new RegExp(labels.ja.hero.primaryCta),
+      name: new RegExp(labels.ja.hero.secondaryCta),
     })
     expect(cta.length).toBeGreaterThan(0)
-    expect(cta.every((link) => link.getAttribute('href') === '#contact')).toBe(
+    expect(cta.every((link) => link.getAttribute('href') === '#apps')).toBe(
       true,
     )
   })
@@ -38,7 +38,7 @@ describe('Home page', () => {
     const { getByText } = render(<Home />, {})
     const [appCountStat] = labels.ja.hero.stats(releasedApps(profileJa).length)
 
-    expect(releasedApps(profileJa)).toHaveLength(6)
+    expect(releasedApps(profileJa)).toHaveLength(3)
     expect(getByText(appCountStat.label)).toBeTruthy()
     expect(getByText(String(appCountStat.value))).toBeTruthy()
   })
@@ -49,24 +49,23 @@ describe('Home page', () => {
       .queryAllByRole('heading', { level: 3 })
       .map((heading) => heading.textContent)
 
-    for (const app of profileJa.personalApps) {
-      expect(headings).toContain(app.name)
-    }
+    expect(headings).toEqual(profileJa.personalApps.map((app) => app.name))
     expect(headings.indexOf('ClipKit - コピー履歴管理')).toBe(1)
-    expect(headings.indexOf('韻を踏んだらいいんじゃない')).toBe(
-      profileJa.personalApps.length - 1,
-    )
   })
 
   it('links each released app to its store page', () => {
     const { getAllByRole } = render(<Home />, {})
-    const storeLinks = getAllByRole('link', { name: /App Store/ }).map((link) =>
-      link.getAttribute('href'),
-    )
+    const storeLinks = getAllByRole('link', { name: /App Store|Google Play/ })
+      .map((link) => link.getAttribute('href'))
+      .filter(
+        (href) =>
+          href?.includes('apps.apple.com') || href?.includes('play.google.com'),
+      )
 
+    expect(storeLinks).toHaveLength(
+      releasedApps(profileJa).flatMap((app) => app.links).length,
+    )
     expect(storeLinks).toContain('https://apps.apple.com/jp/app/id6759832862')
-    expect(storeLinks).toContain('https://apps.apple.com/jp/app/id6770225144')
-    expect(storeLinks).toContain('https://apps.apple.com/jp/app/id6763427429')
   })
 
   it('gives each released app its own full-width section, in data order', () => {
@@ -86,7 +85,7 @@ describe('Home page', () => {
     const deviceOnRight = sections.map((section) =>
       Boolean(section.querySelector('.lg\\:order-2')),
     )
-    expect(deviceOnRight.slice(0, 4)).toEqual([false, true, false, true])
+    expect(deviceOnRight).toEqual([false, true, false])
   })
 
   it('shows a real screenshot inside the device mock for released apps', () => {
@@ -101,20 +100,17 @@ describe('Home page', () => {
     expect(image?.getAttribute('alt')).toContain('ClipKit')
   })
 
-  it('lists the app that never shipped compactly instead of giving it a section', () => {
-    const { container, getByText } = render(<Home />, {})
-    const unreleased = container.querySelector(
-      '[data-app="韻を踏んだらいいんじゃない"]',
+  it('only shows apps that are on a store', () => {
+    const { container } = render(<Home />, {})
+    const shown = Array.from(container.querySelectorAll('[data-app]')).map(
+      (section) => section.getAttribute('data-app'),
     )
 
-    expect(unreleased).toBeTruthy()
-    // フル幅のセクションではなく、末尾のまとめブロックの項目として出す
-    expect(unreleased?.tagName).toBe('LI')
-    expect(unreleased?.closest('section[data-app]')).toBeNull()
-    expect(unreleased?.querySelector('img')).toBeNull()
-    expect(unreleased?.querySelectorAll('a[target="_blank"]')).toHaveLength(0)
-    expect(unreleased?.textContent).toContain(labels.ja.apps.unreleased)
-    expect(getByText(labels.ja.apps.prototypes)).toBeTruthy()
+    expect(shown).toEqual(releasedApps(profileJa).map((app) => app.name))
+    // 端末モックの中身は必ず実機スクショ（プレースホルダは出番なし）
+    expect(container.querySelectorAll('[data-app] img')).toHaveLength(
+      shown.length,
+    )
   })
 
   it('folds the long-form history into collapsed sections', () => {
@@ -140,5 +136,13 @@ describe('Home page', () => {
     expect(
       getByRole('button', { name: new RegExp(labels.ja.contact.submit) }),
     ).toBeTruthy()
+  })
+
+  it('keeps every #contact link pointing at a section that exists', () => {
+    const { container } = render(<Home />, {})
+    const anchors = container.querySelectorAll('a[href="#contact"]')
+
+    expect(anchors.length).toBeGreaterThan(0)
+    expect(container.querySelector('#contact')).toBeTruthy()
   })
 })

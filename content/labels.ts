@@ -61,8 +61,6 @@ export type Labels = {
     highlights: string
     /** スクリーンショットが無いアプリの端末モックに入れる文言 */
     placeholder: string
-    /** ストア未配信のアプリをまとめる小さなブロックの見出し */
-    prototypes: string
   }
   about: {
     eyebrow: string
@@ -160,7 +158,6 @@ export const labels: Record<Lang, Labels> = {
       unreleased: '未配信',
       highlights: '見どころ',
       placeholder: 'ストア未配信',
-      prototypes: 'プロトタイプ',
     },
     about: {
       eyebrow: 'About',
@@ -258,7 +255,6 @@ export const labels: Record<Lang, Labels> = {
       unreleased: 'Not published',
       highlights: 'Highlights',
       placeholder: 'Not on the store',
-      prototypes: 'Prototypes',
     },
     about: {
       eyebrow: 'About',
