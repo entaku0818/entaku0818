@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, within } from '../testUtils'
 import { Home } from '../../pages/index'
-import { profileJa, releasedApps } from '../../content/profile'
+import { featuredApps, profileJa, releasedApps } from '../../content/profile'
 import labels from '../../content/labels'
 
 describe('Home page', () => {
@@ -38,7 +38,7 @@ describe('Home page', () => {
     const { getByText } = render(<Home />, {})
     const [appCountStat] = labels.ja.hero.stats(releasedApps(profileJa).length)
 
-    expect(releasedApps(profileJa)).toHaveLength(3)
+    expect(releasedApps(profileJa)).toHaveLength(6)
     expect(getByText(appCountStat.label)).toBeTruthy()
     expect(getByText(String(appCountStat.value))).toBeTruthy()
   })
@@ -49,7 +49,7 @@ describe('Home page', () => {
       .queryAllByRole('heading', { level: 3 })
       .map((heading) => heading.textContent)
 
-    expect(headings).toEqual(profileJa.personalApps.map((app) => app.name))
+    expect(headings).toEqual(featuredApps(profileJa).map((app) => app.name))
     expect(headings.indexOf('ClipKit - コピー履歴管理')).toBe(1)
   })
 
@@ -63,18 +63,35 @@ describe('Home page', () => {
       )
 
     expect(storeLinks).toHaveLength(
-      releasedApps(profileJa).flatMap((app) => app.links).length,
+      featuredApps(profileJa).flatMap((app) => app.links).length,
     )
     expect(storeLinks).toContain('https://apps.apple.com/jp/app/id6759832862')
   })
 
-  it('gives each released app its own full-width section, in data order', () => {
+  it('gives each featured app its own full-width section, in data order', () => {
     const { container } = render(<Home />, {})
     const sections = Array.from(container.querySelectorAll('section[data-app]'))
 
     expect(sections.map((section) => section.getAttribute('data-app'))).toEqual(
-      releasedApps(profileJa).map((app) => app.name),
+      featuredApps(profileJa).map((app) => app.name),
     )
+  })
+
+  it('keeps the apps that are only in the README off the site', () => {
+    const { container } = render(<Home />, {})
+    const onSite = Array.from(container.querySelectorAll('[data-app]')).map(
+      (section) => section.getAttribute('data-app'),
+    )
+    const readmeOnly = profileJa.personalApps.filter((app) => !app.featured)
+
+    // README には6本、サイトには3本
+    expect(profileJa.personalApps).toHaveLength(6)
+    expect(readmeOnly).toHaveLength(3)
+    for (const app of readmeOnly) {
+      expect(onSite).not.toContain(app.name)
+      // サイトに出さないものはスクショも持たない（消した画像を参照しない）
+      expect(app.screenshot).toBeUndefined()
+    }
   })
 
   it('alternates which side the device mock sits on', () => {
@@ -100,14 +117,11 @@ describe('Home page', () => {
     expect(image?.getAttribute('alt')).toContain('ClipKit')
   })
 
-  it('only shows apps that are on a store', () => {
+  it('shows a real screenshot in every device mock', () => {
     const { container } = render(<Home />, {})
-    const shown = Array.from(container.querySelectorAll('[data-app]')).map(
-      (section) => section.getAttribute('data-app'),
-    )
+    const shown = container.querySelectorAll('[data-app]')
 
-    expect(shown).toEqual(releasedApps(profileJa).map((app) => app.name))
-    // 端末モックの中身は必ず実機スクショ（プレースホルダは出番なし）
+    // 載せるアプリは必ずスクショを持つ（プレースホルダは出番なし）
     expect(container.querySelectorAll('[data-app] img')).toHaveLength(
       shown.length,
     )

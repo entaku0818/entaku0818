@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, within } from '../testUtils'
 import { Home } from '../../pages/index'
-import { profileEn, releasedApps } from '../../content/profile'
+import { featuredApps, profileEn, releasedApps } from '../../content/profile'
 import labels from '../../content/labels'
 
 describe('Home page in English', () => {
@@ -47,8 +47,9 @@ describe('Home page in English', () => {
       .queryAllByRole('heading', { level: 3 })
       .map((heading) => heading.textContent)
 
-    expect(headings).toEqual(profileEn.personalApps.map((app) => app.name))
-    expect(releasedApps(profileEn)).toHaveLength(3)
+    expect(headings).toEqual(featuredApps(profileEn).map((app) => app.name))
+    expect(releasedApps(profileEn)).toHaveLength(6)
+    expect(featuredApps(profileEn)).toHaveLength(3)
     expect(headings[1]).toBe('ClipKit — Clipboard Manager')
   })
 

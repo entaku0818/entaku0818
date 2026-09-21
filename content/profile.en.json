@@ -418,6 +418,7 @@
       "tagline": "A voice recorder that starts with one tap",
       "platform": "iOS / Android",
       "overview": "A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.",
+      "featured": true,
       "screenshot": "/apps/simple-recorder.webp",
       "metrics": [
         "Rated 4.2 from 229 App Store reviews",
@@ -449,6 +450,7 @@
       "tagline": "Keeps watching the clipboard, even in the background",
       "platform": "iOS",
       "overview": "A clipboard manager that saves what you copy automatically. To keep watching the clipboard under the background limits introduced in iOS 16, I built the monitoring on top of Picture in Picture. It also covers search, pinning and text conversion, reachable from a widget and a keyboard extension.",
+      "featured": true,
       "screenshot": "/apps/clipkit.webp",
       "metrics": [
         "Ranks 3rd for “clipboard” on the Japanese App Store",
@@ -477,12 +479,77 @@
       "tagline": "Turns whatever you type into speech",
       "platform": "iOS",
       "overview": "A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.",
+      "featured": true,
       "screenshot": "/apps/narrator.webp",
       "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
       "links": [
         {
           "label": "App Store",
           "url": "https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+        }
+      ]
+    },
+    {
+      "name": "Simple Transcription",
+      "tagline": "Recordings and meeting notes, as text",
+      "platform": "iOS",
+      "overview": "A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.",
+      "metrics": [
+        "Speech recognition runs on device, so audio never leaves it"
+      ],
+      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6504149514"
+        }
+      ]
+    },
+    {
+      "name": "Slumber — Sleep & Alarm",
+      "tagline": "Scores your sleep so you wake up well",
+      "platform": "iOS",
+      "overview": "A sleep tracking app. Its smart alarm picks a wake-up moment from three signals — sunrise time, body movement and screen brightness — and AlarmKit makes it ring even in silent mode. It reports a sleep score each morning, a weekly trend and a lock screen widget.",
+      "metrics": [
+        "AlarmKit alarms that ring through silent mode",
+        "Wake-up timing from CoreMotion, CoreLocation and screen brightness"
+      ],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "AlarmKit",
+        "CoreMotion",
+        "CoreLocation",
+        "HealthKit",
+        "WeatherKit",
+        "WidgetKit"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6770225144"
+        }
+      ]
+    },
+    {
+      "name": "Festory — Concert & Setlist Log",
+      "tagline": "A log of every festival, setlist included",
+      "platform": "iOS",
+      "overview": "An app for logging the festivals and concerts you attend, with setlists, encores, a wishlist of upcoming events and lineups for major Japanese festivals. Alongside the iOS app I built the Go API and the landing page, running on Cloud Run and Vercel.",
+      "metrics": ["iOS app, Go API and web all designed and operated solo"],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "Go",
+        "Cloud Run",
+        "React",
+        "Vite",
+        "Firebase"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6763427429"
         }
       ]
     }

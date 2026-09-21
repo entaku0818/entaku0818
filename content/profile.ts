@@ -86,8 +86,13 @@ export type PersonalApp = {
   platform: string
   overview: string
   /**
+   * サイトのトップに1セクション取って載せるか。
+   * README は全部載せるが、サイトは絞って見せたいのでここで分ける。
+   */
+  featured?: boolean
+  /**
    * 端末モックに入れる画面画像（public/apps 配下）。
-   * App Store のスクショから画面部分だけを切り出したもの。未配信のアプリには無い。
+   * App Store のスクショから画面部分だけを切り出したもの。featured のアプリだけ持つ。
    */
   screenshot?: string
   /** 順位・評価・技術的な見どころなど、実績として並べる短い文 */
@@ -97,9 +102,13 @@ export type PersonalApp = {
   links: Link[]
 }
 
-/** ストアで配信中のアプリだけを数える。未配信のプロトタイプは実績に含めない */
+/** ストアで配信中のアプリ。ヒーローの本数はこれを数える */
 export const releasedApps = (profile: Profile): PersonalApp[] =>
   profile.personalApps.filter((app) => app.links.length > 0)
+
+/** サイトのトップにセクションを取って載せるアプリ。README にはこれ以外も載る */
+export const featuredApps = (profile: Profile): PersonalApp[] =>
+  profile.personalApps.filter((app) => app.featured)
 
 export type Lang = 'ja' | 'en'
 

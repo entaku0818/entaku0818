@@ -323,6 +323,49 @@ AIアバターが参加できる音声トークルームサービス「ishin」�
 
 [App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
 
+### シンプル文字起こし (iOS)
+
+*録音も会議メモも、その場でテキストに*
+
+音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。
+
+**実績・見どころ**
+
+- 音声認識をオンデバイスで実行し、音声を外部に送らない
+
+**利用技術:** Swift / SwiftUI / Core ML / Speech / Natural Language
+
+[App Store](https://apps.apple.com/jp/app/id6504149514)
+
+### Slumber - 睡眠記録・スマートアラーム (iOS)
+
+*眠りをスコアにして、気持ちよく起きる*
+
+睡眠の記録と分析を行うアプリ。日の出時刻・体動・画面の明るさの3条件から起床タイミングを判定するスマートアラームを実装し、AlarmKitでサイレントモードでも鳴るようにしている。毎朝の睡眠スコアと週間レポート、ロック画面ウィジェットを提供する。
+
+**実績・見どころ**
+
+- AlarmKitでサイレントモードでも鳴るアラームを実装
+- CoreMotion・CoreLocation・輝度の3条件で起床タイミングを判定
+
+**利用技術:** Swift / SwiftUI / AlarmKit / CoreMotion / CoreLocation / HealthKit / WeatherKit / WidgetKit
+
+[App Store](https://apps.apple.com/jp/app/id6770225144)
+
+### Festory - フェス・ライブ参戦記録 (iOS)
+
+*セトリごと残す、参戦の記録帳*
+
+フェスやライブへの参加を記録するアプリ。セットリストやアンコールの記録、行きたいイベントのウィッシュリスト、国内主要フェスのラインナップ情報を扱う。iOSアプリに加えてGoのAPIとランディングページも自分で作り、Cloud Run と Vercel で運用している。
+
+**実績・見どころ**
+
+- iOSアプリ・Go API・Webまでを一人で設計して運用
+
+**利用技術:** Swift / SwiftUI / Go / Cloud Run / React / Vite / Firebase
+
+[App Store](https://apps.apple.com/jp/app/id6763427429)
+
 # その他
 
 - 私自身に関することはこちら  

@@ -7,7 +7,7 @@ import AppSection from './appSection'
 import ContactForm from './contactForm'
 import Reveal from './reveal'
 import useCountUp from '../hocks/useCountUp'
-import { profiles, releasedApps } from '../content/profile'
+import { featuredApps, profiles, releasedApps } from '../content/profile'
 import labels from '../content/labels'
 import type { HeroStat } from '../content/labels'
 import type { Lang, TechCategory } from '../content/profile'
@@ -172,9 +172,10 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
   const profile = profiles[lang]
   const l = labels[lang]
   const title = `${profile.name} - ${profile.role}`
-  // サイトに出すのはストアで配信中のものだけ（未配信のものは README には残る）
-  const released = releasedApps(profile)
-  const stats = l.hero.stats(released.length)
+  // セクションを取るのは featured のものだけ。README には残り全部が載る
+  const featured = featuredApps(profile)
+  // 数字は「配信中のアプリ」なので、載せていないものも含めて数える
+  const stats = l.hero.stats(releasedApps(profile).length)
 
   const sections = [
     { id: 'apps', label: l.nav.apps },
@@ -280,7 +281,7 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
             </Reveal>
           </div>
         </section>
-        {released.map((app, index) => (
+        {featured.map((app, index) => (
           <AppSection key={app.name} app={app} lang={lang} index={index} />
         ))}
       </div>

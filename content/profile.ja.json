@@ -425,6 +425,7 @@
       "tagline": "ワンタップで始まる音声レコーダー",
       "platform": "iOS / Android",
       "overview": "ワンタップで録音を始められる音声レコーダー。バックグラウンド録音、プレイリスト、ロック画面での録音時間表示などを実装し、英語・日本語・中国語・スペイン語などの多言語に対応している。",
+      "featured": true,
       "screenshot": "/apps/simple-recorder.webp",
       "metrics": [
         "App Store 評価 4.2 / 229件",
@@ -456,6 +457,7 @@
       "tagline": "コピーした内容を、バックグラウンドでも取りこぼさない",
       "platform": "iOS",
       "overview": "コピーした内容を自動で保存するクリップボード履歴アプリ。iOS 16以降のバックグラウンド制限を Picture in Picture で回避してクリップボードを監視し続ける仕組みを自作した。履歴の検索・ピン留め・テキスト変換、ウィジェットとキーボード拡張からの呼び出しにも対応している。",
+      "featured": true,
       "screenshot": "/apps/clipkit.webp",
       "metrics": [
         "App Store「クリップボード」検索で3位",
@@ -484,12 +486,75 @@
       "tagline": "書いたテキストを、そのまま声にする",
       "platform": "iOS",
       "overview": "入力したテキストを読み上げる音声合成アプリ。iOSの音声まわりのAPIを実際のプロダクトで試すために作り、リリース後もフィードバックを見ながら改善を続けている。",
+      "featured": true,
       "screenshot": "/apps/narrator.webp",
       "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
       "links": [
         {
           "label": "App Store",
           "url": "https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+        }
+      ]
+    },
+    {
+      "name": "シンプル文字起こし",
+      "tagline": "録音も会議メモも、その場でテキストに",
+      "platform": "iOS",
+      "overview": "音声をテキストに変換する文字起こしアプリ。オンデバイスで音声認識を行い、録音データや会議メモの書き起こしに使える。",
+      "metrics": ["音声認識をオンデバイスで実行し、音声を外部に送らない"],
+      "tech": ["Swift", "SwiftUI", "Core ML", "Speech", "Natural Language"],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6504149514"
+        }
+      ]
+    },
+    {
+      "name": "Slumber - 睡眠記録・スマートアラーム",
+      "tagline": "眠りをスコアにして、気持ちよく起きる",
+      "platform": "iOS",
+      "overview": "睡眠の記録と分析を行うアプリ。日の出時刻・体動・画面の明るさの3条件から起床タイミングを判定するスマートアラームを実装し、AlarmKitでサイレントモードでも鳴るようにしている。毎朝の睡眠スコアと週間レポート、ロック画面ウィジェットを提供する。",
+      "metrics": [
+        "AlarmKitでサイレントモードでも鳴るアラームを実装",
+        "CoreMotion・CoreLocation・輝度の3条件で起床タイミングを判定"
+      ],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "AlarmKit",
+        "CoreMotion",
+        "CoreLocation",
+        "HealthKit",
+        "WeatherKit",
+        "WidgetKit"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6770225144"
+        }
+      ]
+    },
+    {
+      "name": "Festory - フェス・ライブ参戦記録",
+      "tagline": "セトリごと残す、参戦の記録帳",
+      "platform": "iOS",
+      "overview": "フェスやライブへの参加を記録するアプリ。セットリストやアンコールの記録、行きたいイベントのウィッシュリスト、国内主要フェスのラインナップ情報を扱う。iOSアプリに加えてGoのAPIとランディングページも自分で作り、Cloud Run と Vercel で運用している。",
+      "metrics": ["iOSアプリ・Go API・Webまでを一人で設計して運用"],
+      "tech": [
+        "Swift",
+        "SwiftUI",
+        "Go",
+        "Cloud Run",
+        "React",
+        "Vite",
+        "Firebase"
+      ],
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/jp/app/id6763427429"
         }
       ]
     }
