@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, within } from '../testUtils'
 import { Home } from '../../pages/index'
-import { featuredApps, profileJa, releasedApps } from '../../content/profile'
+import { featuredApps, profileJa } from '../../content/profile'
 import labels from '../../content/labels'
 
 describe('Home page', () => {
@@ -34,11 +34,14 @@ describe('Home page', () => {
     )
   })
 
-  it('counts only the apps that are on a store in the hero stats', () => {
-    const { getByText } = render(<Home />, {})
-    const [appCountStat] = labels.ja.hero.stats(releasedApps(profileJa).length)
+  it('matches the hero count to the number of app sections on the page', () => {
+    const { container, getByText } = render(<Home />, {})
+    const [appCountStat] = labels.ja.hero.stats(featuredApps(profileJa).length)
 
-    expect(releasedApps(profileJa)).toHaveLength(6)
+    expect(featuredApps(profileJa)).toHaveLength(3)
+    expect(container.querySelectorAll('section[data-app]')).toHaveLength(
+      appCountStat.value,
+    )
     expect(getByText(appCountStat.label)).toBeTruthy()
     expect(getByText(String(appCountStat.value))).toBeTruthy()
   })

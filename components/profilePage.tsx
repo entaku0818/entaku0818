@@ -7,7 +7,7 @@ import AppSection from './appSection'
 import ContactForm from './contactForm'
 import Reveal from './reveal'
 import useCountUp from '../hocks/useCountUp'
-import { featuredApps, profiles, releasedApps } from '../content/profile'
+import { featuredApps, profiles } from '../content/profile'
 import labels from '../content/labels'
 import type { HeroStat } from '../content/labels'
 import type { Lang, TechCategory } from '../content/profile'
@@ -103,11 +103,11 @@ const SectionHeading = ({
     <p className="text-xs font-semibold tracking-[0.2em] text-muted uppercase">
       {eyebrow}
     </p>
-    <h2 className="mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl">
+    <h2 className="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl">
       {title}
     </h2>
     {lead && (
-      <p className="mt-5 text-lg leading-relaxed text-muted sm:text-xl">
+      <p className="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl">
         {lead}
       </p>
     )}
@@ -174,8 +174,8 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
   const title = `${profile.name} - ${profile.role}`
   // セクションを取るのは featured のものだけ。README には残り全部が載る
   const featured = featuredApps(profile)
-  // 数字は「配信中のアプリ」なので、載せていないものも含めて数える
-  const stats = l.hero.stats(releasedApps(profile).length)
+  // 数字は画面に並ぶセクション数と合わせる（数えた人がズレないように）
+  const stats = l.hero.stats(featured.length)
 
   const sections = [
     { id: 'apps', label: l.nav.apps },
@@ -223,13 +223,13 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
         <div className="container mx-auto px-6 pt-36 pb-20 text-center sm:pt-44 sm:pb-28">
           <Reveal>
             <p className="text-sm text-muted">{profile.name}</p>
-            <h1 className="mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl">
+            <h1 className="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl">
               {l.hero.headline}
             </h1>
             <p className="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl">
               {l.hero.stack}
             </p>
-            <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg">
+            <p className="wrap-jp mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg">
               {l.hero.lead}
             </p>
           </Reveal>
@@ -307,12 +307,11 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
                     <p className="text-xs font-semibold tracking-[0.2em] text-accent">
                       {String(index + 1).padStart(2, '0')}
                     </p>
-                    {/* auto-phrase: 日本語を文節で折り返す。非対応ブラウザは通常の折り返しに戻るだけ */}
-                    <h3 className="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]">
+                    <h3 className="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink wrap-jp">
                       {title}
                     </h3>
                     {description && (
-                      <p className="mt-4 text-sm leading-relaxed text-muted [word-break:auto-phrase]">
+                      <p className="mt-4 text-sm leading-relaxed text-muted wrap-jp">
                         {description}
                       </p>
                     )}

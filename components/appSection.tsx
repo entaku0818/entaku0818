@@ -73,10 +73,10 @@ export const AppSection = ({
               {app.platform}
               {!released && ` · ${l.apps.unreleased}`}
             </p>
-            <h3 className="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl">
+            <h3 className="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl">
               {app.name}
             </h3>
-            <p className="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl">
+            <p className="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl">
               {app.tagline}
             </p>
             <p className="mt-6 max-w-xl leading-relaxed text-ink/70">

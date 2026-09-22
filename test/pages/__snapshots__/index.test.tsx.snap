@@ -113,9 +113,9 @@ exports[`Home page matches snapshot 1`] = `
               entaku
             </p>
             <h1
-              class="mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl"
+              class="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl"
             >
-              アプリを、ひとりで。
+              困りごとを道具に、日常をエンタメに。
             </h1>
             <p
               class="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl"
@@ -123,7 +123,7 @@ exports[`Home page matches snapshot 1`] = `
               iOS ・ Android ・ Go
             </p>
             <p
-              class="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg"
+              class="wrap-jp mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg"
             >
               企画から設計・実装、ストア申請、リリース後の運用まで。仕事ではiOSのリードエンジニアとして、個人ではこれを全部ひとりでやっています。
             </p>
@@ -173,7 +173,7 @@ exports[`Home page matches snapshot 1`] = `
                   class="text-4xl font-semibold tracking-tight text-ink sm:text-5xl"
                 >
                   <span>
-                    6
+                    3
                   </span>
                   <span
                     class="text-2xl text-muted sm:text-3xl"
@@ -252,12 +252,12 @@ exports[`Home page matches snapshot 1`] = `
                   Personal Apps
                 </p>
                 <h2
-                  class="mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+                  class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
                 >
                   個人開発
                 </h2>
                 <p
-                  class="mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+                  class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
                 >
                   仕事とは別に、自分で企画して App Store / Google Play に出しているアプリです。
                 </p>
@@ -331,12 +331,12 @@ exports[`Home page matches snapshot 1`] = `
                 iOS / Android
               </p>
               <h3
-                class="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
+                class="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
               >
                 シンプル録音 - 音声レコーダー
               </h3>
               <p
-                class="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
+                class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
               >
                 ワンタップで始まる音声レコーダー
               </p>
@@ -513,12 +513,12 @@ exports[`Home page matches snapshot 1`] = `
                 iOS
               </p>
               <h3
-                class="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
+                class="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
               >
                 ClipKit - コピー履歴管理
               </h3>
               <p
-                class="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
+                class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
               >
                 コピーした内容を、バックグラウンドでも取りこぼさない
               </p>
@@ -690,12 +690,12 @@ exports[`Home page matches snapshot 1`] = `
                 iOS
               </p>
               <h3
-                class="mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
+                class="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
               >
                 読み上げナレーター
               </h3>
               <p
-                class="mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
+                class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
               >
                 書いたテキストを、そのまま声にする
               </p>
@@ -776,7 +776,7 @@ exports[`Home page matches snapshot 1`] = `
                 About
               </p>
               <h2
-                class="mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
               >
                 できること
               </h2>
@@ -799,7 +799,7 @@ exports[`Home page matches snapshot 1`] = `
                   01
                 </p>
                 <h3
-                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]"
+                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink wrap-jp"
                 >
                   モバイルアプリの開発、アーキテクチャ設計
                 </h3>
@@ -820,7 +820,7 @@ exports[`Home page matches snapshot 1`] = `
                   02
                 </p>
                 <h3
-                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]"
+                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink wrap-jp"
                 >
                   音声配信 / ライブ配信の仕組み作り
                 </h3>
@@ -841,12 +841,12 @@ exports[`Home page matches snapshot 1`] = `
                   03
                 </p>
                 <h3
-                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink [word-break:auto-phrase]"
+                  class="mt-7 text-xl leading-snug font-semibold tracking-tight text-ink wrap-jp"
                 >
                   事業マインドを持ったプロダクト開発
                 </h3>
                 <p
-                  class="mt-4 text-sm leading-relaxed text-muted [word-break:auto-phrase]"
+                  class="mt-4 text-sm leading-relaxed text-muted wrap-jp"
                 >
                   技術だけでなく事業成長の視点から施策を考え、実行できるエンジニアを目指している
                 </p>
@@ -978,12 +978,12 @@ exports[`Home page matches snapshot 1`] = `
                 Contact
               </p>
               <h2
-                class="mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
               >
                 開発のご相談
               </h2>
               <p
-                class="mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+                class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
               >
                 iOS / Android アプリの新規開発、既存アプリの改善、技術相談など。まずはざっくりした内容で構いません。
               </p>
@@ -1170,12 +1170,12 @@ exports[`Home page matches snapshot 1`] = `
                 More
               </p>
               <h2
-                class="mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
               >
                 これまでの仕事
               </h2>
               <p
-                class="mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+                class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
               >
                 職歴・登壇・コミュニティ活動は、見たいものだけ開いてください。
               </p>

@@ -132,7 +132,7 @@ export const labels: Record<Lang, Labels> = {
       articles: 'Articles',
     },
     hero: {
-      headline: 'アプリを、ひとりで。',
+      headline: '困りごとを道具に、日常をエンタメに。',
       stack: 'iOS ・ Android ・ Go',
       lead: '企画から設計・実装、ストア申請、リリース後の運用まで。仕事ではiOSのリードエンジニアとして、個人ではこれを全部ひとりでやっています。',
       primaryCta: '開発のご相談',
@@ -233,7 +233,7 @@ export const labels: Record<Lang, Labels> = {
       articles: 'Articles',
     },
     hero: {
-      headline: 'Apps, built solo.',
+      headline: 'Problems into tools. Days into entertainment.',
       stack: 'iOS · Android · Go',
       lead: 'From the first idea through architecture, implementation, App Store review and everything that comes after release. I lead iOS by day and do all of it myself on the side.',
       primaryCta: 'Start a project',

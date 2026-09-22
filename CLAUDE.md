@@ -52,7 +52,7 @@ yarn build      # 本番ビルド
 - Next.js (Pages Router) + TypeScript + Tailwind CSS v4 + Jest。
 - トップページは Apple のプロダクトページ型。白基調・大きな余白・大きなタイポで、ヒーロー → 個人開発 → できること → お問い合わせ → 畳んだ職歴、の順に `components/profilePage.tsx` が組み立てる。色は `styles/globals.css` の `@theme`（`ink` / `muted` / `surface` / `hairline` / `accent`）を使い、生の `gray-*` を足さない。
 - 個人開発は **1セクション1アプリ**。`components/appSection.tsx` が端末モック（`components/deviceMock.tsx`、CSSだけで描く）とテキストを左右交互に並べる。
-- **README とサイトで載せる本数が違う**。README は `personalApps` を全部出すが、サイトは `featured: true` のものだけセクションを取る（`featuredApps()`）。サイトに載せるアプリは `screenshot` が要る。ヒーローの本数は `releasedApps()`＝ストア配信中の全部を数えるので、セクション数とは一致しない（実績としては全部が本当なので、あえて多いほうを出している）。
+- **README とサイトで載せる本数が違う**。README は `personalApps` を全部出すが、サイトは `featured: true` のものだけセクションを取る（`featuredApps()`）。サイトに載せるアプリは `screenshot` が要る。ヒーローの本数は `featuredApps()` を数えるので、画面に並ぶセクション数と一致する。ストア配信中の全部を出したいなら `releasedApps()` に変える。
 - スクロール演出は `hocks/` の自作フックだけで作る（アニメーションライブラリは入れない）。`useReveal` / `useCountUp` は **最初から見えている状態で描画し**、演出できると分かったときだけ `useLayoutEffect` で隠してから動かす。こうしないとSSRのHTMLやJS無効時に中身が消える。`prefersReducedMotion()` を通る経路では演出そのものを行わず、CSS側でも `styles/globals.css` の `prefers-reduced-motion` でトランジションを止めている。
 - 1セクション内で複数の要素を動かすときは `Rise` に表示状態を渡し、監視は `useReveal` ひとつにまとめる。要素ごとに監視すると発火がばらついてガタつく。
 - Tailwind v4 の `translate-y-*` は `transform` ではなく **`translate` プロパティ**を使う。`transition-[...]` を自分で書くときは `translate` を対象に入れること（`transform` だけだと移動が瞬間移動になる）。`transition-transform` は v4 が `translate` も含めてくれるのでそのままでよい。

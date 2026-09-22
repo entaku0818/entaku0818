@@ -10,6 +10,14 @@
   --color-accent-hover: #0077ed;
 }
 
+/*
+ * 日本語を文節で折り返す。これが無いと「毎|日」「アーキ|テクチャ」のように
+ * 語の途中で割れる。非対応ブラウザは通常の折り返しに戻るだけ。
+ */
+@utility wrap-jp {
+  word-break: auto-phrase;
+}
+
 /* ヘッダーが固定なので、アンカー移動のときにその分だけ余白を残す */
 html {
   scroll-behavior: smooth;
