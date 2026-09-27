@@ -855,101 +855,588 @@ exports[`Home page in English matches snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mx-auto mt-24 grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-5"
+          class="mx-auto mt-24 grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16"
         >
           <div>
-            <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 lg:col-span-3"
-            >
-              <h3
-                class="mb-5 text-xs font-semibold tracking-[0.15em] text-muted uppercase"
-              >
-                Overview
-              </h3>
+            <div>
               <div
-                class="space-y-5 leading-relaxed text-ink/70"
+                class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
               >
-                <p>
-                  iOS lead engineer with 10+ years in software development, specializing in video streaming and ad monetization. I currently lead iOS development at TVer, one of Japan's largest free ad-supported streaming services, where I work on video playback infrastructure with The Composable Architecture and on the ad integration around it.
-                </p>
-                <p>
-                  Before TVer, I led the in-housing of Voicy's iOS app — an audio streaming platform — introducing a multi-module architecture with 80%+ test coverage on new modules and reducing post-release bug reports by roughly 40%.
-                </p>
-                <p>
-                  I also build for Android and Go on the backend, which lets me design features end to end rather than stopping at the app boundary.
-                </p>
-                <p>
-                  Outside of work I speak at iOSDC Japan and help organize Swift愛好会 (Swift Lovers), a Japanese Swift community of 2,200+ engineers.
-                </p>
+                <h3
+                  class="mb-6 text-xs font-semibold tracking-[0.15em] text-muted uppercase"
+                >
+                  Overview
+                </h3>
+                <ul
+                  class="space-y-4"
+                >
+                  <li
+                    class="flex items-start gap-3"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                    />
+                    <span
+                      class="wrap-jp leading-relaxed text-ink/80"
+                    >
+                      Mobile app engineer writing software since 2013. I started out on infrastructure and web systems at an SIer, then moved my focus to iOS and Android.
+                    </span>
+                  </li>
+                  <li
+                    class="flex items-start gap-3"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                    />
+                    <span
+                      class="wrap-jp leading-relaxed text-ink/80"
+                    >
+                      iOS lead at TVer, one of Japan's largest free ad-supported streaming services. I rebuilt the playback stack with The Composable Architecture, work on the ad integration around it, and supported streaming of the Milano Cortina 2026 Winter Olympics.
+                    </span>
+                  </li>
+                  <li
+                    class="flex items-start gap-3"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                    />
+                    <span
+                      class="wrap-jp leading-relaxed text-ink/80"
+                    >
+                      At Voicy I brought the recording app in-house from an outsourced team, reaching 80%+ test coverage on new modules and cutting post-release bug reports by roughly 40%.
+                    </span>
+                  </li>
+                  <li
+                    class="flex items-start gap-3"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                    />
+                    <span
+                      class="wrap-jp leading-relaxed text-ink/80"
+                    >
+                      On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory [TO CONFIRM: current number of live apps] — along with the Go / Firebase backends and on-device AI behind them.
+                    </span>
+                  </li>
+                  <li
+                    class="flex items-start gap-3"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                    />
+                    <span
+                      class="wrap-jp leading-relaxed text-ink/80"
+                    >
+                      Four talks at iOSDC Japan (2020–2024). I help organize Swift愛好会 (Swift Lovers) and have volunteered as DroidKaigi staff.
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
           <div>
+            <div>
+              <div
+                class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+                style="transition-delay: 120ms;"
+              >
+                <h3
+                  class="mb-6 text-xs font-semibold tracking-[0.15em] text-muted uppercase"
+                >
+                  Timeline
+                </h3>
+                <ol
+                  class="border-l border-hairline"
+                >
+                  <li
+                    class="relative pb-6 pl-6 last:pb-0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                    />
+                    <p
+                      class="text-xs font-semibold tracking-wide text-muted tabular-nums"
+                    >
+                      2025/01 - Present
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 font-semibold text-ink"
+                    >
+                      TVer
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 text-sm leading-relaxed text-muted"
+                    >
+                      iOS lead — video playback (TCA) and ad integration
+                    </p>
+                  </li>
+                  <li
+                    class="relative pb-6 pl-6 last:pb-0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                    />
+                    <p
+                      class="text-xs font-semibold tracking-wide text-muted tabular-nums"
+                    >
+                      2025 - 2026
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 font-semibold text-ink"
+                    >
+                      New personal apps
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 text-sm leading-relaxed text-muted"
+                    >
+                      ClipKit, Speedmeter, Slumber and Festory
+                    </p>
+                  </li>
+                  <li
+                    class="relative pb-6 pl-6 last:pb-0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                    />
+                    <p
+                      class="text-xs font-semibold tracking-wide text-muted tabular-nums"
+                    >
+                      2021/12 - 2024/12
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 font-semibold text-ink"
+                    >
+                      Voicy
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 text-sm leading-relaxed text-muted"
+                    >
+                      iOS engineer & team lead — in-housing and re-architecting the recording app
+                    </p>
+                  </li>
+                  <li
+                    class="relative pb-6 pl-6 last:pb-0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                    />
+                    <p
+                      class="text-xs font-semibold tracking-wide text-muted tabular-nums"
+                    >
+                      2019/04 - 2021/11
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 font-semibold text-ink"
+                    >
+                      CBCloud
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 text-sm leading-relaxed text-muted"
+                    >
+                      Mobile engineer → team lead on PickGo / SmaRyuTruck
+                    </p>
+                  </li>
+                  <li
+                    class="relative pb-6 pl-6 last:pb-0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                    />
+                    <p
+                      class="text-xs font-semibold tracking-wide text-muted tabular-nums"
+                    >
+                      2018/02 - 2019/03
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 font-semibold text-ink"
+                    >
+                      Lifesports
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 text-sm leading-relaxed text-muted"
+                    >
+                      Mobile apps for a sports matching service
+                    </p>
+                  </li>
+                  <li
+                    class="relative pb-6 pl-6 last:pb-0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                    />
+                    <p
+                      class="text-xs font-semibold tracking-wide text-muted tabular-nums"
+                    >
+                      2013/09 - 2018/02
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 font-semibold text-ink"
+                    >
+                      AP Communications
+                    </p>
+                    <p
+                      class="wrap-jp mt-1 text-sm leading-relaxed text-muted"
+                    >
+                      Started as a network engineer, then moved into web and business systems
+                    </p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mx-auto mt-20 max-w-5xl"
+        >
+          <div>
             <div
-              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 lg:col-span-2"
-              style="transition-delay: 120ms;"
+              class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
             >
               <h3
-                class="mb-5 text-xs font-semibold tracking-[0.15em] text-muted uppercase"
+                class="mb-6 text-xs font-semibold tracking-[0.15em] text-muted uppercase"
               >
-                Background
+                Tech stack
               </h3>
-              <ul
-                class="space-y-4"
-              >
-                <li
-                  class="flex items-start gap-3"
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            <div>
+              <div>
+                <div
+                  class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
                 >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hairline"
-                  />
-                  <span
-                    class="text-sm leading-relaxed text-ink/70"
+                  <div
+                    class="rounded-2xl bg-surface p-6"
                   >
-                    Full-stack background from my SIer years — infrastructure, backend and frontend
-                  </span>
-                </li>
-                <li
-                  class="flex items-start gap-3"
+                    <p
+                      class="text-sm font-semibold text-ink"
+                    >
+                      iOS
+                    </p>
+                    <ul
+                      class="mt-4 flex flex-wrap gap-2"
+                    >
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Swift
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        SwiftUI
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        UIKit
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        TCA
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Combine
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        CoreData / SwiftData
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        CloudKit
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        WidgetKit
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Live Activities
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        App Intents
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        HealthKit
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div
+                  class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+                  style="transition-delay: 80ms;"
                 >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hairline"
-                  />
-                  <span
-                    class="text-sm leading-relaxed text-ink/70"
+                  <div
+                    class="rounded-2xl bg-surface p-6"
                   >
-                    Ships production apps on both iOS and Android, not just one platform
-                  </span>
-                </li>
-                <li
-                  class="flex items-start gap-3"
+                    <p
+                      class="text-sm font-semibold text-ink"
+                    >
+                      Android
+                    </p>
+                    <ul
+                      class="mt-4 flex flex-wrap gap-2"
+                    >
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Kotlin
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Jetpack Compose
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Room
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        WorkManager
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        ExoPlayer
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div
+                  class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+                  style="transition-delay: 160ms;"
                 >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hairline"
-                  />
-                  <span
-                    class="text-sm leading-relaxed text-ink/70"
+                  <div
+                    class="rounded-2xl bg-surface p-6"
                   >
-                    Introduces and runs agile practices to move teams and projects forward
-                  </span>
-                </li>
-                <li
-                  class="flex items-start gap-3"
+                    <p
+                      class="text-sm font-semibold text-ink"
+                    >
+                      Audio & Video
+                    </p>
+                    <ul
+                      class="mt-4 flex flex-wrap gap-2"
+                    >
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        AVFoundation / AVPlayer
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Core Audio
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Speech
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Agora SDK
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div
+                  class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
                 >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hairline"
-                  />
-                  <span
-                    class="text-sm leading-relaxed text-ink/70"
+                  <div
+                    class="rounded-2xl bg-surface p-6"
                   >
-                    Comfortable with stakeholder alignment and prioritization as a team lead
-                  </span>
-                </li>
-              </ul>
+                    <p
+                      class="text-sm font-semibold text-ink"
+                    >
+                      Backend
+                    </p>
+                    <ul
+                      class="mt-4 flex flex-wrap gap-2"
+                    >
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Go
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Cloud Run
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Firebase Functions
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Firestore
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Supabase
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Rails
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Laravel
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div
+                  class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+                  style="transition-delay: 80ms;"
+                >
+                  <div
+                    class="rounded-2xl bg-surface p-6"
+                  >
+                    <p
+                      class="text-sm font-semibold text-ink"
+                    >
+                      AI
+                    </p>
+                    <ul
+                      class="mt-4 flex flex-wrap gap-2"
+                    >
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Gemini API
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Claude API
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        WhisperKit
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        MLX Swift
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Foundation Models
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Claude Code
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div
+                  class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+                  style="transition-delay: 160ms;"
+                >
+                  <div
+                    class="rounded-2xl bg-surface p-6"
+                  >
+                    <p
+                      class="text-sm font-semibold text-ink"
+                    >
+                      CI/CD & Ops
+                    </p>
+                    <ul
+                      class="mt-4 flex flex-wrap gap-2"
+                    >
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        GitHub Actions
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        fastlane
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Xcode Cloud
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        Crashlytics
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        RevenueCat
+                      </li>
+                      <li
+                        class="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                      >
+                        AdMob
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

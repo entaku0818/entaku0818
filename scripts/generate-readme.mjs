@@ -22,6 +22,7 @@ const TARGETS = [
     otherLangLine: '*English version: [README.en.md](README.en.md)*',
     headings: {
       about: '# 概要',
+      timeline: '## 年表',
       background: '## 技術略歴',
       specialties: '## 得意なこと',
       output: '# 主なアウトプット',
@@ -51,7 +52,8 @@ const TARGETS = [
     otherLangLine: '*日本語版: [README.md](README.md)*',
     headings: {
       about: '# About',
-      background: '## Background',
+      timeline: '## Timeline',
+      background: '## Tech stack',
       specialties: '## What I do best',
       output: '# Output',
       talks: '## Talks',
@@ -92,12 +94,18 @@ const buildReadme = ({ source, otherLangLine, headings, talkLine }) => {
 
   section(headings.about)
   push(otherLangLine, '')
-  for (const paragraph of profile.summary) {
-    push(paragraph, '')
+  for (const item of profile.summary) push(`- ${item}`)
+
+  section(headings.timeline)
+  for (const entry of profile.timeline) {
+    const detail = entry.detail ? ` — ${entry.detail}` : ''
+    push(`- **${entry.period}** ${entry.title}${detail}`)
   }
 
   section(headings.background)
-  for (const item of profile.technicalBackground) push(`- ${item}`)
+  for (const category of profile.techStack) {
+    push(`- **${category.label}**: ${category.items.join(', ')}`)
+  }
 
   section(headings.specialties)
   for (const item of profile.specialties) push(`- ${item}`)

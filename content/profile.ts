@@ -32,6 +32,13 @@ export type TechCategory = {
   items: string[]
 }
 
+/** 概要の年表の1行。detail は役割や一言の補足 */
+export type TimelineEntry = {
+  period: string
+  title: string
+  detail?: string
+}
+
 export type Deliverable = {
   name: string
   url: string
@@ -68,8 +75,12 @@ export type Profile = {
   twitterId: string
   githubUrl: string
   siteUrl: string
+  /** 概要。1項目1〜2文の短い箇条書きにする */
   summary: string[]
-  technicalBackground: string[]
+  /** 概要の下に出す年表。新しい順 */
+  timeline: TimelineEntry[]
+  /** 技術略歴。iOS / Android / Backend / AI などのカテゴリ別 */
+  techStack: TechCategory[]
   specialties: string[]
   talks: Talk[]
   communities: Community[]

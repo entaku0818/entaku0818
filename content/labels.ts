@@ -16,6 +16,7 @@ export type FieldErrorCode = 'required' | 'invalid_email' | 'too_long'
 export type Labels = {
   overview: string
   technicalBackground: string
+  timeline: string
   specialties: string
   talks: string
   communities: string
@@ -107,6 +108,7 @@ export const labels: Record<Lang, Labels> = {
   ja: {
     overview: '概要',
     technicalBackground: '技術略歴',
+    timeline: '年表',
     specialties: '得意なこと',
     talks: '登壇歴',
     communities: 'コミュニティ活動',
@@ -206,7 +208,8 @@ export const labels: Record<Lang, Labels> = {
   },
   en: {
     overview: 'Overview',
-    technicalBackground: 'Background',
+    technicalBackground: 'Tech stack',
+    timeline: 'Timeline',
     specialties: 'What I do best',
     talks: 'Talks',
     communities: 'Community',

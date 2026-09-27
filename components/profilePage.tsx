@@ -70,6 +70,13 @@ const SubHeading = ({ children }: { children: string }) => (
   </h4>
 )
 
+/** できることセクション下部（概要・年表・技術略歴）の小見出し */
+const AboutHeading = ({ children }: { children: string }) => (
+  <h3 className="mb-6 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
+    {children}
+  </h3>
+)
+
 const Card = ({ children }: { children: ReactNode }) => (
   <div className="rounded-2xl border border-hairline/60 bg-white p-6 sm:p-8">
     {children}
@@ -321,27 +328,84 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
             })}
           </div>
 
-          <div className="mx-auto mt-24 grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-5">
-            <Reveal className="lg:col-span-3">
-              <h3 className="mb-5 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
-                {l.overview}
-              </h3>
-              <div className="space-y-5 leading-relaxed text-ink/70">
-                {profile.summary.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-              </div>
+          {/* Reveal は className を内側に付けるので、グリッドの列指定は外側の div に置く */}
+          <div className="mx-auto mt-24 grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <Reveal>
+                <AboutHeading>{l.overview}</AboutHeading>
+                <ul className="space-y-4">
+                  {profile.summary.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span
+                        aria-hidden="true"
+                        className="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                      />
+                      <span className="wrap-jp leading-relaxed text-ink/80">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            </div>
+            <div>
+              <Reveal delay={120}>
+                <AboutHeading>{l.timeline}</AboutHeading>
+                <ol className="border-l border-hairline">
+                  {profile.timeline.map((entry) => (
+                    <li
+                      key={`${entry.period}-${entry.title}`}
+                      className="relative pb-6 pl-6 last:pb-0"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="absolute top-[7px] -left-[5px] h-2.5 w-2.5 rounded-full border-2 border-white bg-hairline"
+                      />
+                      <p className="text-xs font-semibold tracking-wide text-muted tabular-nums">
+                        {entry.period}
+                      </p>
+                      <p className="wrap-jp mt-1 font-semibold text-ink">
+                        {entry.title}
+                      </p>
+                      {entry.detail && (
+                        <p className="wrap-jp mt-1 text-sm leading-relaxed text-muted">
+                          {entry.detail}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </Reveal>
+            </div>
+          </div>
+
+          <div className="mx-auto mt-20 max-w-5xl">
+            <Reveal>
+              <AboutHeading>{l.technicalBackground}</AboutHeading>
             </Reveal>
-            <Reveal delay={120} className="lg:col-span-2">
-              <h3 className="mb-5 text-xs font-semibold tracking-[0.15em] text-muted uppercase">
-                {l.technicalBackground}
-              </h3>
-              <ul className="space-y-4">
-                {profile.technicalBackground.map((item) => (
-                  <BulletItem key={item}>{item}</BulletItem>
-                ))}
-              </ul>
-            </Reveal>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {profile.techStack.map((category, index) => (
+                <div key={category.label}>
+                  <Reveal delay={(index % 3) * 80}>
+                    <div className="rounded-2xl bg-surface p-6">
+                      <p className="text-sm font-semibold text-ink">
+                        {category.label}
+                      </p>
+                      <ul className="mt-4 flex flex-wrap gap-2">
+                        {category.items.map((item) => (
+                          <li
+                            key={item}
+                            className="rounded-full bg-white px-3 py-1 text-xs text-ink/70"
+                          >
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </Reveal>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

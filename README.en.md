@@ -2,20 +2,29 @@
 
 *日本語版: [README.md](README.md)*
 
-iOS lead engineer with 10+ years in software development, specializing in video streaming and ad monetization. I currently lead iOS development at TVer, one of Japan's largest free ad-supported streaming services, where I work on video playback infrastructure with The Composable Architecture and on the ad integration around it.
+- Mobile app engineer writing software since 2013. I started out on infrastructure and web systems at an SIer, then moved my focus to iOS and Android.
+- iOS lead at TVer, one of Japan's largest free ad-supported streaming services. I rebuilt the playback stack with The Composable Architecture, work on the ad integration around it, and supported streaming of the Milano Cortina 2026 Winter Olympics.
+- At Voicy I brought the recording app in-house from an outsourced team, reaching 80%+ test coverage on new modules and cutting post-release bug reports by roughly 40%.
+- On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory [TO CONFIRM: current number of live apps] — along with the Go / Firebase backends and on-device AI behind them.
+- Four talks at iOSDC Japan (2020–2024). I help organize Swift愛好会 (Swift Lovers) and have volunteered as DroidKaigi staff.
 
-Before TVer, I led the in-housing of Voicy's iOS app — an audio streaming platform — introducing a multi-module architecture with 80%+ test coverage on new modules and reducing post-release bug reports by roughly 40%.
+## Timeline
 
-I also build for Android and Go on the backend, which lets me design features end to end rather than stopping at the app boundary.
+- **2025/01 - Present** TVer — iOS lead — video playback (TCA) and ad integration
+- **2025 - 2026** New personal apps — ClipKit, Speedmeter, Slumber and Festory
+- **2021/12 - 2024/12** Voicy — iOS engineer & team lead — in-housing and re-architecting the recording app
+- **2019/04 - 2021/11** CBCloud — Mobile engineer → team lead on PickGo / SmaRyuTruck
+- **2018/02 - 2019/03** Lifesports — Mobile apps for a sports matching service
+- **2013/09 - 2018/02** AP Communications — Started as a network engineer, then moved into web and business systems
 
-Outside of work I speak at iOSDC Japan and help organize Swift愛好会 (Swift Lovers), a Japanese Swift community of 2,200+ engineers.
+## Tech stack
 
-## Background
-
-- Full-stack background from my SIer years — infrastructure, backend and frontend
-- Ships production apps on both iOS and Android, not just one platform
-- Introduces and runs agile practices to move teams and projects forward
-- Comfortable with stakeholder alignment and prioritization as a team lead
+- **iOS**: Swift, SwiftUI, UIKit, TCA, Combine, CoreData / SwiftData, CloudKit, WidgetKit, Live Activities, App Intents, HealthKit
+- **Android**: Kotlin, Jetpack Compose, Room, WorkManager, ExoPlayer
+- **Audio & Video**: AVFoundation / AVPlayer, Core Audio, Speech, Agora SDK
+- **Backend**: Go, Cloud Run, Firebase Functions, Firestore, Supabase, Rails, Laravel
+- **AI**: Gemini API, Claude API, WhisperKit, MLX Swift, Foundation Models, Claude Code
+- **CI/CD & Ops**: GitHub Actions, fastlane, Xcode Cloud, Crashlytics, RevenueCat, AdMob
 
 ## What I do best
 

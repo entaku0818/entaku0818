@@ -2,22 +2,29 @@
 
 *English version: [README.en.md](README.en.md)*
 
-IT専門学校を卒業後、10年以上にわたりソフトウェア開発の幅広い経験を積んできました。SIerではインフラからフロントエンドまでのシステム開発に携わり、その後モバイルアプリ開発に特化。iOS/Android両プラットフォームで複数のアプリをリリースしてきました。
+- 2013年からソフトウェア開発に携わるモバイルアプリエンジニア。SIerでインフラ・Web開発を経験した後、iOS / Android に軸足を移しました。
+- 現在は株式会社TVerのiOSリードエンジニア。The Composable Architecture による再生基盤のリプレイスと広告連携を担当し、2026年ミラノ冬季オリンピックの配信にも対応しました。
+- 前職のVoicyでは、外注主体だった収録アプリの開発を内製化。新規モジュールでテストカバレッジ80%以上、リリース後の不具合報告を約40%削減しました。
+- 個人ではシンプル録音・読み上げナレーター・ClipKit・Festory など複数のアプリを配信中【要確認：現在の配信本数】。アプリだけでなく Go / Firebase のバックエンドやオンデバイスAIまで一人で作っています。
+- iOSDC JAPAN で4回登壇（2020〜2024）。Swift愛好会の運営、DroidKaigi のスタッフとしてコミュニティにも関わっています。
 
-2025年1月より株式会社TVerでiOSのリードエンジニアとして、動画再生まわりの開発をリードしています。The Composable Architecture を用いた再生基盤のリプレイスとその周辺の広告連携を担当し、2026年ミラノ冬季オリンピックの配信対応も行いました。
+## 年表
 
-前職の株式会社VoicyではiOSエンジニア兼チームリーダーとして、外注主体だったアプリ開発を内製化。マルチモジュール化を進めて新規モジュールではテストカバレッジ80%以上を達成し、リリース後の不具合報告を約40%削減しました。また、アジャイル開発を導入してパーソナリティ向け施策の開発を主導し、コラボ収録機能などの新機能開発からアーキテクチャ刷新まで行い、新たに100名以上のパーソナリティにコラボ収録をご利用いただきました。
-
-Androidアプリの開発やGoでのバックエンド開発も行うため、アプリの境界で止まらず機能全体を設計できます。
-
-iOSDC JAPANでの登壇やSwift愛好会の運営など、技術コミュニティへの貢献にも力を入れています。
+- **2025/01 - 現在** 株式会社TVer — iOSリードエンジニア。動画再生基盤（TCA）と広告連携
+- **2025 - 2026** 個人開発で新作を相次いでリリース — ClipKit・Speedmeter・Slumber・Festory
+- **2021/12 - 2024/12** 株式会社Voicy — iOSエンジニア兼チームリーダー。収録アプリの内製化とアーキテクチャ刷新
+- **2019/04 - 2021/11** CBCloud — モバイルエンジニア → チームリーダー。PickGo / SmaRyuTruck
+- **2018/02 - 2019/03** Lifesports — スポーツマッチングアプリの開発
+- **2013/09 - 2018/02** 株式会社エーピーコミュニケーションズ — ネットワークエンジニアからスタートし、Web・業務システム開発へ
 
 ## 技術略歴
 
-- SIer時代に培ったインフラ、バックエンド、フロントエンドの幅広い開発経験
-- iOS/Androidのモバイルアプリ開発に精通し、両プラットフォームに対応可能
-- アジャイル開発の導入と運用により、開発プロジェクトの推進とチームの成長に貢献
-- プロジェクトマネジメントの経験を活かし、ステークホルダーとの調整や優先順位付けを円滑に行う能力
+- **iOS**: Swift, SwiftUI, UIKit, TCA, Combine, CoreData / SwiftData, CloudKit, WidgetKit, Live Activities, App Intents, HealthKit
+- **Android**: Kotlin, Jetpack Compose, Room, WorkManager, ExoPlayer
+- **音声・動画**: AVFoundation / AVPlayer, Core Audio, Speech, Agora SDK
+- **Backend**: Go, Cloud Run, Firebase Functions, Firestore, Supabase, Rails, Laravel
+- **AI**: Gemini API, Claude API, WhisperKit, MLX Swift, Foundation Models, Claude Code
+- **CI/CD・運用**: GitHub Actions, fastlane, Xcode Cloud, Crashlytics, RevenueCat, AdMob
 
 ## 得意なこと
 
