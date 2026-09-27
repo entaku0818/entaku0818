@@ -11,7 +11,7 @@
     "Mobile app engineer writing software since 2013. I started out on infrastructure and web systems at an SIer, then moved my focus to iOS and Android.",
     "iOS lead at TVer, one of Japan's largest free ad-supported streaming services. I rebuilt the playback stack with The Composable Architecture, work on the ad integration around it, and supported streaming of the Milano Cortina 2026 Winter Olympics.",
     "At Voicy I brought the recording app in-house from an outsourced team, reaching 80%+ test coverage on new modules and cutting post-release bug reports by roughly 40%.",
-    "On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory [TO CONFIRM: current number of live apps] — along with the Go / Firebase backends and on-device AI behind them.",
+    "On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory — along with the Go / Firebase backends and on-device AI behind them.",
     "Four talks at iOSDC Japan (2020–2024). I help organize Swift愛好会 (Swift Lovers) and have volunteered as DroidKaigi staff."
   ],
   "timeline": [

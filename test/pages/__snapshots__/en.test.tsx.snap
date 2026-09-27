@@ -919,7 +919,7 @@ exports[`Home page in English matches snapshot 1`] = `
                     <span
                       class="wrap-jp leading-relaxed text-ink/80"
                     >
-                      On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory [TO CONFIRM: current number of live apps] — along with the Go / Firebase backends and on-device AI behind them.
+                      On my own I ship several apps, including Simple Voice Recorder, Voice Narrator, ClipKit and Festory — along with the Go / Firebase backends and on-device AI behind them.
                     </span>
                   </li>
                   <li

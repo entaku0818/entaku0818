@@ -919,7 +919,7 @@ exports[`Home page matches snapshot 1`] = `
                     <span
                       class="wrap-jp leading-relaxed text-ink/80"
                     >
-                      個人ではシンプル録音・読み上げナレーター・ClipKit・Festory など複数のアプリを配信中【要確認：現在の配信本数】。アプリだけでなく Go / Firebase のバックエンドやオンデバイスAIまで一人で作っています。
+                      個人ではシンプル録音・読み上げナレーター・ClipKit・Festory など複数のアプリを配信中。アプリだけでなく Go / Firebase のバックエンドやオンデバイスAIまで一人で作っています。
                     </span>
                   </li>
                   <li
