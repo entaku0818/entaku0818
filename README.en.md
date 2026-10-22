@@ -289,11 +289,11 @@ Android development for nossa360, a 360-degree camera app for the construction a
 
 *A voice recorder that starts with one tap*
 
-A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.
+A voice recorder built around one-tap recording. The iOS app supports WAV / AAC recording, A–B repeat, playback speed control and iCloud sync, with Gemini AI transcription and AI meeting notes to help review recordings. I also build and maintain the Android app.
 
 **Highlights**
 
-- Rated 4.2 from 229 App Store reviews
+- Rated 4.2 from 214 ratings on the Japanese App Store (October 22, 2026)
 - Both the iOS and Android apps built and maintained solo
 
 **Tech stack:** Swift / SwiftUI / AVFoundation / CloudKit / Kotlin / Android Jetpack / Room / WorkManager
@@ -304,13 +304,13 @@ A voice recorder built around one-tap recording. It supports background recordin
 
 *Keeps watching the clipboard, even in the background*
 
-A clipboard manager that saves what you copy automatically. To keep watching the clipboard under the background limits introduced in iOS 16, I built the monitoring on top of Picture in Picture. It also covers search, pinning and text conversion, reachable from a widget and a keyboard extension.
+A clipboard manager that uses Picture in Picture to keep saving clipboard history in the background. It handles text, images and URLs, with text search inside images, automatic categories, snippets and iCloud sync. History is accessible from widgets and a custom keyboard; Pro also adds CSV / Markdown export and recovery of deleted entries.
 
 **Highlights**
 
-- Ranks 3rd for “clipboard” on the Japanese App Store
 - Background monitoring built on Picture in Picture
-- Subscriptions with TCA and RevenueCat
+- Text search inside images, snippets and iCloud sync
+- Pro available as a subscription or a lifetime purchase
 
 **Tech stack:** Swift / SwiftUI / TCA / AVKit (PiP) / CloudKit / WidgetKit / Keyboard Extension / RevenueCat
 
@@ -318,23 +318,28 @@ A clipboard manager that saves what you copy automatically. To keep watching the
 
 ### Voice Narrator (iOS)
 
-*Turns whatever you type into speech*
+*Listen to PDFs, books and web articles*
 
-A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.
+A reading app for text, PDFs, EPUB books, web articles and scanned documents. Standard voices support reading highlights and offline playback, with adjustable speed, pitch and a pronunciation dictionary. Character voices such as Zundamon are also available, with speech generated on a server.
+
+**Highlights**
+
+- Seven input sources, including PDF, EPUB and web articles
+- Standard voices generated on device; character voices on a server
 
 **Tech stack:** Swift / SwiftUI / AVFoundation / Speech / Core Audio
 
-[App Store](https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537)
+[App Store](https://apps.apple.com/jp/app/id6478449537)
 
 ### Simple Transcription (iOS)
 
 *Recordings and meeting notes, as text*
 
-A transcription app that turns speech into text. Recognition runs on device, which makes it practical for recordings and meeting notes.
+A Japanese transcription app using Apple speech recognition, with live and post-recording transcription and imports from audio files, video files and URLs. On devices that support Apple Intelligence, AI Notes generates summaries and action items from transcripts entirely on device.
 
 **Highlights**
 
-- Speech recognition runs on device, so audio never leaves it
+- AI Notes generates summaries and action items entirely on device
 
 **Tech stack:** Swift / SwiftUI / Core ML / Speech / Natural Language
 
@@ -344,7 +349,7 @@ A transcription app that turns speech into text. Recognition runs on device, whi
 
 *Scores your sleep so you wake up well*
 
-A sleep tracking app. Its smart alarm picks a wake-up moment from three signals — sunrise time, body movement and screen brightness — and AlarmKit makes it ring even in silent mode. It reports a sleep score each morning, a weekly trend and a lock screen widget.
+A sleep tracking app with a smart alarm based on sunrise time, movement and screen brightness, plus AlarmKit alarms. It provides morning sleep scores, weekly reports and lock screen widgets. Sleep data can now be saved to Apple Health, and Premium adds trend charts for 30 days, 90 days and all time.
 
 **Highlights**
 
@@ -359,7 +364,7 @@ A sleep tracking app. Its smart alarm picks a wake-up moment from three signals 
 
 *A log of every festival, setlist included*
 
-An app for logging the festivals and concerts you attend, with setlists, encores, a wishlist of upcoming events and lineups for major Japanese festivals. Alongside the iOS app I built the Go API and the landing page, running on Cloud Run and Vercel.
+An app for logging festivals and concerts, with setlists, encores, wishlists and lineups for major Japanese festivals. It now prioritizes festivals featuring favorite artists and shows a ticket-style countdown to upcoming events. I also built its Go API and landing page, running on Cloud Run and Vercel.
 
 **Highlights**
 

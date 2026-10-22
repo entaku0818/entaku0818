@@ -115,7 +115,7 @@ exports[`Home page matches snapshot 1`] = `
             <h1
               class="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl"
             >
-              困りごとを道具に、日常をエンタメに。
+              アプリを作っています。
             </h1>
             <p
               class="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl"
@@ -125,7 +125,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="wrap-jp mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg"
             >
-              企画から設計・実装、ストア申請、リリース後の運用まで。仕事ではiOSのリードエンジニアとして、個人ではこれを全部ひとりでやっています。
+              モバイルアプリエンジニアのentakuです。TVerでiOSの開発をしながら、個人でも録音・読み上げ・クリップボードなどのアプリを作っています。
             </p>
           </div>
         </div>
@@ -184,7 +184,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="mx-auto mt-3 max-w-[15rem] text-xs leading-snug text-muted"
                 >
-                  配信中の個人開発アプリ
+                  ここで紹介する個人開発アプリ
                 </p>
               </div>
               <div
@@ -200,7 +200,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="mx-auto mt-3 max-w-[15rem] text-xs leading-snug text-muted"
                 >
-                  シンプル録音の App Store 評価（229件）
+                  シンプル録音の評価（日本・214件／2026年10月22日）
                 </p>
               </div>
               <div
@@ -210,7 +210,7 @@ exports[`Home page matches snapshot 1`] = `
                   class="text-4xl font-semibold tracking-tight text-ink sm:text-5xl"
                 >
                   <span>
-                    10
+                    13
                   </span>
                   <span
                     class="text-2xl text-muted sm:text-3xl"
@@ -268,7 +268,7 @@ exports[`Home page matches snapshot 1`] = `
       </section>
       <section
         class="bg-white"
-        data-app="シンプル録音 - 音声レコーダー"
+        data-app="シンプル録音 - ボイスレコーダー&長時間録音"
       >
         <div
           class="container mx-auto px-6 py-20 sm:py-28 lg:py-36"
@@ -306,7 +306,7 @@ exports[`Home page matches snapshot 1`] = `
                     style="aspect-ratio: 620 / 1344;"
                   >
                     <img
-                      alt="シンプル録音 - 音声レコーダー の画面"
+                      alt="シンプル録音 - ボイスレコーダー&長時間録音 の画面"
                       class="h-full w-full object-cover"
                       data-nimg="1"
                       decoding="async"
@@ -333,7 +333,7 @@ exports[`Home page matches snapshot 1`] = `
               <h3
                 class="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
               >
-                シンプル録音 - 音声レコーダー
+                シンプル録音 - ボイスレコーダー&長時間録音
               </h3>
               <p
                 class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
@@ -343,7 +343,7 @@ exports[`Home page matches snapshot 1`] = `
               <p
                 class="mt-6 max-w-xl leading-relaxed text-ink/70"
               >
-                ワンタップで録音を始められる音声レコーダー。バックグラウンド録音、プレイリスト、ロック画面での録音時間表示などを実装し、英語・日本語・中国語・スペイン語などの多言語に対応している。
+                ワンタップで録音を始められる音声レコーダー。iOS版ではWAV / AAC形式の録音、AB区間リピート、再生速度の変更、iCloud同期に対応。Gemini AIによる文字起こしとAI議事録も提供し、録音から振り返りまでを支援する。Android版も個人で開発・運用している。
               </p>
               <ul
                 class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
@@ -355,7 +355,7 @@ exports[`Home page matches snapshot 1`] = `
                     aria-hidden="true"
                     class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
                   />
-                  App Store 評価 4.2 / 229件
+                  App Store 評価 4.2 / 214件（日本・2026年10月22日時点）
                 </li>
                 <li
                   class="flex items-start gap-3 text-sm font-medium text-ink"
@@ -416,7 +416,7 @@ exports[`Home page matches snapshot 1`] = `
               >
                 <a
                   class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
-                  href="https://apps.apple.com/us/app/simple-voice-recorder-audio/id6443528409"
+                  href="https://apps.apple.com/jp/app/id6443528409"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -449,7 +449,7 @@ exports[`Home page matches snapshot 1`] = `
       </section>
       <section
         class="bg-surface"
-        data-app="ClipKit - コピー履歴管理"
+        data-app="ClipKit - コピー履歴・クリップボード"
       >
         <div
           class="container mx-auto px-6 py-20 sm:py-28 lg:py-36"
@@ -487,7 +487,7 @@ exports[`Home page matches snapshot 1`] = `
                     style="aspect-ratio: 620 / 1344;"
                   >
                     <img
-                      alt="ClipKit - コピー履歴管理 の画面"
+                      alt="ClipKit - コピー履歴・クリップボード の画面"
                       class="h-full w-full object-cover"
                       data-nimg="1"
                       decoding="async"
@@ -515,7 +515,7 @@ exports[`Home page matches snapshot 1`] = `
               <h3
                 class="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
               >
-                ClipKit - コピー履歴管理
+                ClipKit - コピー履歴・クリップボード
               </h3>
               <p
                 class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
@@ -525,20 +525,11 @@ exports[`Home page matches snapshot 1`] = `
               <p
                 class="mt-6 max-w-xl leading-relaxed text-ink/70"
               >
-                コピーした内容を自動で保存するクリップボード履歴アプリ。iOS 16以降のバックグラウンド制限を Picture in Picture で回避してクリップボードを監視し続ける仕組みを自作した。履歴の検索・ピン留め・テキスト変換、ウィジェットとキーボード拡張からの呼び出しにも対応している。
+                Picture in Pictureを活用して、バックグラウンドでもコピー履歴を保存するアプリ。テキスト・画像・URLの保存、画像内の文字検索、カテゴリ自動分類、定型文、iCloud同期に対応。ウィジェットやカスタムキーボードから履歴を呼び出せるほか、Pro版ではCSV / Markdown形式のエクスポートや削除した履歴の復元も提供する。
               </p>
               <ul
                 class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
               >
-                <li
-                  class="flex items-start gap-3 text-sm font-medium text-ink"
-                >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-                  />
-                  App Store「クリップボード」検索で3位
-                </li>
                 <li
                   class="flex items-start gap-3 text-sm font-medium text-ink"
                 >
@@ -555,7 +546,16 @@ exports[`Home page matches snapshot 1`] = `
                     aria-hidden="true"
                     class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
                   />
-                  TCA + RevenueCat でサブスクリプションを実装
+                  画像内の文字検索・定型文・iCloud同期に対応
+                </li>
+                <li
+                  class="flex items-start gap-3 text-sm font-medium text-ink"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                  />
+                  サブスクリプションと買い切りのProプランを提供
                 </li>
               </ul>
               <div
@@ -626,7 +626,7 @@ exports[`Home page matches snapshot 1`] = `
       </section>
       <section
         class="bg-white"
-        data-app="読み上げナレーター"
+        data-app="読み上げアプリ ナレーター：PDF・本・Webを音声化"
       >
         <div
           class="container mx-auto px-6 py-20 sm:py-28 lg:py-36"
@@ -664,7 +664,7 @@ exports[`Home page matches snapshot 1`] = `
                     style="aspect-ratio: 620 / 1344;"
                   >
                     <img
-                      alt="読み上げナレーター の画面"
+                      alt="読み上げアプリ ナレーター：PDF・本・Webを音声化 の画面"
                       class="h-full w-full object-cover"
                       data-nimg="1"
                       decoding="async"
@@ -692,18 +692,40 @@ exports[`Home page matches snapshot 1`] = `
               <h3
                 class="wrap-jp mt-4 text-3xl leading-tight font-semibold tracking-tight text-balance text-ink sm:text-4xl lg:text-5xl"
               >
-                読み上げナレーター
+                読み上げアプリ ナレーター：PDF・本・Webを音声化
               </h3>
               <p
                 class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
               >
-                書いたテキストを、そのまま声にする
+                PDFも本もWebも、耳で読む
               </p>
               <p
                 class="mt-6 max-w-xl leading-relaxed text-ink/70"
               >
-                入力したテキストを読み上げる音声合成アプリ。iOSの音声まわりのAPIを実際のプロダクトで試すために作り、リリース後もフィードバックを見ながら改善を続けている。
+                テキストに加えて、PDF・EPUB・Web記事・スキャンした文章などを読み上げるアプリ。標準音声では読み上げ箇所のハイライトとオフライン再生に対応し、速度や声の高さ、ユーザー辞書を調整できる。ずんだもんなどのキャラクター音声も提供し、こちらはサーバーで音声を生成する。
               </p>
+              <ul
+                class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
+              >
+                <li
+                  class="flex items-start gap-3 text-sm font-medium text-ink"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                  />
+                  PDF・EPUB・Web記事など7つの入力ソースに対応
+                </li>
+                <li
+                  class="flex items-start gap-3 text-sm font-medium text-ink"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                  />
+                  標準音声は端末内で生成、キャラ音声はサーバーで生成
+                </li>
+              </ul>
               <div
                 class="mt-8 flex flex-wrap gap-x-4 gap-y-1.5"
               >
@@ -738,7 +760,7 @@ exports[`Home page matches snapshot 1`] = `
               >
                 <a
                   class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
-                  href="https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+                  href="https://apps.apple.com/jp/app/id6478449537"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

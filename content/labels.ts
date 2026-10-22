@@ -134,23 +134,23 @@ export const labels: Record<Lang, Labels> = {
       articles: 'Articles',
     },
     hero: {
-      headline: '困りごとを道具に、日常をエンタメに。',
+      headline: 'アプリを作っています。',
       stack: 'iOS ・ Android ・ Go',
-      lead: '企画から設計・実装、ストア申請、リリース後の運用まで。仕事ではiOSのリードエンジニアとして、個人ではこれを全部ひとりでやっています。',
+      lead: 'モバイルアプリエンジニアのentakuです。TVerでiOSの開発をしながら、個人でも録音・読み上げ・クリップボードなどのアプリを作っています。',
       primaryCta: '開発のご相談',
       secondaryCta: '個人開発を見る',
       stats: (releasedAppCount) => [
         {
           value: releasedAppCount,
           suffix: '本',
-          label: '配信中の個人開発アプリ',
+          label: 'ここで紹介する個人開発アプリ',
         },
         {
           value: 4.2,
           decimals: 1,
-          label: 'シンプル録音の App Store 評価（229件）',
+          label: 'シンプル録音の評価（日本・214件／2026年10月22日）',
         },
-        { value: 10, suffix: '年+', label: 'ソフトウェア開発歴' },
+        { value: 13, suffix: '年+', label: 'ソフトウェア開発歴' },
       ],
     },
     apps: {
@@ -236,19 +236,20 @@ export const labels: Record<Lang, Labels> = {
       articles: 'Articles',
     },
     hero: {
-      headline: 'Problems into tools. Days into entertainment.',
+      headline: 'I build apps.',
       stack: 'iOS · Android · Go',
-      lead: 'From the first idea through architecture, implementation, App Store review and everything that comes after release. I lead iOS by day and do all of it myself on the side.',
+      lead: 'I’m entaku, a mobile app developer. I work on iOS at TVer and build my own apps for voice recording, text-to-speech and clipboard management.',
       primaryCta: 'Start a project',
       secondaryCta: 'See the apps',
       stats: (releasedAppCount) => [
-        { value: releasedAppCount, label: 'Personal apps on the stores' },
+        { value: releasedAppCount, label: 'Featured personal apps' },
         {
           value: 4.2,
           decimals: 1,
-          label: 'App Store rating, Simple Voice Recorder (229 reviews)',
+          label:
+            'Simple Voice Recorder rating (Japan, 214 ratings; Oct 22, 2026)',
         },
-        { value: 10, suffix: '+', label: 'Years building software' },
+        { value: 13, suffix: '+', label: 'Years building software' },
       ],
     },
     apps: {

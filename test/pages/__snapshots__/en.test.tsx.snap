@@ -115,7 +115,7 @@ exports[`Home page in English matches snapshot 1`] = `
             <h1
               class="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl"
             >
-              Problems into tools. Days into entertainment.
+              I build apps.
             </h1>
             <p
               class="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl"
@@ -125,7 +125,7 @@ exports[`Home page in English matches snapshot 1`] = `
             <p
               class="wrap-jp mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg"
             >
-              From the first idea through architecture, implementation, App Store review and everything that comes after release. I lead iOS by day and do all of it myself on the side.
+              I’m entaku, a mobile app developer. I work on iOS at TVer and build my own apps for voice recording, text-to-speech and clipboard management.
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ exports[`Home page in English matches snapshot 1`] = `
                 <p
                   class="mx-auto mt-3 max-w-[15rem] text-xs leading-snug text-muted"
                 >
-                  Personal apps on the stores
+                  Featured personal apps
                 </p>
               </div>
               <div
@@ -195,7 +195,7 @@ exports[`Home page in English matches snapshot 1`] = `
                 <p
                   class="mx-auto mt-3 max-w-[15rem] text-xs leading-snug text-muted"
                 >
-                  App Store rating, Simple Voice Recorder (229 reviews)
+                  Simple Voice Recorder rating (Japan, 214 ratings; Oct 22, 2026)
                 </p>
               </div>
               <div
@@ -205,7 +205,7 @@ exports[`Home page in English matches snapshot 1`] = `
                   class="text-4xl font-semibold tracking-tight text-ink sm:text-5xl"
                 >
                   <span>
-                    10
+                    13
                   </span>
                   <span
                     class="text-2xl text-muted sm:text-3xl"
@@ -338,7 +338,7 @@ exports[`Home page in English matches snapshot 1`] = `
               <p
                 class="mt-6 max-w-xl leading-relaxed text-ink/70"
               >
-                A voice recorder built around one-tap recording. It supports background recording, playlists and recording time on the lock screen, and ships in English, Japanese, Chinese and Spanish among others.
+                A voice recorder built around one-tap recording. The iOS app supports WAV / AAC recording, A–B repeat, playback speed control and iCloud sync, with Gemini AI transcription and AI meeting notes to help review recordings. I also build and maintain the Android app.
               </p>
               <ul
                 class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
@@ -350,7 +350,7 @@ exports[`Home page in English matches snapshot 1`] = `
                     aria-hidden="true"
                     class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
                   />
-                  Rated 4.2 from 229 App Store reviews
+                  Rated 4.2 from 214 ratings on the Japanese App Store (October 22, 2026)
                 </li>
                 <li
                   class="flex items-start gap-3 text-sm font-medium text-ink"
@@ -520,20 +520,11 @@ exports[`Home page in English matches snapshot 1`] = `
               <p
                 class="mt-6 max-w-xl leading-relaxed text-ink/70"
               >
-                A clipboard manager that saves what you copy automatically. To keep watching the clipboard under the background limits introduced in iOS 16, I built the monitoring on top of Picture in Picture. It also covers search, pinning and text conversion, reachable from a widget and a keyboard extension.
+                A clipboard manager that uses Picture in Picture to keep saving clipboard history in the background. It handles text, images and URLs, with text search inside images, automatic categories, snippets and iCloud sync. History is accessible from widgets and a custom keyboard; Pro also adds CSV / Markdown export and recovery of deleted entries.
               </p>
               <ul
                 class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
               >
-                <li
-                  class="flex items-start gap-3 text-sm font-medium text-ink"
-                >
-                  <span
-                    aria-hidden="true"
-                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-                  />
-                  Ranks 3rd for “clipboard” on the Japanese App Store
-                </li>
                 <li
                   class="flex items-start gap-3 text-sm font-medium text-ink"
                 >
@@ -550,7 +541,16 @@ exports[`Home page in English matches snapshot 1`] = `
                     aria-hidden="true"
                     class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
                   />
-                  Subscriptions with TCA and RevenueCat
+                  Text search inside images, snippets and iCloud sync
+                </li>
+                <li
+                  class="flex items-start gap-3 text-sm font-medium text-ink"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                  />
+                  Pro available as a subscription or a lifetime purchase
                 </li>
               </ul>
               <div
@@ -692,13 +692,35 @@ exports[`Home page in English matches snapshot 1`] = `
               <p
                 class="wrap-jp mt-4 text-xl leading-snug font-medium text-muted sm:text-2xl"
               >
-                Turns whatever you type into speech
+                Listen to PDFs, books and web articles
               </p>
               <p
                 class="mt-6 max-w-xl leading-relaxed text-ink/70"
               >
-                A text-to-speech app. I built it to try the iOS audio and speech APIs on a real product, and keep improving it based on user feedback.
+                A reading app for text, PDFs, EPUB books, web articles and scanned documents. Standard voices support reading highlights and offline playback, with adjustable speed, pitch and a pronunciation dictionary. Character voices such as Zundamon are also available, with speech generated on a server.
               </p>
+              <ul
+                class="mt-8 max-w-xl space-y-3 border-t border-hairline pt-6"
+              >
+                <li
+                  class="flex items-start gap-3 text-sm font-medium text-ink"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                  />
+                  Seven input sources, including PDF, EPUB and web articles
+                </li>
+                <li
+                  class="flex items-start gap-3 text-sm font-medium text-ink"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+                  />
+                  Standard voices generated on device; character voices on a server
+                </li>
+              </ul>
               <div
                 class="mt-8 flex flex-wrap gap-x-4 gap-y-1.5"
               >
@@ -733,7 +755,7 @@ exports[`Home page in English matches snapshot 1`] = `
               >
                 <a
                   class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
-                  href="https://apps.apple.com/jp/app/読み上げナレーター-声で読み上げ/id6478449537"
+                  href="https://apps.apple.com/jp/app/id6478449537"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

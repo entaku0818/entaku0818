@@ -53,7 +53,7 @@ describe('Home page', () => {
       .map((heading) => heading.textContent)
 
     expect(headings).toEqual(featuredApps(profileJa).map((app) => app.name))
-    expect(headings.indexOf('ClipKit - コピー履歴管理')).toBe(1)
+    expect(headings.indexOf('ClipKit - コピー履歴・クリップボード')).toBe(1)
   })
 
   it('links each released app to its store page', () => {
@@ -111,7 +111,7 @@ describe('Home page', () => {
   it('shows a real screenshot inside the device mock for released apps', () => {
     const { container } = render(<Home />, {})
     const clipkit = container.querySelector(
-      '[data-app="ClipKit - コピー履歴管理"]',
+      '[data-app="ClipKit - コピー履歴・クリップボード"]',
     )
     const image = clipkit?.querySelector('img')
 
