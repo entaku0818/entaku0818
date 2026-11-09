@@ -512,7 +512,7 @@
       "platform": "iOS / Android",
       "overview": "ワンタップで録音を始められる音声レコーダー。iOS版ではWAV / AAC形式の録音、AB区間リピート、再生速度の変更、iCloud同期に対応。Gemini AIによる文字起こしとAI議事録も提供し、録音から振り返りまでを支援する。Android版も個人で開発・運用している。",
       "featured": true,
-      "screenshot": "/apps/simple-recorder.webp",
+      "screenshot": "/apps/simple-recorder-20261109.webp",
       "metrics": [
         "App Store 評価 4.2 / 214件（日本・2026年10月22日時点）",
         "iOS・Android の両方を個人で開発・運用"
@@ -544,7 +544,7 @@
       "platform": "iOS",
       "overview": "Picture in Pictureを活用して、バックグラウンドでもコピー履歴を保存するアプリ。テキスト・画像・URLの保存、画像内の文字検索、カテゴリ自動分類、定型文、iCloud同期に対応。ウィジェットやカスタムキーボードから履歴を呼び出せるほか、Pro版ではCSV / Markdown形式のエクスポートや削除した履歴の復元も提供する。",
       "featured": true,
-      "screenshot": "/apps/clipkit.webp",
+      "screenshot": "/apps/clipkit-20261109.webp",
       "metrics": [
         "PiPを使ったバックグラウンド監視を自作",
         "画像内の文字検索・定型文・iCloud同期に対応",
@@ -573,7 +573,7 @@
       "platform": "iOS",
       "overview": "テキストに加えて、PDF・EPUB・Web記事・スキャンした文章などを読み上げるアプリ。標準音声では読み上げ箇所のハイライトとオフライン再生に対応し、速度や声の高さ、ユーザー辞書を調整できる。ずんだもんなどのキャラクター音声も提供し、こちらはサーバーで音声を生成する。",
       "featured": true,
-      "screenshot": "/apps/narrator.webp",
+      "screenshot": "/apps/narrator-20261109.webp",
       "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
       "links": [
         {

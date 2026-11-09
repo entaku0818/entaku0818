@@ -506,7 +506,7 @@
       "platform": "iOS / Android",
       "overview": "A voice recorder built around one-tap recording. The iOS app supports WAV / AAC recording, A–B repeat, playback speed control and iCloud sync, with Gemini AI transcription and AI meeting notes to help review recordings. I also build and maintain the Android app.",
       "featured": true,
-      "screenshot": "/apps/simple-recorder.webp",
+      "screenshot": "/apps/simple-recorder-20261109.webp",
       "metrics": [
         "Rated 4.2 from 214 ratings on the Japanese App Store (October 22, 2026)",
         "Both the iOS and Android apps built and maintained solo"
@@ -538,7 +538,7 @@
       "platform": "iOS",
       "overview": "A clipboard manager that uses Picture in Picture to keep saving clipboard history in the background. It handles text, images and URLs, with text search inside images, automatic categories, snippets and iCloud sync. History is accessible from widgets and a custom keyboard; Pro also adds CSV / Markdown export and recovery of deleted entries.",
       "featured": true,
-      "screenshot": "/apps/clipkit.webp",
+      "screenshot": "/apps/clipkit-20261109.webp",
       "metrics": [
         "Background monitoring built on Picture in Picture",
         "Text search inside images, snippets and iCloud sync",
@@ -567,7 +567,7 @@
       "platform": "iOS",
       "overview": "A reading app for text, PDFs, EPUB books, web articles and scanned documents. Standard voices support reading highlights and offline playback, with adjustable speed, pitch and a pronunciation dictionary. Character voices such as Zundamon are also available, with speech generated on a server.",
       "featured": true,
-      "screenshot": "/apps/narrator.webp",
+      "screenshot": "/apps/narrator-20261109.webp",
       "tech": ["Swift", "SwiftUI", "AVFoundation", "Speech", "Core Audio"],
       "links": [
         {
