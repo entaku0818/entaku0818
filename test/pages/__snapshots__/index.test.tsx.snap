@@ -22,6 +22,16 @@ exports[`Home page matches snapshot 1`] = `
         >
           <a
             class="relative text-sm transition-colors text-muted hover:text-ink"
+            href="#services"
+          >
+            ご依頼できること
+            <span
+              aria-hidden="true"
+              class="absolute -bottom-2 left-0 h-px bg-ink transition-all duration-300 w-0"
+            />
+          </a>
+          <a
+            class="relative text-sm transition-colors text-muted hover:text-ink"
             href="#apps"
           >
             個人開発
@@ -34,7 +44,7 @@ exports[`Home page matches snapshot 1`] = `
             class="relative text-sm transition-colors text-muted hover:text-ink"
             href="#about"
           >
-            できること
+            プロフィール
             <span
               aria-hidden="true"
               class="absolute -bottom-2 left-0 h-px bg-ink transition-all duration-300 w-0"
@@ -112,10 +122,15 @@ exports[`Home page matches snapshot 1`] = `
             >
               entaku
             </p>
+            <p
+              class="mt-5 inline-flex rounded-full bg-surface px-4 py-2 text-sm font-medium text-accent"
+            >
+              副業・業務委託の開発相談を受付中
+            </p>
             <h1
               class="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl"
             >
-              アプリを作っています。
+              アプリ開発の課題を、一緒に前へ。
             </h1>
             <p
               class="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl"
@@ -125,7 +140,7 @@ exports[`Home page matches snapshot 1`] = `
             <p
               class="wrap-jp mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg"
             >
-              モバイルアプリエンジニアのentakuです。TVerでiOSの開発をしながら、個人でも録音・読み上げ・クリップボードなどのアプリを作っています。
+              新規アプリの立ち上げから、既存アプリの機能追加・品質改善まで。iOSを中心に、Android・Goのバックエンドも含めて、設計から実装・リリースまで支援します。
             </p>
           </div>
         </div>
@@ -141,7 +156,7 @@ exports[`Home page matches snapshot 1`] = `
                 class="w-full max-w-xs rounded-full bg-accent px-8 py-3.5 text-base font-medium text-white transition-colors hover:bg-accent-hover sm:w-auto"
                 href="#contact"
               >
-                開発のご相談
+                開発について相談する
               </a>
               <a
                 class="group inline-flex items-center gap-1.5 text-base font-medium text-accent transition-colors hover:text-accent-hover"
@@ -156,6 +171,16 @@ exports[`Home page matches snapshot 1`] = `
                 </span>
               </a>
             </div>
+            <p
+              class="mt-5 text-sm text-muted"
+            >
+              要件・ご予算が未定でも、お気軽にご相談ください。
+            </p>
+            <p
+              class="wrap-jp mx-auto mt-8 max-w-2xl text-sm leading-relaxed text-ink/70"
+            >
+              TVerでiOSリードを担当。Voicyでの収録アプリ開発、whooなどの業務委託案件も経験。
+            </p>
           </div>
         </div>
         <div>
@@ -229,6 +254,146 @@ exports[`Home page matches snapshot 1`] = `
         </div>
       </div>
     </section>
+    <section
+      class="scroll-mt-20 bg-surface"
+      id="services"
+    >
+      <div
+        class="container mx-auto px-6 py-24 sm:py-32"
+      >
+        <div
+          class="mx-auto max-w-2xl text-center"
+        >
+          <p
+            class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
+          >
+            Services
+          </p>
+          <h2
+            class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+          >
+            こんな開発をお手伝いできます
+          </h2>
+          <p
+            class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+          >
+            新しいプロダクトの立ち上げも、開発中のチームへの参画も。お困りごとに合わせて、担当範囲や進め方をご相談できます。
+          </p>
+        </div>
+        <div
+          class="mx-auto mt-14 grid max-w-5xl gap-5 md:grid-cols-3"
+        >
+          <div
+            class="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-accent"
+            >
+              01
+            </p>
+            <h3
+              class="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink"
+            >
+              新規アプリ・MVPの開発
+            </h3>
+            <p
+              class="wrap-jp mt-4 text-sm leading-relaxed text-ink/70"
+            >
+              「作りたいものはあるけれど、何から始めればいいか」。必要な機能を整理し、設計・実装からストア公開まで進めます。
+            </p>
+            <p
+              class="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70"
+            >
+              個人でも複数のアプリを企画・開発・ストア公開し、運用しています。
+            </p>
+            <a
+              class="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+              href="#contact"
+            >
+              この内容で相談する
+              <span
+                aria-hidden="true"
+                class="ml-1"
+              >
+                ›
+              </span>
+            </a>
+          </div>
+          <div
+            class="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-accent"
+            >
+              02
+            </p>
+            <h3
+              class="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink"
+            >
+              既存アプリの機能追加・品質改善
+            </h3>
+            <p
+              class="wrap-jp mt-4 text-sm leading-relaxed text-ink/70"
+            >
+              「開発の手が足りない」「改修のたびに不具合が出る」。既存コードを読み解き、機能追加やSwiftUIへの移行、テスト整備を支援します。
+            </p>
+            <p
+              class="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70"
+            >
+              Voicyでは収録アプリの内製化をリード。リリース後の不具合報告を約40%削減。
+            </p>
+            <a
+              class="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+              href="#contact"
+            >
+              この内容で相談する
+              <span
+                aria-hidden="true"
+                class="ml-1"
+              >
+                ›
+              </span>
+            </a>
+          </div>
+          <div
+            class="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-accent"
+            >
+              03
+            </p>
+            <h3
+              class="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink"
+            >
+              音声・動画機能の設計と実装
+            </h3>
+            <p
+              class="wrap-jp mt-4 text-sm leading-relaxed text-ink/70"
+            >
+              録音・再生・ライブ配信など、メディア機能の開発に対応。アプリとバックエンドをまたぐ機能もご相談ください。
+            </p>
+            <p
+              class="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70"
+            >
+              TVerで動画再生・広告連携、Voicyでコラボ収録・生放送機能を開発。
+            </p>
+            <a
+              class="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+              href="#contact"
+            >
+              この内容で相談する
+              <span
+                aria-hidden="true"
+                class="ml-1"
+              >
+                ›
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <div
       class="scroll-mt-20"
       id="apps"
@@ -259,7 +424,7 @@ exports[`Home page matches snapshot 1`] = `
                 <p
                   class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
                 >
-                  仕事とは別に、自分で企画して App Store / Google Play に出しているアプリです。
+                  企画から実装、課金機能、ストア公開・運用まで。自分で作り、届けているアプリをご紹介します。
                 </p>
               </div>
             </div>
@@ -778,6 +943,199 @@ exports[`Home page matches snapshot 1`] = `
         </div>
       </section>
     </div>
+    <section
+      class="scroll-mt-20 bg-surface"
+      id="contact"
+    >
+      <div
+        class="container mx-auto px-6 py-24 sm:py-32"
+      >
+        <div>
+          <div
+            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+          >
+            <div
+              class="mx-auto max-w-2xl text-center"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
+              >
+                Contact
+              </p>
+              <h2
+                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+              >
+                開発のご相談
+              </h2>
+              <p
+                class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+              >
+                「こんなことを頼める？」という段階からどうぞ。業務委託でのチーム参画や、機能単位の開発など、まずは現在のお困りごとをお聞かせください。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+            style="transition-delay: 120ms;"
+          >
+            <div
+              class="mx-auto mt-14 max-w-3xl"
+            >
+              <form
+                class="rounded-3xl border border-hairline bg-white p-6 sm:p-10"
+                novalidate=""
+              >
+                <div
+                  class="grid grid-cols-1 gap-6 md:grid-cols-2"
+                >
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-name"
+                    >
+                      お名前
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        必須
+                      </span>
+                    </label>
+                    <input
+                      aria-invalid="false"
+                      autocomplete="name"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-name"
+                      maxlength="100"
+                      name="name"
+                      placeholder="山田 太郎"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-email"
+                    >
+                      連絡先メールアドレス
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        必須
+                      </span>
+                    </label>
+                    <input
+                      aria-invalid="false"
+                      autocomplete="email"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-email"
+                      maxlength="254"
+                      name="email"
+                      placeholder="you@example.com"
+                      type="email"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-budget"
+                    >
+                      ご予算感
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        任意
+                      </span>
+                    </label>
+                    <input
+                      aria-invalid="false"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-budget"
+                      maxlength="200"
+                      name="budget"
+                      placeholder="未定 / 〜50万円 / 50〜150万円 など"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-message"
+                    >
+                      ご相談内容
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        必須
+                      </span>
+                    </label>
+                    <textarea
+                      aria-invalid="false"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-message"
+                      maxlength="5000"
+                      name="message"
+                      placeholder="例：開発中のiOSアプリに録音機能を追加したいです。既存チームと一緒に進められる方を探しています。予算や時期は相談したいです。"
+                      rows="6"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="absolute left-[-9999px] h-0 w-0 overflow-hidden"
+                >
+                  <label
+                    for="contact-website"
+                  >
+                    この欄は入力しないでください
+                  </label>
+                  <input
+                    autocomplete="off"
+                    id="contact-website"
+                    name="website"
+                    tabindex="-1"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+                >
+                  <p
+                    class="text-xs text-muted"
+                  >
+                    いただいた内容は、ご相談への返信にのみ利用します。
+                  </p>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-3 text-base font-medium text-white transition-colors hover:bg-accent-hover focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    type="submit"
+                  >
+                    相談内容を送る
+                  </button>
+                </div>
+                <p
+                  aria-live="assertive"
+                  class="mt-4 min-h-5 text-sm text-red-600"
+                  role="alert"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section
       class="scroll-mt-20 bg-white"
       id="about"
@@ -1459,199 +1817,6 @@ exports[`Home page matches snapshot 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="scroll-mt-20 bg-surface"
-      id="contact"
-    >
-      <div
-        class="container mx-auto px-6 py-24 sm:py-32"
-      >
-        <div>
-          <div
-            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
-          >
-            <div
-              class="mx-auto max-w-2xl text-center"
-            >
-              <p
-                class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
-              >
-                Contact
-              </p>
-              <h2
-                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
-              >
-                開発のご相談
-              </h2>
-              <p
-                class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
-              >
-                iOS / Android アプリの新規開発、既存アプリの改善、技術相談など。まずはざっくりした内容で構いません。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
-            style="transition-delay: 120ms;"
-          >
-            <div
-              class="mx-auto mt-14 max-w-3xl"
-            >
-              <form
-                class="rounded-3xl border border-hairline bg-white p-6 sm:p-10"
-                novalidate=""
-              >
-                <div
-                  class="grid grid-cols-1 gap-6 md:grid-cols-2"
-                >
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-name"
-                    >
-                      お名前
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        必須
-                      </span>
-                    </label>
-                    <input
-                      aria-invalid="false"
-                      autocomplete="name"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-name"
-                      maxlength="100"
-                      name="name"
-                      placeholder="山田 太郎"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-email"
-                    >
-                      連絡先メールアドレス
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        必須
-                      </span>
-                    </label>
-                    <input
-                      aria-invalid="false"
-                      autocomplete="email"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-email"
-                      maxlength="254"
-                      name="email"
-                      placeholder="you@example.com"
-                      type="email"
-                      value=""
-                    />
-                  </div>
-                </div>
-                <div
-                  class="mt-6"
-                >
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-budget"
-                    >
-                      ご予算感
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        任意
-                      </span>
-                    </label>
-                    <input
-                      aria-invalid="false"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-budget"
-                      maxlength="200"
-                      name="budget"
-                      placeholder="未定 / 〜50万円 / 50〜150万円 など"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                </div>
-                <div
-                  class="mt-6"
-                >
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-message"
-                    >
-                      ご相談内容
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        必須
-                      </span>
-                    </label>
-                    <textarea
-                      aria-invalid="false"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-message"
-                      maxlength="5000"
-                      name="message"
-                      placeholder="つくりたいもの、現在の状況、希望スケジュールなどをお書きください。"
-                      rows="6"
-                    />
-                  </div>
-                </div>
-                <div
-                  aria-hidden="true"
-                  class="absolute left-[-9999px] h-0 w-0 overflow-hidden"
-                >
-                  <label
-                    for="contact-website"
-                  >
-                    この欄は入力しないでください
-                  </label>
-                  <input
-                    autocomplete="off"
-                    id="contact-website"
-                    name="website"
-                    tabindex="-1"
-                    type="text"
-                    value=""
-                  />
-                </div>
-                <div
-                  class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
-                >
-                  <p
-                    class="text-xs text-muted"
-                  >
-                    いただいた内容は、ご相談への返信にのみ利用します。
-                  </p>
-                  <button
-                    class="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-3 text-base font-medium text-white transition-colors hover:bg-accent-hover focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
-                    type="submit"
-                  >
-                    送信する
-                  </button>
-                </div>
-                <p
-                  aria-live="assertive"
-                  class="mt-4 min-h-5 text-sm text-red-600"
-                  role="alert"
-                />
-              </form>
             </div>
           </div>
         </div>

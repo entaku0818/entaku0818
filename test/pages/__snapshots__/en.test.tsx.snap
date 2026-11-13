@@ -22,6 +22,16 @@ exports[`Home page in English matches snapshot 1`] = `
         >
           <a
             class="relative text-sm transition-colors text-muted hover:text-ink"
+            href="#services"
+          >
+            Services
+            <span
+              aria-hidden="true"
+              class="absolute -bottom-2 left-0 h-px bg-ink transition-all duration-300 w-0"
+            />
+          </a>
+          <a
+            class="relative text-sm transition-colors text-muted hover:text-ink"
             href="#apps"
           >
             Apps
@@ -112,10 +122,15 @@ exports[`Home page in English matches snapshot 1`] = `
             >
               entaku
             </p>
+            <p
+              class="mt-5 inline-flex rounded-full bg-surface px-4 py-2 text-sm font-medium text-accent"
+            >
+              Available for freelance project enquiries
+            </p>
             <h1
               class="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl"
             >
-              I build apps.
+              Move your app project forward.
             </h1>
             <p
               class="mt-6 text-lg font-medium tracking-tight text-muted sm:text-2xl"
@@ -125,7 +140,7 @@ exports[`Home page in English matches snapshot 1`] = `
             <p
               class="wrap-jp mx-auto mt-7 max-w-2xl text-base leading-relaxed text-pretty text-ink/70 sm:text-lg"
             >
-              I’m entaku, a mobile app developer. I work on iOS at TVer and build my own apps for voice recording, text-to-speech and clipboard management.
+              From launching an app to adding features and improving quality. I help with architecture, implementation and release, focused on iOS with Android and Go backend experience.
             </p>
           </div>
         </div>
@@ -156,6 +171,16 @@ exports[`Home page in English matches snapshot 1`] = `
                 </span>
               </a>
             </div>
+            <p
+              class="mt-5 text-sm text-muted"
+            >
+              You can reach out before your scope or budget is decided.
+            </p>
+            <p
+              class="wrap-jp mx-auto mt-8 max-w-2xl text-sm leading-relaxed text-ink/70"
+            >
+              iOS lead at TVer, with recording app experience at Voicy and freelance work on whoo.
+            </p>
           </div>
         </div>
         <div>
@@ -220,6 +245,146 @@ exports[`Home page in English matches snapshot 1`] = `
                 </p>
               </div>
             </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="scroll-mt-20 bg-surface"
+      id="services"
+    >
+      <div
+        class="container mx-auto px-6 py-24 sm:py-32"
+      >
+        <div
+          class="mx-auto max-w-2xl text-center"
+        >
+          <p
+            class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
+          >
+            Services
+          </p>
+          <h2
+            class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+          >
+            How I can help
+          </h2>
+          <p
+            class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+          >
+            Launching a product or joining an existing team: we can discuss the scope and approach that fit your project.
+          </p>
+        </div>
+        <div
+          class="mx-auto mt-14 grid max-w-5xl gap-5 md:grid-cols-3"
+        >
+          <div
+            class="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-accent"
+            >
+              01
+            </p>
+            <h3
+              class="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink"
+            >
+              New apps and MVPs
+            </h3>
+            <p
+              class="wrap-jp mt-4 text-sm leading-relaxed text-ink/70"
+            >
+              Turn an idea into a focused first release, from defining features and architecture to implementation and store submission.
+            </p>
+            <p
+              class="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70"
+            >
+              I independently plan, build, publish and maintain multiple apps.
+            </p>
+            <a
+              class="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+              href="#contact"
+            >
+              Discuss your project
+              <span
+                aria-hidden="true"
+                class="ml-1"
+              >
+                ›
+              </span>
+            </a>
+          </div>
+          <div
+            class="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-accent"
+            >
+              02
+            </p>
+            <h3
+              class="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink"
+            >
+              Features and app quality
+            </h3>
+            <p
+              class="wrap-jp mt-4 text-sm leading-relaxed text-ink/70"
+            >
+              Add development capacity to your team, extend existing code, migrate to SwiftUI or improve test coverage.
+            </p>
+            <p
+              class="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70"
+            >
+              Led in-house recording app development at Voicy, reducing post-release bug reports by about 40%.
+            </p>
+            <a
+              class="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+              href="#contact"
+            >
+              Discuss your project
+              <span
+                aria-hidden="true"
+                class="ml-1"
+              >
+                ›
+              </span>
+            </a>
+          </div>
+          <div
+            class="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-accent"
+            >
+              03
+            </p>
+            <h3
+              class="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink"
+            >
+              Audio and video features
+            </h3>
+            <p
+              class="wrap-jp mt-4 text-sm leading-relaxed text-ink/70"
+            >
+              Recording, playback and live streaming, including features that span the mobile app and backend.
+            </p>
+            <p
+              class="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70"
+            >
+              Video playback and ads at TVer; collaborative recording and live audio at Voicy.
+            </p>
+            <a
+              class="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+              href="#contact"
+            >
+              Discuss your project
+              <span
+                aria-hidden="true"
+                class="ml-1"
+              >
+                ›
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -773,6 +938,199 @@ exports[`Home page in English matches snapshot 1`] = `
         </div>
       </section>
     </div>
+    <section
+      class="scroll-mt-20 bg-surface"
+      id="contact"
+    >
+      <div
+        class="container mx-auto px-6 py-24 sm:py-32"
+      >
+        <div>
+          <div
+            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+          >
+            <div
+              class="mx-auto max-w-2xl text-center"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
+              >
+                Contact
+              </p>
+              <h2
+                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
+              >
+                Start a project
+              </h2>
+              <p
+                class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
+              >
+                Have a project in mind? Tell me what you need help with. We can discuss joining your team on a freelance basis or developing a specific feature, even before the scope and budget are decided.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
+            style="transition-delay: 120ms;"
+          >
+            <div
+              class="mx-auto mt-14 max-w-3xl"
+            >
+              <form
+                class="rounded-3xl border border-hairline bg-white p-6 sm:p-10"
+                novalidate=""
+              >
+                <div
+                  class="grid grid-cols-1 gap-6 md:grid-cols-2"
+                >
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-name"
+                    >
+                      Your name
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        Required
+                      </span>
+                    </label>
+                    <input
+                      aria-invalid="false"
+                      autocomplete="name"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-name"
+                      maxlength="100"
+                      name="name"
+                      placeholder="Jane Doe"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-email"
+                    >
+                      Email
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        Required
+                      </span>
+                    </label>
+                    <input
+                      aria-invalid="false"
+                      autocomplete="email"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-email"
+                      maxlength="254"
+                      name="email"
+                      placeholder="you@example.com"
+                      type="email"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-budget"
+                    >
+                      Budget
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        Optional
+                      </span>
+                    </label>
+                    <input
+                      aria-invalid="false"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-budget"
+                      maxlength="200"
+                      name="budget"
+                      placeholder="Not decided / under $5k / $5k–15k …"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <div>
+                    <label
+                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
+                      for="contact-message"
+                    >
+                      What would you like to build?
+                      <span
+                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
+                      >
+                        Required
+                      </span>
+                    </label>
+                    <textarea
+                      aria-invalid="false"
+                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
+                      id="contact-message"
+                      maxlength="5000"
+                      name="message"
+                      placeholder="Tell me what you have in mind, where the project stands today and the timeline you are hoping for."
+                      rows="6"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="absolute left-[-9999px] h-0 w-0 overflow-hidden"
+                >
+                  <label
+                    for="contact-website"
+                  >
+                    Leave this field empty
+                  </label>
+                  <input
+                    autocomplete="off"
+                    id="contact-website"
+                    name="website"
+                    tabindex="-1"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+                >
+                  <p
+                    class="text-xs text-muted"
+                  >
+                    I use what you send only to reply to your enquiry.
+                  </p>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-3 text-base font-medium text-white transition-colors hover:bg-accent-hover focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    type="submit"
+                  >
+                    Send
+                  </button>
+                </div>
+                <p
+                  aria-live="assertive"
+                  class="mt-4 min-h-5 text-sm text-red-600"
+                  role="alert"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section
       class="scroll-mt-20 bg-white"
       id="about"
@@ -1459,199 +1817,6 @@ exports[`Home page in English matches snapshot 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="scroll-mt-20 bg-surface"
-      id="contact"
-    >
-      <div
-        class="container mx-auto px-6 py-24 sm:py-32"
-      >
-        <div>
-          <div
-            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
-          >
-            <div
-              class="mx-auto max-w-2xl text-center"
-            >
-              <p
-                class="text-xs font-semibold tracking-[0.2em] text-muted uppercase"
-              >
-                Contact
-              </p>
-              <h2
-                class="wrap-jp mt-4 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl"
-              >
-                Start a project
-              </h2>
-              <p
-                class="wrap-jp mt-5 text-lg leading-relaxed text-muted sm:text-xl"
-              >
-                New iOS or Android apps, improving an app you already have, or just a technical question. A rough outline is enough to start.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            class="transition-[opacity,translate] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] translate-y-0 opacity-100 "
-            style="transition-delay: 120ms;"
-          >
-            <div
-              class="mx-auto mt-14 max-w-3xl"
-            >
-              <form
-                class="rounded-3xl border border-hairline bg-white p-6 sm:p-10"
-                novalidate=""
-              >
-                <div
-                  class="grid grid-cols-1 gap-6 md:grid-cols-2"
-                >
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-name"
-                    >
-                      Your name
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        Required
-                      </span>
-                    </label>
-                    <input
-                      aria-invalid="false"
-                      autocomplete="name"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-name"
-                      maxlength="100"
-                      name="name"
-                      placeholder="Jane Doe"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-email"
-                    >
-                      Email
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        Required
-                      </span>
-                    </label>
-                    <input
-                      aria-invalid="false"
-                      autocomplete="email"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-email"
-                      maxlength="254"
-                      name="email"
-                      placeholder="you@example.com"
-                      type="email"
-                      value=""
-                    />
-                  </div>
-                </div>
-                <div
-                  class="mt-6"
-                >
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-budget"
-                    >
-                      Budget
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        Optional
-                      </span>
-                    </label>
-                    <input
-                      aria-invalid="false"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-budget"
-                      maxlength="200"
-                      name="budget"
-                      placeholder="Not decided / under $5k / $5k–15k …"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                </div>
-                <div
-                  class="mt-6"
-                >
-                  <div>
-                    <label
-                      class="mb-2 flex items-center gap-2 text-sm font-medium text-ink"
-                      for="contact-message"
-                    >
-                      What would you like to build?
-                      <span
-                        class="rounded bg-surface px-1.5 py-0.5 text-[10px] text-muted"
-                      >
-                        Required
-                      </span>
-                    </label>
-                    <textarea
-                      aria-invalid="false"
-                      class="w-full rounded-xl border bg-white px-4 py-3 text-base text-ink placeholder:text-muted/70 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30 border-hairline focus:border-accent"
-                      id="contact-message"
-                      maxlength="5000"
-                      name="message"
-                      placeholder="Tell me what you have in mind, where the project stands today and the timeline you are hoping for."
-                      rows="6"
-                    />
-                  </div>
-                </div>
-                <div
-                  aria-hidden="true"
-                  class="absolute left-[-9999px] h-0 w-0 overflow-hidden"
-                >
-                  <label
-                    for="contact-website"
-                  >
-                    Leave this field empty
-                  </label>
-                  <input
-                    autocomplete="off"
-                    id="contact-website"
-                    name="website"
-                    tabindex="-1"
-                    type="text"
-                    value=""
-                  />
-                </div>
-                <div
-                  class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
-                >
-                  <p
-                    class="text-xs text-muted"
-                  >
-                    I use what you send only to reply to your enquiry.
-                  </p>
-                  <button
-                    class="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-3 text-base font-medium text-white transition-colors hover:bg-accent-hover focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
-                    type="submit"
-                  >
-                    Send
-                  </button>
-                </div>
-                <p
-                  aria-live="assertive"
-                  class="mt-4 min-h-5 text-sm text-red-600"
-                  role="alert"
-                />
-              </form>
             </div>
           </div>
         </div>

@@ -185,6 +185,7 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
   const stats = l.hero.stats(featured.length)
 
   const sections = [
+    { id: 'services', label: l.nav.services },
     { id: 'apps', label: l.nav.apps },
     { id: 'about', label: l.nav.about },
     { id: 'contact', label: l.nav.contact },
@@ -230,6 +231,9 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
         <div className="container mx-auto px-6 pt-36 pb-20 text-center sm:pt-44 sm:pb-28">
           <Reveal>
             <p className="text-sm text-muted">{profile.name}</p>
+            <p className="mt-5 inline-flex rounded-full bg-surface px-4 py-2 text-sm font-medium text-accent">
+              {l.hero.availability}
+            </p>
             <h1 className="wrap-jp mx-auto mt-6 max-w-4xl text-[2.75rem] leading-[1.06] font-semibold tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl">
               {l.hero.headline}
             </h1>
@@ -262,6 +266,10 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
                 </span>
               </a>
             </div>
+            <p className="mt-5 text-sm text-muted">{l.hero.reassurance}</p>
+            <p className="wrap-jp mx-auto mt-8 max-w-2xl text-sm leading-relaxed text-ink/70">
+              {l.hero.credibility}
+            </p>
           </Reveal>
 
           <Reveal delay={220}>
@@ -271,6 +279,47 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
               ))}
             </dl>
           </Reveal>
+        </div>
+      </section>
+
+      <section id="services" className="scroll-mt-20 bg-surface">
+        <div className="container mx-auto px-6 py-24 sm:py-32">
+          <SectionHeading
+            eyebrow={l.services.eyebrow}
+            title={l.services.title}
+            lead={l.services.lead}
+            centered
+          />
+          <div className="mx-auto mt-14 grid max-w-5xl gap-5 md:grid-cols-3">
+            {l.services.items.map((service, index) => (
+              <div
+                key={service.title}
+                className="flex flex-col rounded-3xl bg-white p-7 sm:p-8"
+              >
+                <p className="text-xs font-semibold tracking-widest text-accent">
+                  {String(index + 1).padStart(2, '0')}
+                </p>
+                <h3 className="wrap-jp mt-6 text-xl font-semibold leading-snug text-ink">
+                  {service.title}
+                </h3>
+                <p className="wrap-jp mt-4 text-sm leading-relaxed text-ink/70">
+                  {service.description}
+                </p>
+                <p className="wrap-jp mt-6 border-t border-hairline/70 pt-5 text-sm leading-relaxed text-ink/70">
+                  {service.proof}
+                </p>
+                <a
+                  href="#contact"
+                  className="mt-auto pt-6 text-sm font-medium text-accent hover:text-accent-hover"
+                >
+                  {l.services.cta}
+                  <span aria-hidden="true" className="ml-1">
+                    ›
+                  </span>
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -292,6 +341,25 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
           <AppSection key={app.name} app={app} lang={lang} index={index} />
         ))}
       </div>
+
+      {/* Contact */}
+      <section id="contact" className="scroll-mt-20 bg-surface">
+        <div className="container mx-auto px-6 py-24 sm:py-32">
+          <Reveal>
+            <SectionHeading
+              eyebrow={l.contact.eyebrow}
+              title={l.contact.title}
+              lead={l.contact.lead}
+              centered
+            />
+          </Reveal>
+          <Reveal delay={120}>
+            <div className="mx-auto mt-14 max-w-3xl">
+              <ContactForm lang={lang} />
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
       {/* About */}
       <section id="about" className="scroll-mt-20 bg-white">
@@ -407,25 +475,6 @@ export const ProfilePage = ({ lang }: { lang: Lang }): JSX.Element => {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section id="contact" className="scroll-mt-20 bg-surface">
-        <div className="container mx-auto px-6 py-24 sm:py-32">
-          <Reveal>
-            <SectionHeading
-              eyebrow={l.contact.eyebrow}
-              title={l.contact.title}
-              lead={l.contact.lead}
-              centered
-            />
-          </Reveal>
-          <Reveal delay={120}>
-            <div className="mx-auto mt-14 max-w-3xl">
-              <ContactForm lang={lang} />
-            </div>
-          </Reveal>
         </div>
       </section>
 
